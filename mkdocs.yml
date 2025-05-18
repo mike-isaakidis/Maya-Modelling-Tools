@@ -40,4 +40,3 @@ theme:
 
 copyright: Copyright &copy; 2026 Michail Isaakidis
 
-mkdocs gh-deploy --force
