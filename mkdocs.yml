@@ -8,8 +8,8 @@ nav:
 
 
 theme:
-  name: material
-  #name: readthedocs
+  #name: material
+  name: readthedocs
   features:
     - navigation.tabs
     - navigation.selections
