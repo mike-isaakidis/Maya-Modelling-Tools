@@ -1,11 +1,19 @@
+# Project information
 site_name: Maya Tool Baking Manager
+
+site_url: https://michail-82.github.io/Maya-Modelling-Tools/
+site_author: Michail Isaakidis
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+
 
 nav:
  # - Home: index.md
-  - Home: index.md
+  - Home: home.md
 
   - Tools:
-    - Batch Exporter:
+    - Batch Exporter: 
       - "Overview": Batch Exporter/Overview.md
     - Baking Manager: 
       - "Overview": Baking Manager/overview.md
@@ -44,9 +52,13 @@ theme:
   name: material
   #name: readthedocs
   features:
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
     - navigation.selections
-    - toc.integrate
+    #- navigation.indexes #This feature flag is not compatible with toc.integrate, as sections cannot host the table of contents due to missing space.
+    #- navigation.expand
     - navigation.top
     - header.autohide
     - announce.dismiss
@@ -57,7 +69,7 @@ theme:
     - content.code.annotation
     - content.code.copy
     - toc.follow
-    - toc.integrate
+    #- toc.integrate # will remove table of contents and integrate on the left
 
 
 
@@ -84,7 +96,7 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: true
-      title: On this page
+      title: Table of Contents
 
 copyright: Copyright &copy; 2026 Michail Isaakidis
 
