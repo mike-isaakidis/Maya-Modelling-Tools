@@ -1,0 +1,42 @@
+site_name: Maya Tool Baking Manager
+
+nav:
+  - Home: index.md
+  - Vertex Colours: Vertex Colours Tool.md
+  - Rename Tool: Rename Tool.md
+
+
+
+theme:
+  name: material
+  #name: readthedocs
+  features:
+    - navigation.tabs
+    - navigation.selections
+    - toc.integrate
+    - navigation.top
+    - header.autohide
+    - announce.dismiss
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+       icon: material/toggle-switch-off-outline 
+       name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+       icon: material/toggle-switch
+       name: Switch to light
+      primary: teal
+      accent: deep orange
+
+copyright: Copyright &copy; 2026 Michail Isaakidis
+
