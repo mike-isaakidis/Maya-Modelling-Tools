@@ -1,7 +1,10 @@
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
 print lalalalala!!!!!
+
+how to lave spate
 
 ## Commands
 
