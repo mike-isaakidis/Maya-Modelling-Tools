@@ -13,7 +13,7 @@ nav:
   - Home: home.md
 
   - Tools: 
-    - "Overview": Tools Page/Tools Overview Main.md
+    #- "Overview": Tools Page/Tools Overview Main.md
     - Batch Exporter: 
       - "Overview": Batch Exporter/Overview.md
     - Baking Manager: 
