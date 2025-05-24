@@ -1,6 +1,5 @@
 # Welcome to all the tools!!!
 
-![Baking Manager](images/Baking_Manager_window.jpg){ .img-large } 
 
 Baking Manager is a tool aimed to help game artists organize their scenes and make the export process for baking asseets more friendly.
 
