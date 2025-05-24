@@ -4,4 +4,8 @@
 
 
 
-![Baking Manager](images/Baking_Manager_window.jpg){ .small-img }
+![Baking Manager](images/Baking_Manager_window.jpg){ .img-small } 
+
+![Baking Manager](images/Baking_Manager_window.jpg){ .img-medium } 
+![Baking Manager](images/Baking_Manager_window.jpg){ .img-large } 
+

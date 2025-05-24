@@ -1,3 +1,17 @@
-.small-img {
+.img-small {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-medium {
   width: 600px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-large {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
 }
