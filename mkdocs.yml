@@ -9,8 +9,10 @@ site_description: >-
 
 
 nav:
- # - Home: index.md
+  #- Home: index.md
   - Home: home.md
+
+  #- Home: https://mike-isaakidis.github.io/Maya-Modelling-Tools/home/
 
   - Tools:
     - Batch Exporter: 
@@ -72,6 +74,9 @@ theme:
     #- toc.integrate # will remove table of contents and integrate on the left
 
 
+  plugins:
+    - search
+    - zoom
 
 
   language: en
@@ -98,8 +103,16 @@ markdown_extensions:
       permalink: true
       title: Table of Contents
 
+
+extra_css:
+  - css/custom.css
+
+
 copyright: Copyright &copy; 2026 Michail Isaakidis
 
 extra:
   generator: false #removed the made with mdocs in the footer of the page
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js
+  - js/zoom-init.js
