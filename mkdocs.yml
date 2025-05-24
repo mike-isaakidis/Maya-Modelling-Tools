@@ -1,7 +1,7 @@
 # Project information
 site_name: Maya Tool Baking Manager
 
-site_url: https://michail-82.github.io/Maya-Modelling-Tools/
+site_url: https://mike-isaakidis.github.io/Maya-Modelling-Tools/home/
 site_author: Michail Isaakidis
 site_description: >-
   Write your documentation in Markdown and create a professional static site in
@@ -12,7 +12,8 @@ nav:
  # - Home: index.md
   - Home: home.md
 
-  - Tools:
+  - Tools: 
+    - "Overview": Tools Overview Main.md
     - Batch Exporter: 
       - "Overview": Batch Exporter/Overview.md
     - Baking Manager: 
