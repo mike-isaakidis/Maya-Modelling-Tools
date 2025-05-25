@@ -36,6 +36,8 @@
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Export</span> - Exports your selected Objects
 
+### Useful info
+
 ???+ Info "Info - Decimated meshes from Zbrush"
     If your objects contains the name <span style="color:pink">_dm_high</span> or <span style="color:pink">_zb_high</span> (or <span style="color:pink">_DM_high or _ZB_high</span>) your objects will not be smoothed. 
 
@@ -48,7 +50,9 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
 ???+ Info "Info - Export Path Stored in Scene"
     
-    Every time you click on the <span style="color:lime">Export button</span>, the path set in the Export Path textfield will be stored in the scene. If the scene is saved when you open Maya for the first time and open that scene and fire up the tool, that path will be shown in the textfield. 
+    Every time you click on the <span style="color:lime">Export button</span>, the path set in the Export Path textfield will be stored in the scene. 
+    
+    If the scene is saved then opening Maya for the first time to that scene and firing up the tool, will set that path in the textfield automatically. 
 
     Alternatively, if you open another Maya scene where you know a path is stored ++ctrl++ + Click on the <span style="color:lime">Select Folder Path button</span> to retrieve the path.
 
