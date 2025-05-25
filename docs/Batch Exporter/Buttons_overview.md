@@ -2,13 +2,7 @@
 
 ![Batch Exporter Window](images/Batch_Exporter_Buttons_Overview.jpg){ .img-medium } 
 ## Buttons
-1. <span style="color:lime">Options</span>  - 
-    ![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-small align=right }
-
-    1. <span style="color:lime">Smooth exported .fbx files</span> - Allows the user to choose if they want their .fbx files to be smoothed upon export (Turning this off will still smooth your _high poly objects if Smooth_high checkbox is checked).
-    2. <span style="color:lime">Show Warnings Manager</span> - will display any warnings during the export process (mainly any .fbx files that were smoothed upon export).
-    3. <span style="color:lime">Documentation</span> - Opens a link to the documentation.
-    4. <span style="color:lime">Store</span> - Opens a link to the store. 
+1. <span style="color:lime">Options</span>  - [Check the options window buttons for more.](https://mike-isaakidis.github.io/Maya-Modelling-Tools/Batch%20Exporter/Buttons_overview/#options-window-buttons)
 
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
 3. <span style="color:lime">Dropdown menu</span> - Choose between different file types to export.
@@ -35,6 +29,16 @@
 14. <span style="color:lime">Smooth_high</span> - Any Object in your scene that contains the name _high will have its smoothness display set to 3 and will be exported Smoothed. Any Objects with that contain the name _low will have their smoothness display set to 1. 
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Export</span> - Exports your selected Objects
+
+### Options Window Buttons
+
+![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-small}
+
+- <span style="color:lime">Smooth exported .fbx files</span> - Allows the user to choose if they want their .fbx files to be smoothed upon export (Turning this off will still smooth your _high poly objects if Smooth_high checkbox is checked).
+- <span style="color:lime">Show Warnings Manager</span> - will display any warnings during the export process (mainly any .fbx files that were smoothed upon export).
+- <span style="color:lime">Documentation</span> - Opens a link to the documentation.
+- <span style="color:lime">Store</span> - Opens a link to the store. 
+
 
 ### Useful info
 
