@@ -15,13 +15,13 @@ The tool has since evolved to accomodate the needs of artists and help organize 
 
 With this tool you will be able to:
 
-1. Batch [rename](/Maya-Modelling-Tools/Baking%20Manager/Rename%20Features/) your objects.
-    1. There're two dedicated tools for renaming. One is from the Baking Manager interface and one is from the more user friendly [Rename Tool](/Maya-Modelling-Tools/Baking%20Manager/Rename%20Features/)  window.
-2. [Color code ](/Maya-Modelling-Tools/Baking%20Manager/Outliner%20Features/) your objects in the outliner.
-3. Quickly set [Wireframe colours ](/Maya-Modelling-Tools/Baking%20Manager/Wireframe%20Features/) to your objects.
-4. Assign [high and low poly naming conventions](/Maya-Modelling-Tools/Baking%20Manager/Baking_workflow/) for Marmoset and Substance.
-5. Create [Vertex Color](/Maya-Modelling-Tools/Baking%20Manager/Vertex%20Colours%20Tool/) information for your meshes.
-6. Create [Layers](/Maya-Modelling-Tools/Baking%20Manager/Layers%20Window/).
+1. Batch [rename](../Baking%20Manager/Rename%20Features.md) your objects.
+    1. There're two dedicated tools for renaming. One is from the Baking Manager interface and one is from the more user friendly [Rename Tool](../Baking%20Manager/Rename%20Tool.md)  window.
+2. [Color code ](../Baking%20Manager/Outliner%20Features.md) your objects in the outliner.
+3. Quickly set [Wireframe colours ](../Baking%20Manager/Wireframe%20Features.md) to your objects.
+4. Assign [high and low poly naming conventions](../Baking%20Manager/Baking_workflow/index.md) for Marmoset and Substance.
+5. Create [Vertex Color](../Baking%20Manager/Vertex%20Colours%20Tool.md) information for your meshes.
+6. Create [Layers](../Baking%20Manager/Layers%20Window.md).
 
 This tool offers a range of features designed to help artists streamline their workflow and organize their files more efficiently.
 
