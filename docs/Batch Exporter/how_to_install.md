@@ -1,6 +1,7 @@
-# :octicons-tools-16: Installing Baking Manager
+# :octicons-tools-16: Installing Batch Exporter 
 
-![Baking Manager](images/Baking_Manager_window.jpg){ .img-small} 
+![Baking Manager](images/Batch_Exporter_Window.jpg){ .img-medium } 
+
 ### Step 1 - Setting up
 <div class="grid cards" markdown>
 
@@ -8,9 +9,9 @@
 
     ---
 
-    1.Unzip the [`Baking_Manager.zip`](#) file.
+    1.Unzip the [`Batch_Exporter.zip`](#) file.
     
-    2.Copy paste the [`Baking_Manager Folder`](#) in your [`\Documents\Maya\Scripts`](#) folder.
+    2.Copy paste the [`Batch_Exporter.py`](#) in your [`\Documents\Maya\Scripts`](#) folder.
     
     3.Open [`Maya`](#). 
 
@@ -33,8 +34,8 @@
     Copy the 2 ^^**python**^^  lines below on a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
 
     ``` py linenums="1"
-    from Baking_Manager_Pro.Scripts import Baking_Manager
-    Baking_Manager.OpenImportDialog.show_dialog()
+    from batch_Exporter import OpenImportDialog
+    OpenImportDialog.show_dialog()
     ```
 
 

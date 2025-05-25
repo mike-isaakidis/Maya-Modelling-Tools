@@ -9,24 +9,28 @@ site_description: >-
 
 
 nav:
- # - Home: index.md
-  - Home: home.md
-
+  - Home: 
+    - index.md
 
   - Tools:
-    - Intro: Tools Page/Tools Overview Main.md
+    - Tools Page/index.md
     - Batch Exporter: 
-      - "Overview": Batch Exporter/Overview.md
+      - Batch Exporter/index.md
+      - "How to Install": Batch Exporter/how_to_install.md
+      - "Buttons Overview": Batch Exporter/Buttons_overview.md
+
     - Baking Manager: 
-      - "Overview": Baking Manager/overview.md
+      - Baking Manager/index.md
       - "How to Install": Baking Manager/How to install.md
-      - "Rename Features": Baking Manager/Rename Features.md
-      - "Select by Colour": Baking Manager/Select By Colour.md
+      - "Rename Features": 
+        - "Rename Vanilla": Baking Manager/Rename Features.md
+        - "Rename Tool": Baking Manager/Rename Tool.md
+      - "Select Features": Baking Manager/Select By Colour.md
       - "Ungroup Features": Baking Manager/Ungroup Features.md
       - "Outliner Features": Baking Manager/Outliner Features.md
       - "Wireframe Features": Baking Manager/Wireframe Features.md
-      - "Baking Workflow":
-        - "Baking Workflow": Baking Manager/Baking Workflow.md
+      - "Baking Workflow": 
+        - Baking Manager/Baking_workflow/index.md
         - "Marmoset Baking": Baking Manager/Marmoset Baking.md
         - "Substance Baking": Baking Manager/Substance Baking.md
       - "Vertex Colours Tool": Baking Manager/Vertex Colours Tool.md
@@ -34,17 +38,19 @@ nav:
       - "Layers Window": Baking Manager/Layers Window.md
       - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
     - Batch Material Creation: 
-      - "Overview": Batch Material Creation/Overview.md
+      - Batch Material Creation/index.md
       
   - Free Tools: 
+    - Free Tools/index.md
     - Duplicate Faces: Free Tools/Duplicate Faces.md
     - Extract Faces: Free Tools/Extract Faces.md
     - Unreal Collision: Free Tools/Unreal Collision.md
-  - How to Install: 
-    - How to install/how to install.md
-
-
   
+  - Create Hotkeys/Shelf Buttons: 
+    - Create Hotkeys Shelf Buttons/index.md
+
+  - About:
+    - Aboutme/index.md
 
 
 
@@ -52,6 +58,8 @@ nav:
 theme:
   name: material
   #name: readthedocs
+  #logo: images/favicon.png
+
   #icon:
   #  logo: fontawesome/solid/bat-cowboy
   favicon: images/favicon.png
@@ -74,6 +82,7 @@ theme:
     - content.code.annotation
     - content.code.copy
     - toc.follow
+    - navigation.indexes #This feature flag is not compatible with toc.integrate, as sections cannot host the table of contents due to missing space.
     #- toc.integrate # will remove table of contents and integrate on the left
 
   language: en
@@ -98,6 +107,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - md_in_html
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -114,12 +124,24 @@ plugins:
   - search
   - glightbox
 
+extra:
+  generator: false #removed the made with mdocs in the footer of the page
+  social:
+    - icon: simple/artstation
+      link: https://www.artstation.com/michailisaakidis/store?tab=digital_product
+      name: Artstation Store
+
+    - icon: simple/gumroad
+      link: https://mike3d.gumroad.com/
+      name: Gumroad Store
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@michailisaakidis
+      name: Youtube Channel
+
 
 extra_css:
   - css/custom.css
 
-copyright: Copyright &copy; 2026 Michail Isaakidis
-
-extra:
-  generator: false #removed the made with mdocs in the footer of the page
+copyright: Copyright &copy; 2025 Michail Isaakidis
 
