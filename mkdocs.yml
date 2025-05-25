@@ -19,6 +19,7 @@ nav:
       - "Overview": Batch Exporter/Overview.md
     - Baking Manager: 
       - "Overview": Baking Manager/overview.md
+      - "How to Install": Baking Manager/How to install.md
       - "Rename Features": Baking Manager/Rename Features.md
       - "Select by Colour": Baking Manager/Select By Colour.md
       - "Ungroup Features": Baking Manager/Ungroup Features.md
@@ -39,6 +40,8 @@ nav:
     - Duplicate Faces: Free Tools/Duplicate Faces.md
     - Extract Faces: Free Tools/Extract Faces.md
     - Unreal Collision: Free Tools/Unreal Collision.md
+  - How to Install: 
+    - How to install/how to install.md
 
 
   
@@ -87,7 +90,8 @@ theme:
        name: Switch to light
       primary: teal
       accent: deep orange
-
+  icon:
+    logo: logo
 
 markdown_extensions:
   - admonition
