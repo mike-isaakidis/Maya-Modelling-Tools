@@ -32,13 +32,21 @@
     2. FR - Freeze Rotate
     3. FS - Freeze Scale
 13. <span style="color:lime">Triangulate</span> - Triangulates your meshes before export. If Smooth exported .fbx files (from the Options menu) is checked the tool will export your smooth mesh preview Objects smoothed and triangulated. If Smooth_high checkbox is checked any Object with _high in its name will not be triangulated.
-14. <span style="color:lime">Smooth_high</span> - Any Object in your scene that contains the name _high will have its smoothness display set to 3 and will be exported Smoothed. Any Objects with that contain the name _low will have their smoothness display set to 1. This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
-    1. Additionally if your file contains the name _dm_high or zb_high (or _DM_high or _ZB_high) your Objects will not be smoothed. - This is done to avoid smoothing any decimated Zbrush files that were brought in Maya.
-        1. Decimated files are dense in polycount and already triangulated - This can cause issues when being smoothed.
-
+14. <span style="color:lime">Smooth_high</span> - Any Object in your scene that contains the name _high will have its smoothness display set to 3 and will be exported Smoothed. Any Objects with that contain the name _low will have their smoothness display set to 1. 
+This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Export</span> - Exports your selected Objects
 
-???+ tip 
+???+ Info "Info - Decimated meshes from Zbrush"
+    If your objects contains the name <span style="color:pink">_dm_high</span> or <span style="color:pink">_zb_high</span> (or <span style="color:pink">_DM_high or _ZB_high</span>) your objects will not be smoothed. 
+
+    example. <span style="color:pink">SM_Chair_01a_dm_high</span>  
+    
+    This is done to avoid smoothing any decimated Zbrush files that were brought in Maya.
+    
+    Decimated files are dense in polycount and already triangulated - This can cause issues when being smoothed.
+
+
+???+ Info "Info - Export Path Stored in Scene"
     
     Every time you click on the <span style="color:lime">Export button</span>, the path set in the Export Path textfield will be stored in the scene. If the scene is saved when you open Maya for the first time and open that scene and fire up the tool, that path will be shown in the textfield. 
 
