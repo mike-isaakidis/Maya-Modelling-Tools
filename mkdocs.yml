@@ -1,5 +1,5 @@
 # Project information
-site_name: Maya Tool Baking Manager
+site_name: Mike's Maya Tools
 
 site_url: https://mike-isaakidis.github.io/Maya-Modelling-Tools/
 site_author: Michail Isaakidis
@@ -11,6 +11,7 @@ site_description: >-
 nav:
  # - Home: index.md
   - Home: home.md
+
 
   - Tools:
     - Intro: Tools Page/Tools Overview Main.md
@@ -48,6 +49,10 @@ nav:
 theme:
   name: material
   #name: readthedocs
+  #icon:
+  #  logo: fontawesome/solid/bat-cowboy
+  favicon: images/favicon.png
+
   features:
     - navigation.tracking
     - navigation.tabs
@@ -89,6 +94,14 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
       title: Table of Contents
