@@ -1,7 +1,7 @@
-# :octicons-tools-16: Installing Baking Manager
+# :octicons-tools-16: **<span style="color:rgb(221, 80, 191);">Installing Baking Manager</span>**  
 
 ![Baking Manager](images/Baking_Manager_window.jpg){ .img-small} 
-### Step 1 - Setting up
+### **<span style="color:rgb(221, 80, 191);">Step 1 - Setting up</span>** 
 <div class="grid cards" markdown>
 
 -   :octicons-copy-16:{ .lg .middle } __[`Setting up`](#)__
@@ -22,7 +22,7 @@
 
 
 
-### Step 2- Activating
+### **<span style="color:rgb(221, 80, 191);">Step 2- Activating</span>** 
 
 <div class="grid cards" markdown>
 

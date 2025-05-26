@@ -1,4 +1,4 @@
-# Baking workflow :bread:
+# **<span style="color:rgb(214, 126, 25);">Baking Workflow</span>** :bread:
 
 This section outlines the process for setting up objects with baking groups. 
 

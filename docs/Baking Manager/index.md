@@ -1,4 +1,4 @@
-# Baking Manager
+# **<span style="color:rgb(221, 80, 191);">Baking Manager</span>**
 
 ![Baking Manager](images/Baking_Manager_window.jpg){ .img-medium } 
 

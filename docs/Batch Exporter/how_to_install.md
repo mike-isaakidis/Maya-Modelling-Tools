@@ -1,8 +1,8 @@
-# :octicons-tools-16: Installing Batch Exporter 
+# :octicons-tools-16: **<span style="color:rgb(214, 126, 25);">Installing Batch Exporter</span>**
 
 ![Baking Manager](images/Batch_Exporter_Window.jpg){ .img-medium } 
 
-### Step 1 - Setting up
+### <span style="color:rgb(214, 126, 25);">**Step 1 - Setting up**</span>
 <div class="grid cards" markdown>
 
 -   :octicons-copy-16:{ .lg .middle } __[`Setting up`](#)__
@@ -23,7 +23,7 @@
 
 
 
-### Step 2- Activating
+### <span style="color:rgb(214, 126, 25);">**Step 2- Activating**</span>
 
 <div class="grid cards" markdown>
 
