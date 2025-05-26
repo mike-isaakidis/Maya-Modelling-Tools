@@ -40,11 +40,13 @@ Here are the files in **Marmoset.**
 
 If you expand the Options menu you will see that by default the <span style="color:pink">Smooth exported .fbx files</span> checkbox is checked. 
 
-This means that when an object that we have selected is exported with smooth preview *(by just hitting 3 on our keyboard)*, it will be subdivided upon export. 
+This means that any object selected that is exported with smooth preview on *(by just hitting 3 on your keyboard)*, it will be subdivided upon export. 
 
-Lets use the same meshes as before and select our 3 objects. 
+Lets use the same meshes as before and select our 3 objects. Here they are with smooth preview turned off. 
 
-This time we will enable Smooth Preview (keyboard shortcut 3).
+![Batch Exporter Intro 5](images/Batch_Exporter_intro_5.jpg){ .img-medium}
+
+But lets enable Smooth Preview *(keyboard shortcut 3)*, and Export.
 
 ![Batch Exporter Smooth 1](images/Batch_Exporter_Smooth_1.jpg){ .img-medium}
 
@@ -98,17 +100,21 @@ This is done to ensure our _high and _low poly object are exported correctly.
 
 ???+ Info "Info - Exporting groups with _high"
     If you want to export groups that have objects that contain the name **_high** or **_low** in them, the tool will ensure each object from that group gets the treatment it needs in order to be exported correctly. 
+    
+    So if you have loads of baking groups, you can group all of those in a single group and export that as a single file or you could bunde up your _high and _low in two separate groups and export those. 
+
+    Either way **Marmoset** will be able to read those files and import them correctly for **Baking**. 
 
 
 In this next example lets see what the Smooth_high checkbox does.
-For this I changed the naming of my files to include the words _low and _high.
+For this we changed the naming of our files to include the words _low and _high.
 
 ![Batch Exporter Smooth High 1](images/Batch_Exporter_Smooth_High_1.jpg){ .img-medium}
 
 We set the Smooth Mesh Preview for these object to be:
 
-* On for the **Cube_01a_low.**    
-* Off for the **Cylinder_01a_high.**
+* **On** for the **Cube_01a_low**.
+* **Off** for the **Cylinder_01a_high**.
 
 However want to export our files in the opposite fashion (not smoothed for the low and smoothed for the high).
 
@@ -132,6 +138,9 @@ Results in Marmoset.
 As expected the **_low** was not smoothed and the **_high** was.
 
 If <span style="color:pink">Triangulate checkbox</span> is also enabled the tool will skip the _high and only triangulate anything else selected.
+
+???+ Info "Remember - _low objects with Smooth_high"
+    When the **smooth_high** checkbox is checked, objects with _low in their name will also get their smooth preview disabled.
 
 ![Batch Exporter Smooth High 4](images/Batch_Exporter_Smooth_High_4.jpg){ .img-medium}
 
@@ -191,7 +200,7 @@ The default option to export is Keep Current Position, which retains the positio
 
 ### <span style="color:rgb(199, 192, 99);">**Boomerang**</span>
 
-The Boomerand options, moves your objects to World Origin (0,0,0), exports and moves them back to their original position.
+The Boomerand options, moves your objects to World Origin (0,0,0), exports and moves them back to their previous location.
 
 ![Batch Exporter Bommerand 1](images/Batch_Exporter_Boomerang_1.jpg){ .img-medium}
 
@@ -199,14 +208,12 @@ Result in Marmoset, all objects sit in world origin at (0,0,0).
 
 ![Batch Exporter Bommerand 2](images/Batch_Exporter_Boomerang_2.jpg){ .img-medium}
 
-???+ Tip "Tip exporting modular sets"
+???+ Tip "Tip - exporting modular sets :simple-unrealengine:"
     Using the Boomerang option is very useful when working on modular static meshes for :simple-unrealengine: <span style="color:pink">Unreal Engine</span>.
 
     Unreal needs each file to be exported from the origin position (0,0,0).
 
-    The Boomerang operation will allow you to just do that without dirsupting your workflow. 
-
-    This is not limited to modular sets but for any kind of static mesh you wish to export. 
+    The Boomerang operation will allow you to just do that without dirsupting your workflow. This is not limited to modular sets but for any kind of static mesh you wish to export. 
 
     Combine this with Freeze Transforms and the tool will give you the distance from world origin.
 

@@ -28,6 +28,7 @@ This tool offers a range of features designed to help artists streamline their w
 
 
 
-???+ tip
-
-    Pair this tool with the <span style="color:lime">Batch Exporter tool</span>, to instantly export your <span style="color:lime">.fbx</span> files.
+???+ tip "Tip - Combine this tool with the Batch Exporter tool for a faster worlflow"
+    If you are a game artist and do a lot of baking **_how** to **_low** poly geo, pair this tool with the <span style="color:lime">Batch Exporter tool</span>, to instantly export your <span style="color:lime">Baking Groups</span>.
+    
+    See how to make baking groups  [here](../Baking%20Manager/Baking_workflow/index.md).

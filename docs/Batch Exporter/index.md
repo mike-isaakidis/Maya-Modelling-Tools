@@ -12,11 +12,15 @@ The tool itself has three main export behaviors **Boomerang**, **Keep position**
 
 3. <span style="color:lime">Move to origin</span>  moves your selection to world origin exports it and keeps it there.
 
+Use the dropdown to choose between different file types *(.fbx, .ma, .mb, .obj)*.
+
 The tool also allows to export objects as a single file.
 
 * <span style="color:lime">Single export</span> - Bypasses the batch export features and exports your selected objects as a single file instead.
-Additional features include.
+
+Additional features include:
+
 * <span style="color:lime">Freeze transforms</span> - Freezes transforms for Translate, Rotate and Scale.
 * <span style="color:lime">Smooth_high</span> - Enables smooth preview on objects that have _high in their name and exports them smoothed *(feature supported only for .fbx files)*.
-* <span style="color:lime">Triangulate</span> - Triangulates your selected objects - in combination with Smooth_high anything with the name _low will have its smoothness display set to 1 - to avoid being smoothed upon export *(feature supported only for .fbx files)*.
+* <span style="color:lime">Triangulate</span> - Triangulates your selected objects - in combination with Smooth_high anything with the name **_low** will have its smoothness display set to 1 - this is done to ensure your **_low poly** geomety is not subdivided upon export *(feature supported only for .fbx files)*.
 

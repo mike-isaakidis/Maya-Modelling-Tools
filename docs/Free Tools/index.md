@@ -1,4 +1,4 @@
-# Free Tools / Short Hotkeys
+# **<span style="color:rgb(214, 126, 25);">Free Tools</span>** :tools:
 
 
 

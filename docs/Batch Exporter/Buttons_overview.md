@@ -7,7 +7,7 @@
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
 3. <span style="color:lime">Dropdown menu</span> - Choose between different file types to export.
 4. <span style="color:lime">Select Folder Path</span> :material-folder-plus: - Opens up a window for users to navigate to a desired folder and export their files.
-    1. Every time a file is exported the tool will store that Path, if the user saves the scene that path will be stored in the scene. If the user closes Maya and re-opens the Scene, opening the Batch Exporter tool will the last Path saved in the Export Path textfield.
+    1. Every time a file is exported the tool will **store** that Path, if the user saves the scene that path will be stored in the scene. If the user closes Maya and re-opens the Scene, opening the Batch Exporter tool will fill in the Export Path textfield with  the last stored path.
     2. ++ctrl++ Click to reveal the last exported path (useful when jumping between different scenes).
     3. User can store up to two Paths:
         1. ++ctrl+shift++ Click to store a path.
@@ -15,7 +15,7 @@
         3. ++ctrl+alt++ + Click to store a path.
         4. ++alt++ + Click to display the path in the Export textfield.
 5. <span style="color:lime">Open Folder Path in explorer</span> :material-folder: - Opens the path set in the Export Path textfield.
-6. <span style="color:lime">Boomerang Export Behavior </span>- Moves your Selected Objects to the World Origin, exports your files and moves them back to where they were.
+6. <span style="color:lime">Boomerang Export Behavior </span>- Moves your selected objects to the world origin, exports your files and moves them back to where they were.
 7. <span style="color:lime">Keep current position </span> - Exports your files from the Object's current position.
 8. <span style="color:lime">Move to Origin</span> - Moves your selected Objects to the World Origin, exports your files and keeps them there.
 9. <span style="color:lime">Single Export</span> - Exports a selection as a single file.
@@ -63,12 +63,12 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
 ![Batch Exporter Window](images/Batch_Exporter_Single_Export.jpg){ .img-medium } 
 
-The single export checkbox allows you export multiple selected objects as once. 
-Only thing you have to do is give your export a name and path. 
+The <span style="color:lime">Single Export</span> checkbox allows you export multiple selected objects as one file. 
+The only things you have to do is give your file a name and path. 
 
-<span style="color:lime">Single Export</span> - When checking the Single Export checkbox you will see the Name textfield.  Use the textfield to type in the desired name for your exported Objects.
+When checking the Single Export checkbox you will see the <span style="color:lime">Name</span> textfield.  Use the textfield to type in the desired name for your exported Objects.
 
-The folder icon :material-folder-plus: will open the folder path that is set up by the Export Path.
+The folder icon :material-folder-plus: next to the textfield, will open the folder path that is set up by the Export Path.
 Use it to click on an existing file to retrieve its name (this is added to avoid spelling mistakes and ensure your files will always be named correctly).
 
 ???+ note
