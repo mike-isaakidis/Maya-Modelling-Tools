@@ -18,7 +18,7 @@ The first thing we need to do when opening the tool, is select a path by clickin
 
 The path chosen was *C:/Users/mike/Downloads/test.* 
 
-Clicking on the **Open Folder Path in Explorer** button you will get a windows pop up that 
+Clicking on the **Open Folder Path in Explorer** will open that path in explorer.
 
 ![Batch Exporter Intro 3](images/Batch_Exporter_intro_3.jpg){ .img-medium}
 
@@ -229,7 +229,7 @@ Result in Marmoset, all objects sit in world origin at (0,0,0).
 
 Move to Origin will move you objects to the world origin (0,0,0) after being exported. 
 
-### <span style="color:rgb(199, 192, 99);">**Freeze Transforms for groups**</span>
+## <span style="color:rgb(199, 192, 99);">**Freeze Transforms for groups**</span>
 
 ???+ warning "Warning - Freezing Transforms on group objects"
     When using any of the Freeze Transform options on a group node, it will Freeze the transforms of the group and all of the descendants of that group.

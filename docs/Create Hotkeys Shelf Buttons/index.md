@@ -1,9 +1,9 @@
-# Creating Shelf Buttons and Hotkeys
+# **<span style="color:rgb(221, 137, 59);">Create Shelf Buttons / Hotkeys</span>** :tools:
 
-## Create a Shelf Button
+## **<span style="color:rgb(221, 137, 59);">Create a Shelf Button</span>**
 
-### Adding a custom icon for your Shelf Button
+### **<span style="color:rgb(221, 137, 59);">Adding a custom icon for your Shelf Button</span>** 
 
-## Create a Hotkey
+## **<span style="color:rgb(221, 137, 59);">Create a Hotkey</span>**
 
-[Single Export](../Batch%20Exporter/Buttons_overview.md#single-export){ .md-button .md-button--primary } example of button link to a permalink!!!!
+<!-- [Single Export](../Batch%20Exporter/Buttons_overview.md#single-export){ .md-button .md-button--primary } example of button link to a permalink!!!! -->

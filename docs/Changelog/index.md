@@ -1,15 +1,8 @@
----
-date: 2025-05-27
-authors: [mike-isaakidis]
-categories:
-  - General
----
-
-# Changelog
+# **<span style="color:rgb(221, 178, 59);">Changelog</span>** :tools:
 
 Stay up to date with the latest changes, fixes, and feature additions. 
 
-This section tracks the ongoing development of all tools—so you can see what’s new, what’s improved, and what’s coming next. 
+This section tracks the ongoing development of all tools—so you can see what’s fixed, new and improved.
 
 Check back regularly for updates and version notes.
 

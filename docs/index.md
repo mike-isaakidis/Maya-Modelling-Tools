@@ -1,44 +1,10 @@
-# Welcome to MkDocs
+# **<span style="color:rgb(66, 211, 114);">Welcome</span>**  :tools: :simple-autodeskmaya:
+This site is dedicated to a growing collection of custom modeling tools built for Autodesk Maya—designed by an artist, for artists. 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+These tools are created to streamline your workflow, reduce repetitive tasks, and help you stay focused on what matters most: the art.
 
-print lalalalala!!!!!
+Developed and refined over years of real-world production use, these tools have played a key role in boosting my own efficiency and productivity. 
 
-how to lave spate
+Now, I’m sharing them with the community to help others save time, work smarter, and keep their scenes clean and production-ready.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-## Testicles
-
-thetsdjsdlkfjsdfdsfdsfjdslkfjsdl;kfjdslkfjsdlk;fjdls;kfjsdlkf;jdslk;fjsdl;fjdskljfsdkl;fj;dklsjfdklsjfsdlk;fjdsl;kfjdslf;sd
-dlfksl;fkjdsklfjs
-sdkf;jsdlkfjsldkfjldskjflsdkjfsdlkjflsd
-d;lkfjslkfjldksfjsldfjdsl
-
-## more infor
-
-sda the renl,dsa fdi tshdljk fshle sjktrhsjlkd;fh dlkjhtjlksr;h  ilsthlrjht slkh tlhs ldh tlrhsl htlsth s;lih sl; hls; hl;sjhsldj sl shldkjfh l ldkfhs ldfkjh sdl;jfh  ldsfjh sdklfjh 
-
-sdsadsadasdsadjkhas 
-
-sdhaskjdhasdkjas
-
-
-sdjkashdkjsahdkasd
-
-dskajdhsajkdasdasdsadasd
-
-sdaihsdlkashd
+Whether you're a seasoned modeler or just getting started, you'll find tools here that support a faster, more organized way of working in Maya.

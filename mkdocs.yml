@@ -91,18 +91,25 @@ theme:
 
   language: en
   palette:
-    - scheme: default
-      toggle:
-       icon: material/toggle-switch-off-outline 
-       name: Switch to dark mode
-      primary: teal
-      accent: purple
+
     - scheme: slate
-      toggle:
-       icon: material/toggle-switch
-       name: Switch to light
       primary: teal
       accent: deep orange
+
+    # old way where you could switch between night and day mode
+    #- scheme: default
+    #  toggle:
+    #   icon: material/toggle-switch-off-outline 
+    #   name: Switch to dark mode
+    #  primary: teal
+    #  accent: deep orange
+    #- scheme: slate
+    #  toggle:
+    #   icon: material/toggle-switch
+    #   name: Switch to light
+    #  primary: teal
+    #  accent: deep orange
+
   icon:
     logo: logo
 
