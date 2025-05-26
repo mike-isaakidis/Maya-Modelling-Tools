@@ -1,7 +1,7 @@
-# Buttons Overview
+# **<span style="color:rgb(88, 172, 241);">Buttons Overview</span>**
 
 ![Batch Exporter Window](images/Batch_Exporter_Buttons_Overview.jpg){ .img-medium } 
-## Buttons
+## <span style="color:rgb(88, 172, 241);">**Buttons**</span>
 1. <span style="color:lime">Options</span>  - Check the [options window buttons](#options-window-buttons) for more.
 
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
@@ -30,7 +30,7 @@
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Export</span> - Exports your selected Objects
 
-### Options Window Buttons
+### <span style="color:rgb(88, 172, 241);">**Options Window**</span>
 
 ![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-small}
 
@@ -40,7 +40,7 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 - <span style="color:lime">Store</span> - Opens a link to the store. 
 
 
-### Useful info
+### <span style="color:rgb(88, 172, 241);">**Useful info**</span>
 
 ???+ Info "Info - Decimated meshes from Zbrush"
     If your objects contains the name <span style="color:pink">_dm_high</span> or <span style="color:pink">_zb_high</span> (or <span style="color:pink">_DM_high or _ZB_high</span>) your objects will not be smoothed. 
@@ -53,16 +53,18 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
 
 ???+ Info "Info - Export Path Stored in Scene"
-    
-    Every time you click on the <span style="color:lime">Export button</span>, the path set in the Export Path textfield will be stored in the scene. 
+    Every time you click on the <span style="color:pink">Export button</span>, the path set in the Export Path textfield will be stored in the scene. 
     
     If the scene is saved then opening Maya for the first time to that scene and firing up the tool, will set that path in the textfield automatically. 
 
-    Alternatively, if you open another Maya scene where you know a path is stored ++ctrl++ + Click on the <span style="color:lime">Select Folder Path button</span> to retrieve the path.
+    Alternatively, if you open another Maya scene where you know a path is stored ++ctrl++ + Click on the <span style="color:pink">Select Folder Path button</span> to retrieve the path.
 
-## Single Export
+## <span style="color:rgb(88, 172, 241);">**Single Export**</span>
 
 ![Batch Exporter Window](images/Batch_Exporter_Single_Export.jpg){ .img-medium } 
+
+The single export checkbox allows you export multiple selected objects as once. 
+Only thing you have to do is give your export a name and path. 
 
 <span style="color:lime">Single Export</span> - When checking the Single Export checkbox you will see the Name textfield.  Use the textfield to type in the desired name for your exported Objects.
 

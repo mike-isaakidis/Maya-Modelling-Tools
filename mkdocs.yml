@@ -18,6 +18,7 @@ nav:
       - Batch Exporter/index.md
       - "How to Install": Batch Exporter/how_to_install.md
       - "Buttons Overview": Batch Exporter/Buttons_overview.md
+      - "Breakdown": Batch Exporter/Breakdown.md
 
     - Baking Manager: 
       - Baking Manager/index.md
