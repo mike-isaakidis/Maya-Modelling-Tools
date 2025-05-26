@@ -6,4 +6,4 @@
 
 ## Create a Hotkey
 
-[Single Export](../Batch%20Exporter/Buttons_overview/#single-export){ .md-button .md-button--primary } example of button link to a permalink!!!!
+[Single Export](../Batch%20Exporter/Buttons_overview#single-export){ .md-button .md-button--primary } example of button link to a permalink!!!!

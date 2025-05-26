@@ -229,5 +229,4 @@ Move to Origin will move you objects to the world origin (0,0,0) after being exp
 
 ## Single Export
 
-[Go to Single Export documentation](../Batch%20Exporter/Buttons_overview/#single-export){ .md-button .md-button--primary }
-
+[Link to Single Export documentation](../Batch%20Exporter/Buttons_overview.md#single-export){ .md-button .md-button--primary }

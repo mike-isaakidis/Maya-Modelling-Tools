@@ -2,7 +2,7 @@
 
 ![Batch Exporter Window](images/Batch_Exporter_Buttons_Overview.jpg){ .img-medium } 
 ## <span style="color:rgb(88, 172, 241);">**Buttons**</span>
-1. <span style="color:lime">Options</span>  - Check the [options window buttons](#options-window-buttons) for more.
+1. <span style="color:lime">Options</span>  - Check the [options window buttons](#options-window) for more.
 
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
 3. <span style="color:lime">Dropdown menu</span> - Choose between different file types to export.
