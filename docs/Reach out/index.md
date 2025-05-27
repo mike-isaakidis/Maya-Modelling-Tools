@@ -6,17 +6,4 @@ We’d love to hear from you. Your input helps shape better tools for everyone.
 
 Reach out anytime with feedback, questions, or requests!
 
-<!-- [Link to Discussions](https://github.com/squidfunk/mkdocs-material/discussions){ .md-button .md-button--primary }-->
-
-
-
-<div class="grid cards" markdown>
-
--   
-
-
-    [**Link to GitHub discussions**](https://github.com/mike-isaakidis/Maya-Modelling-Tools/discussions)
-    
-
-
-</div>
+[Link to Discussions](https://github.com/mike-isaakidis/Maya-Modelling-Tools/discussions){ .md-button .md-button--primary }
