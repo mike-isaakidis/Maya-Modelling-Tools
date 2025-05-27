@@ -6,4 +6,5 @@ We’d love to hear from you. Your input helps shape better tools for everyone.
 
 Reach out anytime with feedback, questions, or requests!
 
-[Link to Discussions](https://github.com/mike-isaakidis/Maya-Modelling-Tools/discussions){ .md-button .md-button--primary }
+[Link to Discussions](https://github.com/mike-isaakidis/Maya-Modelling-Tools-Discussions/discussions){ .md-button .md-button--primary }
+
