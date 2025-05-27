@@ -135,6 +135,7 @@ plugins:
   - search
   - glightbox
 
+
 extra:
   generator: false #removed the made with mdocs in the footer of the page
   social:
