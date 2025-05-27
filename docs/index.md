@@ -17,3 +17,4 @@ These tools are created to streamline your workflow, reduce repetitive tasks, an
   <figcaption></figcaption>
 </figure>
 
+<center>Thank you for your support!!!</center>  
