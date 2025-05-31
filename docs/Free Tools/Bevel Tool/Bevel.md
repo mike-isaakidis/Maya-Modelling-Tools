@@ -8,7 +8,7 @@ This script allows you to adjust the width and segments of your bevels on the fl
 
 Just select some edges run the tool.  Once you fire up the tool you are in bevel mode.
 
-You can hold down <kbd>Middle Mouse</kbd> to adjust the bevel width and hold down ++shift++ key whilst stiil holding down the <kbd>Middle Mouse</kbd> button to adjust the segments.
+You can hold down <kbd>Middle Mouse drag</kbd> to adjust the bevel width and hold down ++shift++ key whilst stiil holding down the <kbd>Middle Mouse & drag</kbd> to adjust the segments.
 
 ???+ Tip "Tip"
     Hold down ++ctrl++ whilst adjusting the width for a finer control. 
