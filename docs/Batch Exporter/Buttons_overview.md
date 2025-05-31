@@ -1,7 +1,9 @@
 # **<span style="color:rgb(214, 126, 25);">Buttons Overview</span>**
 
 ![Batch Exporter Window](images/Batch_Exporter_Buttons_Overview.jpg){ .img-medium } 
-## <span style="color:rgb(88, 172, 241);">**Buttons**</span>
+
+## <span style="color:rgb(199, 192, 99);">**Buttons**</span>
+
 1. <span style="color:lime">Options</span>  - Check the [options window](#options-window) below for more.
 
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
@@ -30,7 +32,7 @@
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Export</span> - Exports your selected Objects
 
-### <span style="color:rgb(88, 172, 241);">**Options Window**</span>
+### <span style="color:rgb(199, 192, 99);">**Options Window**</span>
 
 ![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-small}
 
@@ -40,7 +42,7 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 - <span style="color:lime">Store</span> - Opens a link to the store. 
 
 
-### <span style="color:rgb(88, 172, 241);">**Useful info**</span>
+### <span style="color:rgb(199, 192, 99);;">**Useful info**</span>
 
 ???+ Info "Info - Decimated meshes from Zbrush"
     If your objects contains the name <span style="color:pink">_dm_high</span> or <span style="color:pink">_zb_high</span> (or <span style="color:pink">_DM_high or _ZB_high</span>) your objects will not be smoothed. 
@@ -59,7 +61,7 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
     Alternatively, if you open another Maya scene where you know a path is stored ++ctrl++ + Click on the <span style="color:pink">Select Folder Path button</span> to retrieve the path.
 
-## <span style="color:rgb(88, 172, 241);">**Single Export**</span>
+## <span style="color:rgb(199, 192, 99);">**Single Export**</span>
 
 ![Batch Exporter Window](images/Batch_Exporter_Single_Export.jpg){ .img-medium } 
 

@@ -2,7 +2,7 @@
 
 Have an idea for a new tool? Found a bug or have suggestions to improve existing features? 
 
-We’d love to hear from you. Your input helps shape better tools for everyone. 
+I’d love to hear from you. Your input helps shape better tools for everyone. 
 
 Reach out anytime with feedback, questions, or requests!
 

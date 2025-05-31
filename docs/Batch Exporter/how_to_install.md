@@ -45,3 +45,4 @@
 Click the button below to learn how to create hotkeys and shelf buttons.
 
 [Creating Hotkeys/Shelf Buttons](../Create%20Hotkeys%20Shelf%20Buttons/index.md){ .md-button .md-button--primary }
+

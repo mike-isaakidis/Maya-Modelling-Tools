@@ -116,7 +116,7 @@ We set the Smooth Mesh Preview for these object to be:
 * **On** for the **Cube_01a_low**.
 * **Off** for the **Cylinder_01a_high**.
 
-However want to export our files in the opposite fashion (not smoothed for the low and smoothed for the high).
+However, we want to export our files in the opposite fashion (not smoothed for the low and smoothed for the high).
 
 The tool handles that and sets the correct Smooth Preview settings based on the naming convention.
 
@@ -126,7 +126,7 @@ Lets export those 2 files and see what we get.
 
 Operation after Export.
 
-The Smooth Mesh Preview settings were changed because of the naming convention.
+The Smooth Mesh Preview settings were automatically changed because of the naming convention.
 
 * _low mesh had smooth mesh preview set to 1
 * _high mesh had smooth mesh preview set to 3

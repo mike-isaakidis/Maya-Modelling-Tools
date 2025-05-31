@@ -40,9 +40,15 @@ nav:
       - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
     - Batch Material Creation: 
       - Batch Material Creation/index.md
+    - Quick Sweep Mesh:
+      - Quick Sweep Mesh/index.md
+    - Speed Trim:
+      - Speed Trim/index.md
       
   - Free Tools: 
     - Free Tools/index.md
+    - Bevel: Free Tools/Bevel Tool/Bevel.md
+    - Pro Boolean: Free Tools/Pro Boolean/index.md
     - Duplicate Faces: Free Tools/Duplicate Faces.md
     - Extract Faces: Free Tools/Extract Faces.md
     - Unreal Collision: Free Tools/Unreal Collision.md
@@ -52,6 +58,9 @@ nav:
 
   - Changelog:
     - Changelog/index.md
+
+  - Store:
+    - Store/index.md
 
   - Reach out:
     - Reach out/index.md
@@ -135,7 +144,6 @@ plugins:
   - search
   - glightbox
 
-
 extra:
   generator: false #removed the made with mdocs in the footer of the page
   social:
@@ -154,6 +162,7 @@ extra:
 
 extra_css:
   - css/custom.css
+  - stylesheets/extra.css
 
 copyright: Copyright &copy; 2025 Michail Isaakidis
 
