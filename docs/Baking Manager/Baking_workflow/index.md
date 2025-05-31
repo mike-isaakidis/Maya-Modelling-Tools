@@ -5,3 +5,5 @@ This section outlines the process for setting up objects with baking groups.
 While the workflow is consistent across both Substance and Marmoset, Substance provides additional, application-specific options to further optimize your file setup. 
 
 Each application has its pros and cons, so we support and cover both to give you maximum flexibility.
+
+[Marmoset Baking Workflor](../Marmoset%20Baking.md) | [Substance Baking Workflor](../Substance%20Baking.md)
