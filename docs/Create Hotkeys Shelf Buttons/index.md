@@ -87,6 +87,8 @@ The script editor window should pop up.
 ![Script_Editor_Gif_1](images/Script_Editor_Gif_1.gif){ .img-medium} 
 ![Shelf Bevel Press1](images/Shelf_Bevel_Press_1.gif){ .img-medium} 
 
+??? Warning "Inportant - Close **Maya** to save Shelf Button"
+    It's best to close and re-open Maya after making buttons or hotkeys because if **Maya crashes**, you will have to repeat the process all over again.
 
 ## **<span style="color:rgb(199, 192, 99);">Adding a custom icon for your Shelf Button</span>** 
 
