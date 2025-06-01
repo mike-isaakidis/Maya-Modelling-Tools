@@ -26,9 +26,9 @@ With this tool you will be able to:
 
 This tool offers a range of features designed to help artists streamline their workflow and organize their files more efficiently.
 
-
+Check out the [Buttons Overview section](../Baking%20Manager/Buttons%20Overview.md) for a more in depth breakdown. 
 
 ???+ tip "Tip - Combine this tool with the Batch Exporter tool for a faster worlflow"
-    If you are a game artist and do a lot of baking **_how** to **_low** poly geo, pair this tool with the [Batch Exporter](../Batch%20Exporter/index.md), to instantly export your <span style="color:rgb(72, 212, 189);">Baking Groupsr</span>.
+    If you are a game artist and do a lot of baking **_how** to **_low** poly geo, pair this tool with the [Batch Exporter Tool](../Batch%20Exporter/index.md), to instantly export your <span style="color:rgb(72, 212, 189);">Baking Groups</span>.
 
     See how to make baking groups  [here](../Baking%20Manager/Baking_workflow/index.md).

@@ -23,6 +23,7 @@ nav:
     - Baking Manager: 
       - Baking Manager/index.md
       - "How to Install": Baking Manager/How to install.md
+      - Buttons Overview: Baking Manager/Buttons Overview.md
       - "Rename Features": 
         - "Rename Vanilla": Baking Manager/Rename Features.md
         - "Rename Tool": Baking Manager/Rename Tool.md
