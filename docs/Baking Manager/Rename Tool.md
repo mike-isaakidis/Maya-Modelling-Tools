@@ -1,4 +1,2 @@
-# Rename Tool
+<meta http-equiv="refresh" content="0; url=/Maya-Modelling-Tools/Rename%20Tool/">
 
-The Rename tool is a dedicated tool for renaming your assets. 
-Its a more user friendly version from the vanilla one and its purpose is to give users a dedicated tool for renaming. 

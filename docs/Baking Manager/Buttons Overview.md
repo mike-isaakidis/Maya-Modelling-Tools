@@ -91,7 +91,7 @@
         * When **Substance** checkbox is checked, ++alt++ + Click to rename the 'add suffix' textfield to 'ignorebf'. 
         * If the **Substance** checkbox is not checked then <span style="color:rgb(25, 214, 110);">**&lt;getlayercolor&gt;**</span> will be typed in the **Rename textfield**.
             * <span style="color:rgb(214, 211, 25);">**NOTE**</span> - When <span style="color:rgb(25, 214, 110);">**&lt;getlayercolor&gt;**</span> is typed and you have a mesh selected that belongs in a colored layer. Clicking on the **Layer buton** will change the color of the swatch to match that of the colored layer.
-        * ++shift+++ click to open the [**Rename Tool Window**](../Baking%20Manager/Rename%20Tool.md).
+        * ++shift+++ click to open the [**Rename Tool Window**](../Rename%20Tool/index.md).
         * ++shift+++++alt++ + Click to add the name <span style="color:rgb(25, 214, 110);">**&lt;reset_isolate_layers&gt;**</span> in the rename textfield. This will reset the state of the isolated layers when you ++shift+++++alt++ click the **Layer** button.
         * ++ctrl+++ Click to search and replace leters from a name. 
             * Use | as a marker. e.g. If the name of your object is **L_Arm** and you want to replace the **L_ with R_**. Type in the textfield **L_|R_**
@@ -101,4 +101,4 @@
         * Use the <span style="color:rgb(25, 214, 110);">**$**</span> *(dollar sign)* in the **rename textfield** to add a suffix at the end of your selected object whilst retaining their existing name e.g. if we selected an object with the name *pcube01*: typing the name **$_high** in the Rename textfield the object would be named *pcube01_high*.
 
     * ???+ Tip "Rename Tool"
-        If you find hard remembering and implementing a lot of the additional features of the **Rename** button, I've created a dedicated [**Rename Tool**](../Baking%20Manager/Rename%20Tool.md) to help with that. Use that tool instead.
+        If you find hard remembering and implementing a lot of the additional features of the **Rename** button, I've created a dedicated [**Rename Tool**](../Rename%20Tool/index.md) to help with that. Use that tool instead.

@@ -9,9 +9,10 @@ One of the primary functions of this tool is its renaming capabilities.
 
 Lets take a closer look.
 
-??? Tip "Tip - About vanilla naming"
-    If you find hard remembering and implementing a lot of the features of the rename tool, I've created a dedicated [**Rename Tool**](../Baking%20Manager/Rename%20Tool.md)  to help with that. 
-    Use that tool instead.
+???+ Tip "Tip - About vanilla naming"
+    If you find hard remembering and implementing a lot of the features of the rename tool, I've created a dedicated [**Rename Tool**](../Rename%20Tool/index.md)  to help with that. 
+        
+    To load the Rename Tool Window, ++shift++ click the **Rename** button.
 
 ## <span style="color:rgb(199, 192, 99);">**Rename**</span>
 

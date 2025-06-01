@@ -43,8 +43,11 @@ nav:
       - Batch Material Creation/index.md
     - Quick Sweep Mesh:
       - Quick Sweep Mesh/index.md
+    - Rename Tool:
+      - Rename Tool/index.md
     - Vertex Color Tool:
       - Vertex Colours/index.md
+      - "Buttons Overview": Vertex Colours/Buttons Overview.md
     - Speed Trim:
       - Speed Trim/index.md
       
