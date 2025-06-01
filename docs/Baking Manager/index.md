@@ -21,7 +21,7 @@ With this tool you will be able to:
 3. [Color code ](../Baking%20Manager/Outliner%20Features.md) your objects in the outliner.
 4. Quickly set [Wireframe colours ](../Baking%20Manager/Wireframe%20Features.md) to your objects.
 5. Assign [high and low poly naming conventions](../Baking%20Manager/Baking_workflow/index.md) for Marmoset and Substance.
-6. Create [Vertex Color](../Baking%20Manager/Vertex%20Colours%20Tool.md) information for your meshes.
+6. Create [Vertex Color](../Vertex%20Colours/index.md) information for your meshes.
 7. Create [Layers](../Baking%20Manager/Layers%20Window.md).
 
 This tool offers a range of features designed to help artists streamline their workflow and organize their files more efficiently.

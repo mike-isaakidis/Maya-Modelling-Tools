@@ -35,7 +35,7 @@ nav:
         - Baking Manager/Baking_workflow/index.md
         - "Marmoset Baking": Baking Manager/Marmoset Baking.md
         - "Substance Baking": Baking Manager/Substance Baking.md
-      - "Vertex Colours Tool": Baking Manager/Vertex Colours Tool.md
+      - "Vertex Colours Tool": Vertex Colours/index.md
       - "Layers Button Overview": Baking Manager/Layers Button Overview.md
       - "Layers Window": Baking Manager/Layers Window.md
       - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
@@ -43,6 +43,8 @@ nav:
       - Batch Material Creation/index.md
     - Quick Sweep Mesh:
       - Quick Sweep Mesh/index.md
+    - Vertex Color Tool:
+      - Vertex Colours/index.md
     - Speed Trim:
       - Speed Trim/index.md
       

@@ -11,7 +11,7 @@
 4. <span style="color:rgb(25, 214, 110);">**Marmoset**</span>  and <span style="color:rgb(25, 214, 110);">**Substance**</span> options *(for more info check [**Baking Workflows**](../Baking%20Manager/Baking_workflow/index.md))*.
 5. <span style="color:rgb(25, 214, 110);">**SBC**</span> - Select by Color button. When checked if the user clicks on the Select Button, the tool will filter through all meshes in the outliner and select those that match the color of the swatch.
 6. <span style="color:rgb(25, 214, 110);">**Select**</span> - will select any asset that matches what is entered in the rename textfield or if the SBC checkbox is checked will select groups/meshes that match the color of the Swatch (check Baking Workflow for alternative uses of this button).
-    *  ??? Info "Select Additional Info"
+    *  ??? Info "Additional Info"
         * When nothing selected the button acts as a **searchbar** that will select whatever you have entered in the **Rename:** field.
             * Use this button in combination with the **Select by Color** checkbox to quickly filter and select meshes or groups that share the same color in the outliner.
             * If nothing specified and you have something selected it will select the parent of that selection.
@@ -30,13 +30,13 @@
             * ++ctrl+++++shift++ + Click so the textfield will give you the <span style="color:rgb(25, 214, 110);">**&lt;getall&gt;**</span> name.
     
 7. <span style="color:rgb(25, 214, 110);">**Ungroup**</span> - Will parent your selection to the world *(check [**Ungroup Features**](../Baking%20Manager/Ungroup%20Features.md) for more info)*.
-    * ??? Info "Ungroup Additional Info"
+    * ??? Info "Additional Info"
         * ++ctrl++ + Click with nothing selected to delete empty groups that have no parent *(are parented to the world)*.
             * If the user selects a group or groups then ++ctrl++ + Click will search for all descendants of those groups and if there are any groups with no children those will be deleted.
         * ++shift++ + Click to delete groups that have no children from your entire scene.
             * This action repeats 30 times meaning if you have a group within a group with nothing in it the tool will delete both groups.
 8. <span style="color:rgb(25, 214, 110);">**Layer**</span> - quickly assigns a layer to a selection based on the name chosen in the textfield *(see [**Layer Features**](../Baking%20Manager/Layers%20Button%20Overview.md) and  [**Baking Workflows**](../Baking%20Manager/Baking_workflow/index.md) for alternative uses of this button)*.
-    * ??? Info "Layer Additional Info"
+    * ??? Info "Additional Info"
         * **Default Click - Creates Layers from selected objects based on a given **name** in the Rename Textfield.**
             * Created Layers will inherit the **color** of the swatch.
             * If you have a selection and that selection belongs in a layer, clicking on the **Layer** button will change the <span style="color:rgb(25, 214, 110);">**color**</span> for that layer *(**Marmoset\Substance** must be unchecked for this to work)*.
@@ -60,15 +60,45 @@
                 * ++alt++ + Click with a selected object that belongs in a layer, will <span style="color:rgb(25, 214, 110);">**return the name**</span> of that layer in the **rename textfield** *(if multiple objects selected it will display only the name of the first selection that belongs to a layer)*.
                 * ++ctrl+++++alt+++++shift++ with nothing selected to <span style="color:rgb(25, 214, 110);">**toggle**</span> the **color of all layers** *(works only with layers that have RGB colors and not index colors)*. 
                     * <span style="color:rgb(214, 211, 25);">**NOTE**</span> - if you select a mesh and it belongs to a colored layer it will only toggle that layer's color.
-9. <span style="color:rgb(25, 214, 110);">**Select WC**</span>- Select meshes by wireframe color. Use in combination with the SBC checkbox.
-10. <span style="color:rgb(25, 214, 110);">**CPW**</span> - Copy paste wireframe color (make a selection of 2 or more meshes - this button will take the wireframe color of the first selected mesh and paste it on all others).
-11. <span style="color:rgb(25, 214, 110);">**CPO**</span> - Copy paste Outliner color (make a selection of 2 or more meshes - this button will copy the color of the first selected mesh and paste it to all others selected).
-12. <span style="color:rgb(25, 214, 110);">**RW**</span> - Reset wireframe color.
+9. <span style="color:rgb(25, 214, 110);">**Select WC**</span>- Select meshes by wireframe color.
+    * ??? Info "Additional Info"
+         * You can filter your selections based on the swatch color and Rename textfield inputs.
+         * ++ctrl++ + Click to select all objects with a wireframe color in your scene.
+10. <span style="color:rgb(25, 214, 110);">**CPW**</span> - Copy paste wireframe color *(make a selection of 2 or more meshes - this button will take the wireframe color of the first selected mesh and paste it on all others)*.
+11. <span style="color:rgb(25, 214, 110);">**CPO**</span> - Copy paste Outliner color *(make a selection of 2 or more meshes - this button will copy the color of the first selected mesh and paste it to all others selected)*.
+12. <span style="color:rgb(25, 214, 110);">**RW**</span> - Resets wireframe color.
+    * ??? Info "Additional Info"
+        * If your wirreframe color is derived from a Layer ++ctrl+++Click to **Reset** the color of a layer. You need to select an object that belongs in a layer in order for it to work.
+        * ++ctrl+++++shift++ + click to **^^reset all layer colors^^** in your scene, no selection required.
+    
 13. <span style="color:rgb(25, 214, 110);">**RC**</span> - Reset Outliner color.
+    
 14. <span style="color:rgb(25, 214, 110);">**Outliner**</span> - with a selection made, this button will set the color of the selected meshes in the outliner to that of the color of the swatch.
+    * ??? Info "Additional Info"
+        * ++ctrl++ + click to also set the wireframe colour at the same time.
 15. <span style="color:rgb(25, 214, 110);">**Wireframe**</span> - with a selection made, this button will set the color of the wireframe for all selected meshes to that of the swatch color.
+    * ??? Info "Additional Info"
+        * ++ctrl++ + click to also set the outliner colour at the same time.
 16. <span style="color:rgb(25, 214, 110);">**Get Wire**</span> - select a mesh that has a wireframe color applied. This button will change the color of the swatch to match that color (check Baking Workflow for alternative uses of this button).
 17. <span style="color:rgb(25, 214, 110);">**Get Outline**</span> - select a mesh that has a color assigned in the outliner. This button will change the color of the swatch to match that color (check Baking Workflow for alternative uses of this button).
+    * ??? "Additional Info"
+        * If your selected object has no color in the outliner then the swatch colour will be set to black.
+        * If **Marmoset** or **Substance** checkboxes are checked and your selection belongs in a <span style="color:rgb(25, 214, 110);">**high/low_grp**</span> or <span style="color:rgb(25, 214, 110);">**HIGH/LOW_GRP**</span> **Baking Group** and that group has a color, then the swatch will change to reflect that color.
 18. <span style="color:rgb(25, 214, 110);">**Swatch**</span> - click to set the desired color for the swatch.
-19. <span style="color:rgb(25, 214, 110);">**VC**</span> - Vertex Color options (check out Vertex Color Buttons Overview for more).
+19. <span style="color:rgb(25, 214, 110);">**VC**</span> - Vertex Color options *(check out [**Vertex Color**](../Vertex%20Colours/index.md) section Buttons Overview for more)*.
 20. <span style="color:rgb(25, 214, 110);">**Rename**</span> - click (or hit enter from the textfield) to rename a selection.
+    * ??? "Additional Info"
+        * When **Substance** checkbox is checked, ++alt++ + Click to rename the 'add suffix' textfield to 'ignorebf'. 
+        * If the **Substance** checkbox is not checked then <span style="color:rgb(25, 214, 110);">**&lt;getlayercolor&gt;**</span> will be typed in the **Rename textfield**.
+            * <span style="color:rgb(214, 211, 25);">**NOTE**</span> - When <span style="color:rgb(25, 214, 110);">**&lt;getlayercolor&gt;**</span> is typed and you have a mesh selected that belongs in a colored layer. Clicking on the **Layer buton** will change the color of the swatch to match that of the colored layer.
+        * ++shift+++ click to open the [**Rename Tool Window**](../Baking%20Manager/Rename%20Tool.md).
+        * ++shift+++++alt++ + Click to add the name <span style="color:rgb(25, 214, 110);">**&lt;reset_isolate_layers&gt;**</span> in the rename textfield. This will reset the state of the isolated layers when you ++shift+++++alt++ click the **Layer** button.
+        * ++ctrl+++ Click to search and replace leters from a name. 
+            * Use | as a marker. e.g. If the name of your object is **L_Arm** and you want to replace the **L_ with R_**. Type in the textfield **L_|R_**
+        * ++ctrl+++++shift++ + Click to **clear** the **Rename Textfield**.
+        * ++ctrl+++++alt+++++shift++ + Click to add the word <span style="color:rgb(25, 214, 110);">**layers**</span> in the **Rename Textfiled**. With this typed in, when you ++ctrl+++++shift++ the **Layer button** to create baking layers, the tool will create a layer per baking group *(color of group is inherited from the baking group colour)*.
+        * User the  <span style="color:rgb(25, 214, 110);">**\***</span> *(star sign)* in the **rename textfield** to add a prefix to your selected objects whilst retaining their existing name e.g. if we selected an object with the name *pcube01*: typing the name **\*Test_** in the Rename textfield the object would be named *Test_pcube01*.
+        * Use the <span style="color:rgb(25, 214, 110);">**$**</span> *(dollar sign)* in the **rename textfield** to add a suffix at the end of your selected object whilst retaining their existing name e.g. if we selected an object with the name *pcube01*: typing the name **$_high** in the Rename textfield the object would be named *pcube01_high*.
+
+    * ???+ Tip "Rename Tool"
+        If you find hard remembering and implementing a lot of the additional features of the **Rename** button, I've created a dedicated [**Rename Tool**](../Baking%20Manager/Rename%20Tool.md) to help with that. Use that tool instead.
