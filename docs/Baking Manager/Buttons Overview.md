@@ -68,7 +68,7 @@
 11. <span style="color:rgb(25, 214, 110);">**CPO**</span> - Copy paste Outliner color *(make a selection of 2 or more meshes - this button will copy the color of the first selected mesh and paste it to all others selected)*.
 12. <span style="color:rgb(25, 214, 110);">**RW**</span> - Resets wireframe color.
     * ??? Info "Additional Info"
-        * If your wirreframe color is derived from a Layer ++ctrl+++Click to **Reset** the color of a layer. You need to select an object that belongs in a layer in order for it to work.
+        * If your wireframe color is derived from a Layer ++ctrl+++Click to **Reset** the color of a layer. You need to select an object that belongs in a layer in order for it to work.
         * ++ctrl+++++shift++ + click to **^^reset all layer colors^^** in your scene, no selection required.
     
 13. <span style="color:rgb(25, 214, 110);">**RC**</span> - Reset Outliner color.
