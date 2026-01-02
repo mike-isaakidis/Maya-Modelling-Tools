@@ -1,4 +1,4 @@
-# :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Baking Manager</span>**  
+# :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Mirror Tool</span>**  
 
 ![Mirror Tool 1](images/Mirror_Tool_UI_1.png){ .img-small .img-centered }
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 1 - Setting up</span>** 
@@ -10,7 +10,7 @@
 
     1.Unzip the [`Mirror_Tool_XXXX.zip`](#) file.
    
-    2.Copy paste the [`Mirror_Tool`](#) folder in your [`\Documents\Maya\MayaVersion\prefs\icons`](#) folder.
+    2.Copy paste the [`Mirror_Tool`](#) folder in your [`\Documents\Maya\MayaVersion\prefs\icons`](#) folder *(This is where the image files will be stored)*.
 
     3.Copy paste the [`mirror_Tool.py`](#) file in your [`\Documents\Maya\Scripts`](#) folder.
     

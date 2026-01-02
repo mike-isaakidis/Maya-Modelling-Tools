@@ -91,7 +91,10 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
 
 <!--  Get it on [Artstation](https://www.artstation.com/a/43532) or [Gumroad](https://mike3d.gumroad.com/l/mayamirrortool). -->
+- ### <span style="color:pink">Documentation</span> 
+Find the documentation page from the Options menu.
 
+![Mirror Tool documetation](images/Mirror_Tool_documentation_1.png){ .img-small}
 
 ### **<span style="color:rgb(210, 221, 59);">Videos</span>**
 
