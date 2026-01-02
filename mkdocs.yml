@@ -1,4 +1,13 @@
 # Project information
+exclude_docs: |
+  Batch Exporter/*
+  Baking Manager/*
+  Batch Material Creation/*
+  Quick Sweep Mesh/*
+  Rename Tool/*
+  Speed Trim/*
+  Vertex Colours/* 
+
 site_name: Mike's Maya Tools
 
 site_url: https://mike-isaakidis.github.io/Maya-Modelling-Tools/
@@ -14,50 +23,55 @@ nav:
 
   - Tools:
     - Tools Page/index.md
-    - Batch Exporter: 
-      - Batch Exporter/index.md
-      - "How to Install": Batch Exporter/how_to_install.md
-      - "Buttons Overview": Batch Exporter/Buttons_overview.md
-      - "Breakdown": Batch Exporter/Breakdown.md
 
-    - Baking Manager: 
-      - Baking Manager/index.md
-      - "How to Install": Baking Manager/How to install.md
-      - Buttons Overview: Baking Manager/Buttons Overview.md
-      - "Rename Features": 
-        - "Rename Vanilla": Baking Manager/Rename Features.md
-        - "Rename Tool": Baking Manager/Rename Tool.md
-      - "Select Features": Baking Manager/Select Features.md
-      - "Ungroup Features": Baking Manager/Ungroup Features.md
-      - "Outliner Features": Baking Manager/Outliner Features.md
-      - "Wireframe Features": Baking Manager/Wireframe Features.md
-      - "Baking Workflow": 
-        - Baking Manager/Baking_workflow/index.md
-        - "Marmoset Baking": Baking Manager/Marmoset Baking.md
-        - "Substance Baking": Baking Manager/Substance Baking.md
-      - "Vertex Colours Tool": Vertex Colours/index.md
-      - "Layers Button Overview": Baking Manager/Layers Button Overview.md
-      - "Layers Window": Baking Manager/Layers Window.md
-      - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
-    - Batch Material Creation: 
-      - Batch Material Creation/index.md
-    - Quick Sweep Mesh:
-      - Quick Sweep Mesh/index.md
-    - Rename Tool:
-      - Rename Tool/index.md
-    - Vertex Color Tool:
-      - Vertex Colours/index.md
-      - "Buttons Overview": Vertex Colours/Buttons Overview.md
-    - Speed Trim:
-      - Speed Trim/index.md
+    - Mirror Tool:
+      - Mirror Tool/index.md
+      - "How to Install": Mirror Tool/How to install.md
+
+    #- Batch Exporter: 
+    #  - Batch Exporter/index.md
+    #  - "How to Install": Batch Exporter/how_to_install.md
+    #  - "Buttons Overview": Batch Exporter/Buttons_overview.md
+    #  - "Breakdown": Batch Exporter/Breakdown.md
+
+    #- Baking Manager: 
+    #  - Baking Manager/index.md
+    #  - "How to Install": Baking Manager/How to install.md
+    #  - Buttons Overview: Baking Manager/Buttons Overview.md
+    #  - "Rename Features": 
+    #    - "Rename Vanilla": Baking Manager/Rename Features.md
+    #    - "Rename Tool": Baking Manager/Rename Tool.md
+    #  - "Select Features": Baking Manager/Select Features.md
+    #  - "Ungroup Features": Baking Manager/Ungroup Features.md
+    #  - "Outliner Features": Baking Manager/Outliner Features.md
+    #  - "Wireframe Features": Baking Manager/Wireframe Features.md
+    #  - "Baking Workflow": 
+    #    - Baking Manager/Baking_workflow/index.md
+    #    - "Marmoset Baking": Baking Manager/Marmoset Baking.md
+    #    - "Substance Baking": Baking Manager/Substance Baking.md
+    #  - "Vertex Colours Tool": Vertex Colours/index.md
+    #  - "Layers Button Overview": Baking Manager/Layers Button Overview.md
+    #  - "Layers Window": Baking Manager/Layers Window.md
+    #  - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
+    #- Batch Material Creation: 
+    #  - Batch Material Creation/index.md
+    #- Quick Sweep Mesh:
+    #  - Quick Sweep Mesh/index.md
+    #- Rename Tool:
+    #  - Rename Tool/index.md
+    #- Vertex Color Tool:
+    #  - Vertex Colours/index.md
+    #  - "Buttons Overview": Vertex Colours/Buttons Overview.md
+    #- Speed Trim:
+    #  - Speed Trim/index.md
       
   - Free Tools: 
     - Free Tools/index.md
     - Bevel: Free Tools/Bevel Tool/Bevel.md
     - Pro Boolean: Free Tools/Pro Boolean/index.md
-    - Duplicate Faces: Free Tools/Duplicate Faces.md
-    - Extract Faces: Free Tools/Extract Faces.md
-    - Unreal Collision: Free Tools/Unreal Collision.md
+    #- Duplicate Faces: Free Tools/Duplicate Faces.md
+    #- Extract Faces: Free Tools/Extract Faces.md
+    #- Unreal Collision: Free Tools/Unreal Collision.md
   
   - Create Hotkeys/Shelf Buttons: 
     - Create Hotkeys Shelf Buttons/index.md
@@ -150,6 +164,7 @@ plugins:
   - search
   - glightbox
 
+
 extra:
   generator: false #removed the made with mdocs in the footer of the page
   social:
@@ -170,5 +185,4 @@ extra_css:
   - css/custom.css
   - stylesheets/extra.css
 
-copyright: Copyright &copy; 2020 - 2025 Michail Isaakidis
-
+#copyright: Copyright &copy; 2020 - 2025 Michail Isaakidis

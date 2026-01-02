@@ -87,7 +87,7 @@ The script editor window should pop up.
 ![Script_Editor_Gif_1](images/Script_Editor_Gif_1.gif){ .img-medium} 
 ![Shelf Bevel Press1](images/Shelf_Bevel_Press_1.gif){ .img-medium} 
 
-??? Warning "Important - Close **Maya** to save Shelf Button"
+??? Note "Important - Close **Maya** to save Shelf Button"
     It's best to close and re-open Maya after making buttons or hotkeys because if **Maya crashes**, you will have to repeat the process all over again.
 
 ## **<span style="color:rgb(199, 192, 99);">Adding a custom icon for your Shelf Button</span>** 
@@ -96,7 +96,49 @@ Occasionally tools will be shipped with an icon. You can use that icon to add it
 
 Let see how to set that up.
 
+Coming soon!
+
 
 ## **<span style="color:rgb(199, 192, 99);">Create a Hotkey</span>**
+
+For this example we will be using the [**Mirror Tool**](../Mirror%20Tool/How%20to%20install.md) python code as an example. 
+
+``` py linenums="1"
+from mirror_Tool import OpenImportDialog
+OpenImportDialog.show_dialog()
+
+```
+
+To set a Hotkey first open the Hotkey Editor Window located in: 
+
+<span style="color:rgb(99, 199, 149);">Windows-> Settings/Preferences-> Hotkey Editor.</span> 
+
+
+
+![Hotkey Editor 1](images/Hotkey_Editor_1.png){ .img-medium}
+
+Once opened, choose <span style="color:rgb(99, 199, 149);">Custom Scripts</span> from the Edit Hotkeys dropdown and click on <span style="color:rgb(99, 199, 149);">Runtime Command Editor.</span>
+
+![Hotkey Editor 2](images/Hotkey_Editor_2.png){ .img-medium}
+
+From there click on <span style="color:rgb(99, 199, 149);">**New**</span>:
+
+| **Name**:      |  <span style="color:rgb(99, 199, 149);">**Mirror_Tool**</span>|                                  |
+| ----------- | ------------------------------------------|----------------------------------------------------|
+| **Description**:    |   <span style="color:rgb(99, 199, 149);">**Mirror_Tool**</span>  *(use same as Name, you could alternatively use a small description if you like)*   
+| **Language**:  |  <span style="color:rgb(99, 199, 149);">**Python**</span> *(always check on the How to Install page of each tool, to see which language to use!)*    
+
+Then copy paste the python code underneath the language area.
+
+![Hotkey Editor 3](images/Hotkey_Editor_3.png){ .img-medium}
+
+Once happy click on <span style="color:rgb(99, 199, 149);">**Save Runtime Command**</span>
+
+Your new hotkey should now be added in the custom scripts drowpdown. From there click on the Hotkey area and assign your hotkey.
+
+![Hotkey Editor 4](images/Hotkey_Editor_4.png){ .img-medium}
+
+??? Note "Important - Close **Maya** to save HotKey"
+    It's best to close and re-open Maya after saving your hotkeys because if **Maya crashes**, you will have to repeat the process all over again.
 
 <!-- [Single Export](../Batch%20Exporter/Buttons_overview.md#single-export){ .md-button .md-button--primary } example of button link to a permalink!!!! -->
