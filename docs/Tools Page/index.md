@@ -6,3 +6,8 @@ We’re constantly expanding this collection—so check back often for new relea
 
 
 
+<!-- | Tools      | |                                           |
+| ----------- | ------------------------------------------|----------------------------------------------------|
+| [Batch Exporter](../Batch%20Exporter/index.md)     |  [Baking Manager](../Baking%20Manager/index.md)   | [Batch Material Creation](../Batch%20Material%20Creation/index.md) |
+| [Quick Sweep Mesh](../Quick%20Sweep%20Mesh/index.md)   |  [Speed Trim](../Speed%20Trim/index.md)       |             -->
+

@@ -33,6 +33,16 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
 ### **<span style="color:pink">Mirror Operation</span>**
 * When the Mirror checkbox is checked the tool will perform a mirror operation. 
+* Use the direction of your manipulator to decide which axis direction your tool should have.
+    * Defaul axis direction is +.
+    * If your manipulator on your selected object is pointing + X axis and you want the mirror operation to be performed in the negative X axis ++ctrl++ Click the X icon to create the mirror in the (-) direction.
+
+    <figure>
+    <img src="images/mirror_axis_direction_1.gif" class="img-medium" alt="Mirror Cut Demo">
+    <figcaption>How to mirror in the - direction.<span style="color:pink"></span></figcaption>
+    </figure>
+
+    * ++shift++ Click on any object with a mirror cut to change its (+ -) direction.
 * If your manipulator mode is set to **Object** the tool will then create the Mirror/cut operation in **Object** mode.
 * If it's set to **World** the tool will then be aligned to **Bounding box**.
     * If the <span style="color:pink">Add Mirror cut Offset for World Space</span> checkbox is checked *(located in the options menu)*, then the tool will also calculate the offset needed for the mirror operation to start from the pivot point of the selected object. 
