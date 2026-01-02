@@ -4,10 +4,10 @@
 
 ![Mirror Tool 1](images/Mirror_Tool_UI_1.png){ .img-small .img-centered }
 
-Mirror Tool is a tool that will help you quickly mirror selected objects. 
+Mirror Tool helps you quickly mirror selected objects.
 A very useful tool for artists that want a quick and easy way to mirror their objects. 
 
-- The tool has different main operations:
+- The tool features several main operations:
     * <span style="color:pink">Duplicate:</span>
         * Duplicates and mirrors selected objects.
     * <span style="color:pink">Combine:</span>
@@ -15,7 +15,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
     * <span style="color:pink">Instance:</span>
         * Creates instances of your selected objects and mirrors them.
     * <span style="color:pink">Mirror:</span>
-        * Creats a mirror operation for each selected object.
+        * Creates a mirror operation for each selected object.
     * <span style="color:pink">Flip:</span>
         * When all checkboxes are unchecked the tool will just flip your selected objects on the axis you selected.
 
@@ -31,20 +31,21 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 </figure>
 
 
-- ### **<span style="color:pink">Mirror Operation</span>**
-    * When the Mirror checkbox is checked the tool will perform a mirror operation. 
-    * If your manipulator mode is set to **Object** the tool will then create the Mirror/cut operation in **Object** mode.
-    * If its set to **World** the tool will then be aligned to **Bounding box**.
-        * If the checkbox <span style="color:pink">Add Mirror cut Offset for Wold Space</span> checkbox is checked *(from the options menu)*, then the tool will also calculate the offset needed for the mirror operation to start from the pivot points origin.  
+### **<span style="color:pink">Mirror Operation</span>**
+* When the Mirror checkbox is checked the tool will perform a mirror operation. 
+* If your manipulator mode is set to **Object** the tool will then create the Mirror/cut operation in **Object** mode.
+* If it's set to **World** the tool will then be aligned to **Bounding box**.
+    * If the <span style="color:pink">Add Mirror cut Offset for World Space</span> checkbox is checked *(located in the options menu)*, then the tool will also calculate the offset needed for the mirror operation to start from the pivot point of the selected object. 
+    * If you have a group selected the tool will apply the mirror operation on all its descendants.  
 
-        ???+ Info "Info - Applying offset"
-            * The tool calculates the difference between your objects pivot point and Bounding box, then uses that difference as the offset value on your mirror operation. 
-            
-            * Please note this only works when your manipulator is set to World Space and Mirror is checked.
+    ???+ Info "Info - Applying offset"
+        * The tool calculates the difference between your objects pivot point and Bounding box, then uses that difference as the offset value on your mirror operation. 
+        
+        * Please note this only works when your manipulator is set to World Space and Mirror is checked.
 
-            * Sometimes Maya may fail to calcualate your bounding box *(Maya bug)*. 
-            
-                * If that happens try and reset your object by combining it with a cube *(and then deleting the cube and reseting your pivot point)* or uncheck the Add Mirror cut Offset for Wold Space checkbox to mirror from the objects Bounding box location. 
+        * Sometimes Maya may fail to calculate your bounding box *(Maya bug)*. 
+        
+            * If that happens try and reset your object by combining it with a cube *(and then deleting the cube and resetting your pivot point)* or uncheck the Add Mirror cut Offset for Wold Space checkbox to mirror from the objects Bounding box location. 
 
 <figure>
   <img src="images/mirror_cut_1.gif" class="img-medium" alt="Mirror Cut Demo">
@@ -63,40 +64,41 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 ??? Info "Info - Mirroring from last selected"
     * Will work for all operations (Duplicate, Combine, Instance and Flip) except Mirror.
 
-    * Mirror is not supported but if you really need something similar you could match the pivot point of all your obejcts with the last selected *(using the <span style="color:pink">Match Pivot</span> button)* one and run the Mirror operation. 
-        * Just keep in mind that all object must have the same pivot orientation.
+    * Mirror is not supported but if you really need something similar you could match the pivot point of all your objects with the last selected *(using the <span style="color:pink">Match Pivot</span> button)* one and run the Mirror operation. 
+        * Just keep in mind that all objects must have the same pivot orientation.
 
 
-- ### <span style="color:pink">Match Pivot</span> 
-    * Make a selection of different objects, the tool will match the pivot point *(location/orientation)* of all objects to the last one selected.
-    <figure>
-    <img src="images/mirror_match_pivot_1.gif" class="img-medium" alt="Mirror Cut Demo">
-    <figcaption>Match Pivot from <span style="color:pink">last selected object</span></figcaption>
-    </figure>
-    
-    * ++ctrl++ click to bake the pivot point of an object.
+### <span style="color:pink">Match Pivot</span> 
+* Make a selection of different objects, the tool will match the pivot point *(location/orientation)* of all objects to the last one selected.
+<figure>
+<img src="images/mirror_match_pivot_1.gif" class="img-medium" alt="Mirror Cut Demo">
+<figcaption>Match Pivot from <span style="color:pink">last selected object</span></figcaption>
+</figure>
 
-    <figure>
-    <img src="images/mirror_bake_pivot_1.gif" class="img-medium" alt="Mirror Cut Demo">
-    <figcaption> <span style="color:pink">Bake Pivot</span></figcaption>
-    </figure>
+* ++ctrl++ click to bake the pivot point of an object.
 
-- ### <span style="color:pink">Create Locator</span> 
-    * Make a selection of different objects, the tool will match the pivot point location/orientation of all objects to the last one selected.
-    * Switch to different modes *(Object/World)* to get the desired orientation.
+<figure>
+<img src="images/mirror_bake_pivot_1.gif" class="img-medium" alt="Mirror Cut Demo">
+<figcaption> <span style="color:pink">Bake Pivot</span></figcaption>
+</figure>
 
-    <figure>
-    <img src="images/mirror_create_locators_1.gif" class="img-medium" alt="Mirror Cut Demo">
-    <figcaption> <span style="color:pink">*Create locators*</span></figcaption>
+### <span style="color:pink">Create Locator</span> 
+* Make a selection of different objects, the tool will match the pivot point location/orientation of all objects to the last one selected.
+* Switch to different modes *(Object/World)* to get the desired orientation.
 
+<figure>
+<img src="images/mirror_create_locators_1.gif" class="img-medium" alt="Mirror Cut Demo">
+<figcaption> <span style="color:pink">*Create locators*</span></figcaption>
+</figure>
 
 <!--  Get it on [Artstation](https://www.artstation.com/a/43532) or [Gumroad](https://mike3d.gumroad.com/l/mayamirrortool). -->
-- ### <span style="color:pink">Documentation</span> 
+### <span style="color:pink">Documentation</span> 
+
 Find the documentation page from the Options menu.
 
-![Mirror Tool documetation](images/Mirror_Tool_documentation_1.png){ .img-small}
+![Mirror Tool documentation](images/Mirror_Tool_documentation_1.png){ .img-small}
 
-### **<span style="color:rgb(210, 221, 59);">Videos</span>**
+### <span style="color:pink">Videos</span> 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0dPSwNTMkU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
