@@ -98,7 +98,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
 <figure>
 <img src="images/mirror_create_locators_1.gif" class="img-medium" alt="Mirror Cut Demo">
-<figcaption> <span style="color:pink">*Create locators*</span></figcaption>
+<figcaption> <span style="color:pink">Create locators</span></figcaption>
 </figure>
 
 <!--  Get it on [Artstation](https://www.artstation.com/a/43532) or [Gumroad](https://mike3d.gumroad.com/l/mayamirrortool). -->
