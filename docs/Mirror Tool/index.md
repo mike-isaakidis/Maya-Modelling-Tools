@@ -98,7 +98,14 @@ Find the documentation page from the Options menu.
 
 ![Mirror Tool documentation](images/Mirror_Tool_documentation_1.png){ .img-small}
 
+??? Info "Info - Missing icons"
+    * The tool has a build in safety in case you failed to copy paste the Mirror_Tool folder (that contains the tools icons) in the wrong location.
+
+    ![mirror_tool_icons_1](images/mirror_tool_icons_1.png){ .img-large }
+
 ### <span style="color:pink">Videos</span> 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0dPSwNTMkU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 

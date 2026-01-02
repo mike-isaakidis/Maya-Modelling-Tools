@@ -10,7 +10,7 @@
 
     1.Unzip the [`Mirror_Tool_XXXX.zip`](#) file.
    
-    2.Copy-paste the [`Mirror_Tool`](#) folder in your [`\Documents\Maya\XXXX\prefs\icons`](#) folder *(This is where the image files will be stored)*.
+    2.Copy-paste the [`Mirror_Tool`](#) folder in your [`\Documents\Maya\20XX\prefs\icons`](#) folder *(This is where the image files will be stored)*.
 
     3.Copy-paste the [`mirror_Tool.py`](#) file in your [`\Documents\Maya\Scripts`](#) folder.
     
