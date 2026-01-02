@@ -20,7 +20,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
         * When all checkboxes are unchecked the tool will just flip your selected objects on the axis you selected.
 
 - Use your manipulators <span style="color:pink">Object / World</span> alignment to mirror in Object or World space *(either Move, Scale or Rotate will do)*.
-    * Hold down  <span style="color:pink"> W *(Move)*,E *(Scale)* or R *(Rotate)*</span> and left click to choose the desired mode. The tool will then mirrror accordingly.
+    * Hold down  <span style="color:pink"> W *(Move)*,E *(Scale)* or R *(Rotate)*</span> and left click to choose the desired mode. The tool will then mirror accordingly.
     * If any other mode is selected the tool will default to use Object. 
 
 ![Mirror Tool manipulator orientation](images/Mirror_Tool_manip_1.png){ .img-small .img-centered }
@@ -45,11 +45,11 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
         * Sometimes Maya may fail to calculate your bounding box *(Maya bug)*. 
         
-            * If that happens try and reset your object by combining it with a cube *(and then deleting the cube and resetting your pivot point)* or uncheck the Add Mirror cut Offset for Wold Space checkbox to mirror from the objects Bounding box location. 
+            * If that happens try and reset your object by combining it with a cube *(and then deleting the cube and resetting your pivot point)* or uncheck the Add Mirror cut Offset for World Space checkbox to mirror from the objects Bounding box location. 
 
 <figure>
   <img src="images/mirror_cut_1.gif" class="img-medium" alt="Mirror Cut Demo">
-  <figcaption>Mirroring using the  <span style="color:pink">Add Mirror cut Offset for Wold Space</span>  checkbox .</figcaption>
+  <figcaption>Mirroring using the  <span style="color:pink">Add Mirror cut Offset for Wold Space</span> checkbox.</figcaption>
 </figure>
 
 - ### <span style="color:pink">Mirror from last selected</span>
@@ -64,8 +64,8 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 ??? Info "Info - Mirroring from last selected"
     * Will work for all operations (Duplicate, Combine, Instance and Flip) except Mirror.
 
-    * Mirror is not supported but if you really need something similar you could match the pivot point of all your objects with the last selected *(using the <span style="color:pink">Match Pivot</span> button)* one and run the Mirror operation. 
-        * Just keep in mind that all objects must have the same pivot orientation.
+    * Mirror is not supported but if you really need something similar you could match the pivot point of all your objects with the last selected *(using the <span style="color:pink">Match Pivot</span> button)* and run the Mirror operation. 
+        * Just ensure all objects share the same pivot point orientation.
 
 
 ### <span style="color:pink">Match Pivot</span> 

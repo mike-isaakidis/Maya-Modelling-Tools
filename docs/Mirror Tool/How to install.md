@@ -10,9 +10,9 @@
 
     1.Unzip the [`Mirror_Tool_XXXX.zip`](#) file.
    
-    2.Copy paste the [`Mirror_Tool`](#) folder in your [`\Documents\Maya\MayaVersion\prefs\icons`](#) folder *(This is where the image files will be stored)*.
+    2.Copy-paste the [`Mirror_Tool`](#) folder in your [`\Documents\Maya\XXXX\prefs\icons`](#) folder *(This is where the image files will be stored)*.
 
-    3.Copy paste the [`mirror_Tool.py`](#) file in your [`\Documents\Maya\Scripts`](#) folder.
+    3.Copy-paste the [`mirror_Tool.py`](#) file in your [`\Documents\Maya\Scripts`](#) folder.
     
     4.Open [`Maya`](#). 
 
@@ -24,7 +24,7 @@
 
 
 
-### **<span style="color:rgba(195, 221, 80, 1);">Step 2- Activating</span>** 
+### **<span style="color:rgba(195, 221, 80, 1);">Step 2 - Activating</span>** 
 
 <div class="grid cards" markdown>
 
@@ -32,7 +32,7 @@
 
     ---
 
-    Copy the 2 ^^**python**^^  lines below on a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
+    Copy the 2 ^^**python**^^  lines below to a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
 
     ``` py linenums="1"
     from mirror_Tool import OpenImportDialog
