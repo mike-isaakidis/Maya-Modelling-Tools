@@ -51,7 +51,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
   <figcaption>Mirroring using the  <span style="color:pink">Add Mirror cut Offset for Wold Space</span>  checkbox .</figcaption>
 </figure>
 
-- ### <span style="color:pink">Mirror from last selected: </span>
+- ### <span style="color:pink">Mirror from last selected</span>
     * Hold down ++ctrl++ *(with multiple objects selected)*  and click to mirror from the pivot point of the last selected object.
 <figure>
   <img src="images/mirror_from_last_selected_1.gif" class="img-medium" alt="Mirror Cut Demo">
@@ -67,7 +67,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
         * Just keep in mind that all object must have the same pivot orientation.
 
 
-- ### <span style="color:pink">Match Pivot:</span> 
+- ### <span style="color:pink">Match Pivot</span> 
     * Make a selection of different objects, the tool will match the pivot point *(location/orientation)* of all objects to the last one selected.
     <figure>
     <img src="images/mirror_match_pivot_1.gif" class="img-medium" alt="Mirror Cut Demo">
@@ -81,7 +81,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
     <figcaption> <span style="color:pink">Bake Pivot</span></figcaption>
     </figure>
 
-- ### <span style="color:pink">Create Locator:</span> 
+- ### <span style="color:pink">Create Locator</span> 
     * Make a selection of different objects, the tool will match the pivot point location/orientation of all objects to the last one selected.
     * Switch to different modes *(Object/World)* to get the desired orientation.
 
