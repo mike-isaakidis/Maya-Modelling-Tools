@@ -126,7 +126,7 @@ From there click on <span style="color:rgb(99, 199, 149);">**New**</span>:
 | **Name**:      |  <span style="color:rgb(99, 199, 149);">**Mirror_Tool**</span>|                                  |
 | ----------- | ------------------------------------------|----------------------------------------------------|
 | **Description**:    |   <span style="color:rgb(99, 199, 149);">**Mirror_Tool**</span>  *(use same as Name, you could alternatively use a small description if you like)*   
-| **Language**:  |  <span style="color:rgb(99, 199, 149);">**Python**</span> *(always check on the How to Install page of each tool, to see which language to use!)*    
+| **Language**:  |  <span style="color:rgb(99, 199, 149);">**Python**</span> *(always check on the How to Install page of each tool, to see which language to use)*    
 
 Then copy paste the python code underneath the language area.
 
