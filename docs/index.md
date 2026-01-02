@@ -6,8 +6,6 @@
 
 <p style="text-align:center;">Whether you're a seasoned modeler or just getting started, you'll find tools here that support a faster, more organized way of working in Maya.</p>
 
-
-
 <figure markdown="span">
   ![Image title](images/favicon.png){ width="300" }
   <figcaption></figcaption>
