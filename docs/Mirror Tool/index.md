@@ -33,8 +33,8 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
 ### **<span style="color:pink">Mirror Operation</span>**
 * When the Mirror checkbox is checked the tool will perform a mirror operation. 
-* Use the direction of your manipulator to decide which axis direction your tool should have.
-    * Defaul axis direction is +.
+* Use the direction of your manipulator to decide which axis direction your tool should mirror from.
+    * Default axis direction is +.
     * If your manipulator on your selected object is pointing + X axis and you want the mirror operation to be performed in the negative X axis ++ctrl++ Click the X icon to create the mirror in the (-) direction.
 
     <figure>
