@@ -48,8 +48,8 @@
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 3 - Creating Shelf button code</span>** 
 
 - Since this tool has no UI, this code will automatically create a shelf button. 
-    * **Click** on it to run the tool
-    * **Double click** on it, it will open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
+    * **Click** to run the tool
+    * **Double click** to open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
 
 <div class="grid cards" markdown>
 
