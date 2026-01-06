@@ -48,8 +48,8 @@
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 3 - Creating Shelf button code</span>** 
 
 - Since this tool has no UI, this code will automatically create a shelf button. 
-
-    * If you double click on it, it will open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
+    * **Click** on it to run the tool
+    * **Double click** on it, it will open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
 
 <div class="grid cards" markdown>
 
@@ -57,7 +57,7 @@
 
     ---
 
-    Use the script editor Copy the ^^**python**^^  lines below to automatically create a shelf button.
+    Use the script editor to copy the ^^**python**^^  lines below to automatically create a shelf button.
 
     ``` py linenums="1"
     import maya.cmds as cmds
