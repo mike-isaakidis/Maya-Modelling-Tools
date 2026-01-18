@@ -9,6 +9,8 @@ Quick_Sweep_Mesh is a tool that uses the existing Maya <span style="color:rgba(2
 
 What different from the default Maya version is that it allows you to create multiple Sweep Meshes at once and the ability to copy paste attributes from one Quick_Sweep_Mesh to another or to selected curves.
 
+Works in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022 -2026**</span> 
+
 ???+ Info "Info - Hotkey"
     For best experience use the <span style="color:rgba(22, 165, 110, 1);">**hotkey**</span> version of the tool.
 
