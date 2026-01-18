@@ -2,8 +2,7 @@
 exclude_docs: |
   Batch Exporter/*
   Baking Manager/*
-  Batch Material Creation/*
-  Quick Sweep Mesh/*
+  Batch Material Creation/* 
   Rename Tool/*
   Speed Trim Unfold/*
   Vertex Colours/* 
@@ -27,6 +26,10 @@ nav:
     - Mirror Tool:
       - Mirror Tool/index.md
       - "How to Install": Mirror Tool/How to install.md
+
+    - Quick Sweep Mesh:
+      - Quick Sweep Mesh/index.md
+      - "How to Install": Quick Sweep Mesh/How to install.md
 
     #- Speed Trim Unfold:
     #  - Speed Trim Unfold/index.md
@@ -59,8 +62,7 @@ nav:
     #  - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
     #- Batch Material Creation: 
     #  - Batch Material Creation/index.md
-    #- Quick Sweep Mesh:
-    #  - Quick Sweep Mesh/index.md
+
     #- Rename Tool:
     #  - Rename Tool/index.md
     #- Vertex Color Tool:
