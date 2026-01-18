@@ -170,30 +170,6 @@ The tool can copy any custom mesh and paste it on any curve/Sweep Mesh.
 
 ![Quick_Sweep_Hotkey_18](images/Quick_Sweep_Hotkey_18.png){ .img-large .img-centered }
 
-### <span style="color:rgb(221, 137, 59);">**Interpolation mode**</span>
-
-The tool will work with any existing Sweep Mesh that has its history not deleted.
-
-One thing to notice is that when using the hotkey, the tool is using a different <span style="color:rgba(22, 165, 110, 1);">**interpolation mode**</span>  than the one used when you create a curve from Maya's native Sweep Mesh menu.
-
-The default Mode is set to <span style="color:rgba(22, 165, 110, 1);">**Precision**</span> but the one used by the tool is <span style="color:rgba(22, 165, 110, 1);">**EP to EP**</span>.
-
-![Quick_Sweep_Hotkey_19](images/Quick_Sweep_Hotkey_19.png){ .img-large .img-centered }
-
-???+ Info "Important"
-
-    Copying the values from a Sweep Mesh that has its Mode set in Precision, will paste and set that Mode in any new Sweep Meshes created by the tool.
-
-However when using the hotkey to cycle through the different attributes when you reach  <span style="color:rgba(22, 165, 110, 1);">**steps**</span> the tool will switch the interpolation mode to EP to EP. 
-
-Your Precision values are pasted but the Mode is just changed, if you want to keep the Mode to Precision you will have to switch it back manually within the Attribute Editor.
-
-![Quick_Sweep_Hotkey_20](images/Quick_Sweep_Hotkey_20.png){ .img-large .img-centered }
-
-<figure>
-<img src="images/quick_sweeo_hotkey_4.gif" class="img-medium" alt="quick_sweep_hotkey3">
-<figcaption><span style="color:rgba(22, 165, 110, 1);">Interpolation mode changed</span></span></figcaption>
-</figure>
 
 ## <span style="color:rgb(221, 137, 59);">**Help / Additional information**</span>
 
@@ -226,6 +202,31 @@ This ensures your geometry is sealed tight.
 <figure>
 <img src="images/quick_sweeo_hotkey_6.gif" class="img-medium" alt="quick_sweep_hotkey6">
 <figcaption><span style="color:rgba(22, 165, 110, 1);">Merging verts on Closed curves</span></span></figcaption>
+</figure>
+
+### <span style="color:rgb(221, 137, 59);">**Interpolation mode**</span>
+
+The tool will work with any existing Sweep Mesh that has its history not deleted.
+
+One thing to notice is that when using the hotkey, the tool is using a different <span style="color:rgba(22, 165, 110, 1);">**interpolation mode**</span>  than the one used when you create a curve from Maya's native Sweep Mesh menu.
+
+The default Mode is set to <span style="color:rgba(22, 165, 110, 1);">**Precision**</span> but the one used by the tool is <span style="color:rgba(22, 165, 110, 1);">**EP to EP**</span>.
+
+![Quick_Sweep_Hotkey_19](images/Quick_Sweep_Hotkey_19.png){ .img-large .img-centered }
+
+???+ Info "Important"
+
+    Copying the values from a Sweep Mesh that has its Mode set in Precision, will paste and set that Mode in any new Sweep Meshes created by the tool.
+
+However when using the hotkey to cycle through the different attributes when you reach  <span style="color:rgba(22, 165, 110, 1);">**steps**</span> the tool will switch the interpolation mode to EP to EP. 
+
+Your Precision values are pasted but the Mode is just changed, if you want to keep the Mode to Precision you will have to switch it back manually within the Attribute Editor.
+
+![Quick_Sweep_Hotkey_20](images/Quick_Sweep_Hotkey_20.png){ .img-large .img-centered }
+
+<figure>
+<img src="images/quick_sweeo_hotkey_4.gif" class="img-medium" alt="quick_sweep_hotkey3">
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Interpolation mode changed</span></span></figcaption>
 </figure>
 
 
