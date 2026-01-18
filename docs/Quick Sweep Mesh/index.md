@@ -7,9 +7,9 @@
 
 Quick_Sweep_Mesh is a tool that uses the existing Maya <span style="color:rgba(22, 165, 110, 1);">**Quick_Sweep Mesh**</span> tool to quickly create pipes and other sorts of geo along a curve.
 
-What different from the default Maya version is that it allows you to create multiple Sweep Meshes at once and the ability to copy paste attributes from one Quick_Sweep_Mesh to another or to selected curves.
+What's different from the default Maya version is that it allows you to create multiple Sweep Meshes at once and the ability to copy-paste attributes from one Quick_Sweep_Mesh to another or to selected curves.
 
-Works in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022 -2026**</span> 
+Works in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022 - 2026**</span> 
 
 ???+ Info "Info - Hotkey"
     For best experience use the <span style="color:rgba(22, 165, 110, 1);">**hotkey**</span> version of the tool.
@@ -21,7 +21,7 @@ Works in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022 -2026**</span>
 
 **UI Window - Buttons**
 
-1. <span style="color:rgba(22, 165, 110, 1);">**Sweep**</span> - Creates a sweepMesh same as default Maya tool. Only difference is that this can be used with multiple objects selected.
+1. <span style="color:rgba(22, 165, 110, 1);">**Sweep**</span> - Creates a sweepMesh the same as the default Maya tool. Only difference is that this can be used with multiple objects selected.
 
     1. ++shift++ + Click activates the <span style="color:rgba(22, 165, 110, 1);">**hotkey**</span> version of the tool. This creates and links attributes so that you can use your middle mouse to adjust each setting.
     2. ++ctrl++ + Click to open the attribute editor for the sweepMeshCreator and adjust the settings in there.    
@@ -63,7 +63,7 @@ Every time you use the hotkey to create a sweepMesh you will get a little pop up
 <figcaption><span style="color:rgba(22, 165, 110, 1);">Switching between attributes</span></span></figcaption>
 </figure>
 
-The hotkey has the ability to cycle through the different attributes created that will help you adjust you sweepMesh on the fly.
+The hotkey has the ability to cycle through the different attributes created that will help you adjust your sweepMesh on the fly.
 
 Simply run the hotkey command *(repeatedly)* with a sweepMesh selected to cycle through.
 
@@ -102,7 +102,7 @@ Hit any key on your keyboard to exit that mode (e.g. W,E,R)
 
     <figure>
     <img src="images/quick_sweeo_hotkey_3.gif" class="img-medium" alt="quick_sweep_hotkey3">
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">Reseting the cycle</span></span></figcaption>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Resetting the cycle</span></span></figcaption>
     </figure>
 
 ### <span style="color:rgb(221, 137, 59);">**Edges/Faces**</span>
@@ -120,9 +120,9 @@ QuickSweep also works with selected faces or polygon edges.
     Just make sure you select faces that are connected to each other. 
     
 
-When you create a Quick Sweep Mesh from an edge or a face a curve is created (by default its automatically hidden).
+When you create a Quick Sweep Mesh from an edge or a face a curve is created (by default it's automatically hidden).
 
-The curve created is 1 Linear this means it creates spans (edge rings) where vertices were placed along a selected edge.
+The curve created is degree 1 Linear curve, this means it creates spans (edge rings) where vertices were placed along a selected edge.
 
 ![Quick_Sweep_Hotkey_9](images/Quick_Sweep_Hotkey_9.png){ .img-large .img-centered }
 
@@ -192,7 +192,7 @@ Sweep Mesh should now appear under the Create tab.
 
 ### <span style="color:rgb(221, 137, 59);">**Open/Closed Curves**</span>
 
-The tools add a <span style="color:rgba(22, 165, 110, 1);">**Merge Vertices**</span> operation on a Sweep Mesh that is derived from a closed curve.
+The tools adds a <span style="color:rgba(22, 165, 110, 1);">**Merge Vertices**</span> operation on a Sweep Mesh that is derived from a closed curve.
 
 ![Quick_Sweep_Hotkey_25](images/Quick_Sweep_Hotkey_25.png){ .img-large .img-centered }
 
@@ -201,12 +201,12 @@ This ensures your geometry is sealed tight.
 
 <figure>
 <img src="images/quick_sweeo_hotkey_6.gif" class="img-medium" alt="quick_sweep_hotkey6">
-<figcaption><span style="color:rgba(22, 165, 110, 1);">Merging verts on Closed curves</span></span></figcaption>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Merging vertices on Closed curves</span></span></figcaption>
 </figure>
 
 ### <span style="color:rgb(221, 137, 59);">**Interpolation mode**</span>
 
-The tool will work with any existing Sweep Mesh that has its history not deleted.
+The tool will work with any existing Sweep Mesh that has it's history not deleted.
 
 One thing to notice is that when using the hotkey, the tool is using a different <span style="color:rgba(22, 165, 110, 1);">**interpolation mode**</span>  than the one used when you create a curve from Maya's native Sweep Mesh menu.
 
