@@ -24,7 +24,7 @@ Works in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022 - 2026**</span>
 1. <span style="color:rgba(22, 165, 110, 1);">**Sweep**</span> - Creates a sweepMesh the same as the default Maya tool. Only difference is that this can be used with multiple objects selected.
 
     1. ++shift++ + Click activates the <span style="color:rgba(22, 165, 110, 1);">**hotkey**</span> version of the tool. This creates and links attributes so that you can use your middle mouse to adjust each setting.
-    2. ++ctrl++ + Click to open the attribute editor for the sweepMeshCreator and adjust the settings in there.    
+    2. ++ctrl++ + Click *(with a SweepMesh selected)* to open the attribute editor for the sweepMeshCreator and adjust the settings in there.    
 
 2.  <span style="color:rgba(22, 165, 110, 1);">**Break**</span> - Breaks the connections from your sweepMesh and the sweepMeshCreator so you can adjust the settings in the attribute editor. 
     1. Works only with Sweep Meshes that were created using the hotkey version.
