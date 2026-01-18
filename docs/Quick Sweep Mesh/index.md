@@ -5,7 +5,7 @@
 ![Quick_Sweep_1](images/Quick_Sweep_1.png){ .img-large .img-centered }
 
 
-Quick_Sweep_Mesh is a tool that uses the existing Maya <span style="color:rgba(22, 165, 110, 1);">**Quick_Sweep Mesh**</span> tool to quickly create pipes and other sorts of geo along a curve.
+Quick_Sweep_Mesh is a tool that uses the existing Maya <span style="color:rgba(22, 165, 110, 1);">**Sweep Mesh**</span> tool to quickly create pipes and other sorts of geo along a curve.
 
 What's different from the default Maya version is that it allows you to create multiple Sweep Meshes at once and the ability to copy-paste attributes from one Quick_Sweep_Mesh to another or to selected curves.
 
