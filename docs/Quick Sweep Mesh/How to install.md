@@ -8,10 +8,18 @@
 
     ---
 
-    1.Unzip the [`Quick_Sweep_Mesh`](#) file.
+    1.Unzip the [`Quick_Sweep_Mesh.zip`](#) file.
    
     2.Copy-paste the [`quick_sweep.py`](#) file in your [`\Documents\Maya\Scripts`](#) folder.
-    
+
+    ??? Info "Info - quick_sweep folder"
+        When unziping the zip file there's a <span style="color:rgba(195, 221, 80, 1);">quick_sweep</span> folder containing the documentation as a <span style="color:rgba(195, 221, 80, 1);">pdf</span> and an <span style="color:rgba(195, 221, 80, 1);">icon</span> to use on your shelf.
+        
+        You could copy paste the folder in your <span style="color:rgba(195, 221, 80, 1);">\Documents\Maya\XXXX\Prefs\Icons </span>folder but its not necessary as the tool will now point towards the online documentation.
+
+        It would only be necessary if your internet was down or if you wanted to use the icon.
+        
+
     3.Open [`Maya`](#). 
 
     <!-- [:octicons-arrow-right-24: Getting started](#) -->
