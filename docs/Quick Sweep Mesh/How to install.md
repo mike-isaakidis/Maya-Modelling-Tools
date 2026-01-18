@@ -1,4 +1,4 @@
-# :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Quick Sweeo Mesh</span>**  
+# :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Quick Sweep Mesh</span>**  
 
 ![Mirror Tool 1](images/Quick_Sweep_00.png){ .img-small .img-centered }
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 1 - Setting up</span>** 
