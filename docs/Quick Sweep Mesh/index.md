@@ -175,7 +175,7 @@ The tool can copy any custom mesh and paste it on any curve/Sweep Mesh.
 
 ### <span style="color:rgb(221, 137, 59);">**Can't create Sweep Meshes**</span>
 
-If the tool is not working make sure the Plugin is loaded in Maya.
+If the tool is not working make sure the <span style="color:rgba(22, 165, 110, 1);">**Plugin**</span> is loaded in Maya.
 
 Please note that the Sweep Mesh tool was added in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022**</span>, earlier versions will not have it.
 
