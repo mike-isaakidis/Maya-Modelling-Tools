@@ -151,9 +151,9 @@ The tool even copies over the points assigned in your <span style="color:rgba(22
     Use the UI window to **ONLY** paste the TaperCurve values of a SweepMesh by ++ctrl++ + Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Paste**</span> Button.
 
 
-    - First select an object that has the tapered curve values you desire and click **Copy** 
+    - First select an object that has the tapered curve values you desire.
 
-    - Then ++ctrl++ Click the **Paste** button with the desired curve/Sweep Mesh selected to transfer over the tapered curve values. 
+    - Then ++shift++ select other Sweep Meshes and ++ctrl++ click the **Paste** button.
 
 
     ![Quick_Sweep_Hotkey_14](images/Quick_Sweep_Hotkey_14.png){ .img-large .img-centered }
