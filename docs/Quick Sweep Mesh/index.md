@@ -28,8 +28,10 @@ Works in <span style="color:rgba(22, 165, 110, 1);">**Maya 2022 - 2026**</span>
 
 2.  <span style="color:rgba(22, 165, 110, 1);">**Break**</span> - Breaks the connections from your sweepMesh and the sweepMeshCreator so you can adjust the settings in the attribute editor. 
     1. Works only with Sweep Meshes that were created using the hotkey version.
-3.  <span style="color:rgba(22, 165, 110, 1);">**Copy**</span> - Copies all the attribute values of the sweepMeshCreator.
-4.  <span style="color:rgba(22, 165, 110, 1);">**Paste**</span> - Pastes all the values copied. This works on existing sweepMeshes and curves.
+
+3.  <span style="color:rgba(22, 165, 110, 1);">**Link**</span> - If you've broken all connections to a sweepMeshCreator click this button to re-attach back all connections.
+4.  <span style="color:rgba(22, 165, 110, 1);">**Copy**</span> - Copies all the attribute values of the sweepMeshCreator.
+5.  <span style="color:rgba(22, 165, 110, 1);">**Paste**</span> - Pastes all the values copied. This works on existing sweepMeshes and curves.
     1. ++ctrl++ + Click to only paste the <span style="color:rgba(22, 165, 110, 1);">**TaperCurve**</span> values.
 
 **Sweep Options**
