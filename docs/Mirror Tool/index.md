@@ -39,23 +39,34 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
     <figure>
     <img src="images/mirror_axis_direction_1.gif" class="img-medium" alt="Mirror Cut Demo">
-    <figcaption>How to mirror in the - direction.<span style="color:pink"></span></figcaption>
+    <figcaption>How to mirror in the opposite - direction.<span style="color:pink"></span></figcaption>
     </figure>
 
     * ++shift++ Click on any object with a mirror cut to change its (+ -) direction.
 * If your manipulator mode is set to **Object** the tool will then create the Mirror/cut operation in **Object** mode.
+
 * If it's set to **World** the tool will then be aligned to **Bounding box**.
     * If the <span style="color:pink">Add Mirror cut Offset for World Space</span> checkbox is checked *(located in the options menu)*, then the tool will also calculate the offset needed for the mirror operation to start from the pivot point of the selected object. 
     * If you have a group selected the tool will apply the mirror operation on all its descendants.  
 
-    ???+ Info "Info - Applying offset"
-        * The tool calculates the difference between your objects pivot point and Bounding box, then uses that difference as the offset value on your mirror operation. 
-        
-        * Please note this only works when your manipulator is set to World Space and Mirror is checked.
+    ???+ Info "Important Info - Mirroring in World Space"
+        * The tool Mirrors in Bounding Box Space but uses the offset to align the Mirror manipulator to your objects pivot point. 
+            * This is done so the manipulator associated with the Mirror Plane, matches your pivot point location *(Mirroring in World Space places the pivot point at world origin - which sometimes is not convenient when working).*
 
-        * Sometimes Maya may fail to calculate your bounding box *(Maya bug)*. 
+        * It is <span style="color:pink">important</span> to know that switching direction using Maya's native pop up box will not work as expected *(since it will calculate the bounding box without the offset)* and its best to use the tool by ++shift++ clicking on any of the X Y or Z icons. 
+
+        <figure>
+        <img src="images/mirror_switch_directions_1.gif" class="img-medium" alt="Mirror Cut Demo">
+        <figcaption>Changing direcions when mirroring.<span style="color:pink"></span></figcaption>
+        </figure>
+
+
+        * If you <span style="color:pink">switch directions</span> and then use Maya's undo operations then you will see your object be recalculated in BoundingBox space without the offset. That's because Maya does not apply an offset by default. In those cases it's best to undo to an initial state and mirror again or ++shift++ click on any of the X Y or Z icons. 
         
-            * If that happens try and reset your object by combining it with a cube *(and then deleting the cube and resetting your pivot point)* or uncheck the Add Mirror cut Offset for World Space checkbox to mirror from the objects Bounding box location. 
+        * Please note this only works when your manipulator is set to <span style="color:pink">World Space</span>, <span style="color:pink">Mirror</span> and <span style="color:pink">Add mirror cut offset for World space</span> check boxes are checked *(located in the options menu)*.
+
+        * Not checking the <span style="color:pink">Add mirror cut offset for World space</span> will simply mirror your object in BoundingBox space.
+
 
 <figure>
   <img src="images/mirror_cut_1.gif" class="img-medium" alt="Mirror Cut Demo">
@@ -64,6 +75,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
 - ### <span style="color:pink">Mirror from last selected</span>
     * Hold down ++ctrl++ *(with multiple objects selected)*  and click to mirror from the pivot point of the last selected object.
+    * Last Object selected will be excluded from Mirroring.
 <figure>
   <img src="images/mirror_from_last_selected_1.gif" class="img-medium" alt="Mirror Cut Demo">
   <figcaption>Mirroring from <span style="color:pink">last selected object</span></figcaption>
@@ -75,7 +87,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
     * Will work for all operations (Duplicate, Combine, Instance and Flip) except Mirror.
 
     * Mirror is not supported but if you really need something similar you could match the pivot point of all your objects with the last selected *(using the <span style="color:pink">Match Pivot</span> button)* and run the Mirror operation. 
-        * Just ensure all objects share the same pivot point orientation.
+    * For predictable results, ensure all objects share the same pivot point orientation.
 
 
 ### <span style="color:pink">Match Pivot</span> 
@@ -85,7 +97,7 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 <figcaption>Match Pivot from <span style="color:pink">last selected object</span></figcaption>
 </figure>
 
-* ++ctrl++ click to bake the pivot point of an object.
+* ++ctrl++ click the <span style="color:pink">**Match Pivot**</span> button to bake the pivot point of an object.
 
 <figure>
 <img src="images/mirror_bake_pivot_1.gif" class="img-medium" alt="Mirror Cut Demo">
