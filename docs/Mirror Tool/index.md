@@ -67,11 +67,10 @@ A very useful tool for artists that want a quick and easy way to mirror their ob
 
         * Not checking the <span style="color:pink">Add mirror cut offset for World space</span> will simply mirror your object in BoundingBox space.
 
-
-<figure>
-  <img src="images/mirror_cut_1.gif" class="img-medium" alt="Mirror Cut Demo">
-  <figcaption>Mirroring using the  <span style="color:pink">Add Mirror cut Offset for Wold Space</span> checkbox.</figcaption>
-</figure>
+        <figure>
+        <img src="images/mirror_cut_1.gif" class="img-medium" alt="Mirror Cut Demo">
+        <figcaption>Mirroring with/without using the  <span style="color:pink">Add Mirror cut Offset for Wold Space</span> checkbox.</figcaption>
+        </figure>
 
 - ### <span style="color:pink">Mirror from last selected</span>
     * Hold down ++ctrl++ *(with multiple objects selected)*  and click to mirror from the pivot point of the last selected object.
