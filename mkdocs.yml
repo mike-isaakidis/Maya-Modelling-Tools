@@ -4,8 +4,9 @@ exclude_docs: |
   Baking Manager/*
   Batch Material Creation/* 
   Rename Tool/*
-  Speed Trim Unfold/*
   Vertex Colours/* 
+  Speed Trim Unfold/*
+  
 
 site_name: Mike's Maya Tools
 
