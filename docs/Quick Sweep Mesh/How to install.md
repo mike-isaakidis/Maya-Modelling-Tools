@@ -64,6 +64,18 @@
 
 </div>
 
+
+??? note  "Quick Sweep Shelf Image"
+    Download this image to use as an image for your shelf button.
+
+    <figure markdown="1" style="margin: 0; display: inline-block;">
+
+    [![Batch Export](../Quick%20Sweep%20Mesh/images/quick_sweep.png)](../Quick%20Sweep%20Mesh/images/quick_sweep.png){: .md-button download="Quick_Sweep_Image.png" }
+
+    <figcaption style="text-align: center;"><span style="color:rgb(168, 136, 228);"></span></figcaption>
+    </figure>
+
+
 Click the button below to learn how to create hotkeys and shelf buttons.
 
 [Creating Hotkeys/Shelf Buttons](../Create%20Hotkeys%20Shelf%20Buttons/index.md){ .md-button .md-button--primary }
