@@ -42,6 +42,17 @@
 </div>
 
 
+[![Batch Export](../Batch%20Exporter/images/Batch_Export.png)](../Batch%20Exporter/images/Batch_Export.png){: .md-button download="Batch_Export.png" }
+
+
+<figure markdown="span" align="center">
+  <a href="../Batch Exporter/images/Batch_Export.png" download="Batch_Export.png" class="md-button">
+    <img src="../Batch Exporter/images/Batch_Export.png" alt="Batch Export">
+  </a>
+  <figcaption>Icon</figcaption>
+</figure>
+
+
 Click the button below to learn how to create hotkeys and shelf buttons.
 
 [Creating Hotkeys/Shelf Buttons](../Create%20Hotkeys%20Shelf%20Buttons/index.md){ .md-button .md-button--primary }
