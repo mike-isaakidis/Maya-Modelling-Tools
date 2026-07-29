@@ -4,7 +4,7 @@
 ![Batch Exporter Window](images/Batch_Exporter_Window.jpg){ .img-medium } 
 
 ??? Tip "Maya Versions"
-    *(Tested in Maya 2024-2027)*
+    *Tested in Maya 2024-2027*
 
 <span style="color:pink">Batch Exporter</span> is a tool that will help you export multiple files at once.
 
