@@ -5,7 +5,7 @@
 ![Mirror Tool 1](images/Mirror_Tool_UI_1.png){ .img-small .img-centered }
 
 ??? Tip "Maya Versions"
-    *Tested in Maya 2022-2027*
+    *Tested in Maya 2019-2027*
 
 Mirror Tool helps you quickly mirror selected objects.
 A very useful tool for artists that want a quick and easy way to mirror their objects. 
