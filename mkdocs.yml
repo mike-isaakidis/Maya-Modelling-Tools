@@ -1,6 +1,6 @@
 # Project information
 exclude_docs: |
-  Batch Exporter/*
+
   Baking Manager/*
   Batch Material Creation/* 
   Rename Tool/*
@@ -37,11 +37,12 @@ nav:
     #  - Speed Trim Unfold/index.md
     #  - "How to Install": Speed Trim Unfold/How to install.md
 
-    #- Batch Exporter: 
-    #  - Batch Exporter/index.md
-    #  - "How to Install": Batch Exporter/how_to_install.md
-    #  - "Buttons Overview": Batch Exporter/Buttons_overview.md
-    #  - "Breakdown": Batch Exporter/Breakdown.md
+    - Batch Exporter: 
+      - Batch Exporter/index.md
+      - "How to Install": Batch Exporter/how_to_install.md
+      - "Buttons Overview": Batch Exporter/Buttons_overview.md
+      - "Breakdown": Batch Exporter/Breakdown.md
+
 
     #- Baking Manager: 
     #  - Baking Manager/index.md

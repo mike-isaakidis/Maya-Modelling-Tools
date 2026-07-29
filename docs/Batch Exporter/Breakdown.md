@@ -3,7 +3,7 @@
 ## <span style="color:rgb(199, 192, 99);">**How to export**</span>
 
 When batch exporting - the tool uses the Object's name as the file name.
-Lets see an example of the steps involved to export some files.
+Let's see an example of the steps involved to export some files.
 
 For our examples we will export using <span style="color:pink">.fbx files</span> as those files utilize the Smooth upon export feature of the exporter
 *(other file formats do not utilize this).* We will be using <span style="color:pink">.Marmoset Toolbag</span> to view the exported results. 
@@ -24,13 +24,13 @@ Clicking on the **Open Folder Path in Explorer** will open that path in explorer
 
 ![Batch Exporter Intro 4](images/Batch_Exporter_intro_4.jpg){ .img-medium}
 
-Now that the path has been set, lets select our objects and **Click** on the **Export** button. 
+Now that the path has been set, let's select our objects and **Click** on the **Export** button. 
 
 ![Batch Exporter Intro 5](images/Batch_Exporter_intro_5.jpg){ .img-medium}
 
 ![Batch Exporter Intro 6](images/Batch_Exporter_intro_6.jpg){ .img-medium}
 
-We can see our 3 files exported in the selected path and each file has the same name with the accosiated object in Maya. 
+We can see our 3 files exported in the selected path and each file has the same name with the associated object in Maya. 
 
 Here are the files in **Marmoset.**
 
@@ -42,11 +42,11 @@ If you expand the Options menu you will see that by default the <span style="col
 
 This means that any object selected that is exported with smooth preview on *(by just hitting 3 on your keyboard)*, it will be subdivided upon export. 
 
-Lets use the same meshes as before and select our 3 objects. Here they are with smooth preview turned off. 
+Let's use the same meshes as before and select our 3 objects. Here they are with smooth preview turned off. 
 
 ![Batch Exporter Intro 5](images/Batch_Exporter_intro_5.jpg){ .img-medium}
 
-But lets enable Smooth Preview *(keyboard shortcut 3)*, and Export.
+But let's enable Smooth Preview *(keyboard shortcut 3)*, and Export.
 
 ![Batch Exporter Smooth 1](images/Batch_Exporter_Smooth_1.jpg){ .img-medium}
 
@@ -65,7 +65,7 @@ There you can see the Smooth Mesh options.
 
 By increasing the Preview Divisions number you increase the 
 
-Lets see what happens when we export our **Cube_01** with <span style="color:pink">4 Preview Division Levels</span>.
+Let's see what happens when we export our **Cube_01** with <span style="color:pink">4 Preview Division Levels</span>.
 
 ![Batch Exporter Smooth 3](images/Batch_Exporter_Smooth_3.jpg){ .img-medium}
 
@@ -82,12 +82,14 @@ If for some reason you also want to export your objects subdivided and triangula
 ![Batch Exporter Smooth Triangulate 1](images/Batch_Exporter_Smooth_Triangulate_1.jpg){ .img-medium}
 
 For this example our Cube_01 is not smoothed but the other objects are.
-Lets see the results once again.
+Let's see the results once again.
 
 ![Batch Exporter Smooth Triangulate 2](images/Batch_Exporter_Smooth_Triangulate_2.jpg){ .img-medium}
 
 All of our Objects have been triangulated.
-Those will Smooth Mesh Preview on were also Smoothed upon export.
+Those will Smooth Mesh Preview on were also Smoothed upon export. 
+???+ Info "Info"
+    Triangulation happens after our objects have been smoothed.
 
 ## <span style="color:rgb(199, 192, 99);">**Exporting with Smooth_high .fbx files**</span>
 
@@ -99,14 +101,14 @@ The <span style="color:pink">Smooth_high</span> checkbox automatically sets the 
 This is done to ensure our _high and _low poly object are exported correctly. 
 
 ???+ Info "Info - Exporting groups with _high"
-    If you want to export groups that have objects that contain the name **_high** or **_low** in them, the tool will ensure each object from that group gets the treatment it needs in order to be exported correctly. 
+    If you want to export groups that have objects that contain the name **_high** or **_low** in them, the tool will ensure each child object from that group gets the treatment it needs in order to be exported correctly. 
     
-    So if you have loads of baking groups, you can group all of those in a single group and export that as a single file or you could bunde up your _high and _low in two separate groups and export those. 
+    So if you have loads of baking groups, you can group all of those in a single group and export that as a single file or you could bundle up your _high and _low in two separate groups and export those. 
 
     Either way **Marmoset** will be able to read those files and import them correctly for **Baking**. 
 
 
-In this next example lets see what the Smooth_high checkbox does.
+In this next example let's see what the Smooth_high checkbox does.
 For this we changed the naming of our files to include the words _low and _high.
 
 ![Batch Exporter Smooth High 1](images/Batch_Exporter_Smooth_High_1.jpg){ .img-medium}
@@ -120,7 +122,7 @@ However, we want to export our files in the opposite fashion (not smoothed for t
 
 The tool handles that and sets the correct Smooth Preview settings based on the naming convention.
 
-Lets export those 2 files and see what we get.
+Let's export those 2 files and see what we get.
 
 ![Batch Exporter Smooth High 2](images/Batch_Exporter_Smooth_High_2.jpg){ .img-medium}
 
@@ -168,7 +170,7 @@ The result in Marmoset.
 ???+ Info "Info - Exporting Decimated objects from Zbrush"
     If the Smooth_high chechbox is checked and you have a decimated hp mesh that you imported from Zbrush, then the tool will export that object subdivided.
     
-    Because its likely the object is triangulated smoothing that triangulated _high object will mess up your object when subdivided. 
+    Because it's likely the object is triangulated smoothing that triangulated _high object will mess up your object when subdivided. 
 
     To ensure your _high mesh wont get subdivided upon export, simply include the following in the name of your high poly objects:
 
@@ -200,7 +202,7 @@ The default option to export is Keep Current Position, which retains the positio
 
 ### <span style="color:rgb(199, 192, 99);">**Boomerang**</span>
 
-The Boomerand options, moves your objects to World Origin (0,0,0), exports and moves them back to their previous location.
+The Boomerang options, moves your objects to World Origin (0,0,0), exports and moves them back to their previous location.
 
 ![Batch Exporter Bommerand 1](images/Batch_Exporter_Boomerang_1.jpg){ .img-medium}
 
@@ -213,26 +215,26 @@ Result in Marmoset, all objects sit in world origin at (0,0,0).
 
     Unreal needs each file to be exported from the origin position (0,0,0).
 
-    The Boomerang operation will allow you to just do that without dirsupting your workflow. This is not limited to modular sets but for any kind of static mesh you wish to export. 
+    The Boomerang operation will allow you to just do that without disrupting your workflow. This is not limited to modular sets but for any kind of static mesh you wish to export. 
 
     Combine this with Freeze Transforms and the tool will give you the distance from world origin.
 
-    This is very useful is you need to precicely position something in Unreal but need the pivot point of your static mesh to be at a certain position on your object. 
+    This is very useful if you need to precisely position something in Unreal but need the pivot point of your static mesh to be at a certain position on your object. 
 
     ![Batch Exporter Bommerand 3](images/Batch_Exporter_Boomerang_3.jpg){ .img-medium}
 
-    FT checkbox enabled us to see the distance from world origin. 
+    FT *(freeze transforms)* checkbox enabled us to see the distance from world origin. 
 
     ![Batch Exporter Bommerand 4](images/Batch_Exporter_Boomerang_4.jpg){ .img-medium}
 
 ### <span style="color:rgb(199, 192, 99);">**Move to Origin**</span>
 
-Move to Origin will move you objects to the world origin (0,0,0) after being exported. 
+Move to Origin will move your objects to the world origin (0,0,0) after being exported. 
 
 ## <span style="color:rgb(199, 192, 99);">**Freeze Transforms for groups**</span>
 
 ???+ warning "Warning - Freezing Transforms on group objects"
-    When using any of the Freeze Transform options on a group node, it will Freeze the transforms of the group and all of the descendants of that group.
+    When using any of the Freeze Transform options on a group node, it will only Freeze the transforms of the group.
 
 ## Single Export
 

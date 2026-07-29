@@ -34,10 +34,17 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
 ### <span style="color:rgb(199, 192, 99);">**Options Window**</span>
 
-![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-small}
+![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-medium}
 
 - <span style="color:lime">Smooth exported .fbx files</span> - Allows the user to choose if they want their .fbx files to be smoothed upon export (Turning this off will still smooth your _high poly objects if Smooth_high checkbox is checked).
 - <span style="color:lime">Show Warnings Manager</span> - will display any warnings during the export process (mainly any .fbx files that were smoothed upon export).
+- <span style="color:lime">Automatically update the export path when a new scene is opened</span> - When enabled, changing scenes automatically updates your export directory to the last saved export path for that specific scene.
+
+    ???+ Info "Info - Auto Update Path"
+        Whenever you export an object, the tool saves that export location directly into the Maya scene file.
+        
+        Maya scene must be saved after export in order for this to work.
+
 - <span style="color:lime">Documentation</span> - Opens a link to the documentation.
 - <span style="color:lime">Store</span> - Opens a link to the store. 
 
@@ -75,9 +82,9 @@ Use it to click on an existing file to retrieve its name (this is added to avoid
 
 ???+ note
     
-    The only export behavior that will work when **Single Export** is checked, is **Keep Current Position.** 
+    The only export behavior *(when multiple objects are selected)*, that will work when **Single Export** is checked, is **Keep Current Position.** 
     
-    Other behaviors like **Boomerang** or **Move to Origin** if checked will be ignored.
+    Other behaviors like **Boomerang** or **Move to Origin** if checked will be ignored *(unless single objects are selected)*.
 
-    **Freeze Transforms** will also not work whilst Single Export is checked.
+    **Freeze Transforms** will also not work *(with multiple objects selected)* whilst Single Export is checked.
 
