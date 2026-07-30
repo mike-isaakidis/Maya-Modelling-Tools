@@ -5,7 +5,6 @@ exclude_docs: |
   Batch Material Creation/* 
   Rename Tool/*
   Vertex Colours/* 
-  Speed Trim Unfold/*
   
 
 site_name: Mike's Maya Tools
@@ -33,9 +32,9 @@ nav:
       - "How to Install": Quick Sweep Mesh/How to install.md
       - "Videos": Quick Sweep Mesh/videos.md
 
-    #- Speed Trim Unfold:
-    #  - Speed Trim Unfold/index.md
-    #  - "How to Install": Speed Trim Unfold/How to install.md
+    - Speed Trim Unfold:
+      - Speed Trim Unfold/index.md
+      - "How to Install": Speed Trim Unfold/How to install.md
 
     - Batch Exporter: 
       - Batch Exporter/index.md

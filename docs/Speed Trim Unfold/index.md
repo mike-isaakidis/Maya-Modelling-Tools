@@ -16,9 +16,12 @@
 
 ![Speed Trim 1](images/Speed_Trim_Unfold_1.png){ .img-large .img-centered }
 
+??? Tip "Maya Versions"
+    *Tested in Maya 2022-2027*
+
 **Speed Trim Unfold** is a tool that will quickly unfold your trim sheets and also map those to any existing laid out trim sheet.
 
-It's a one click solution to save you time and make UVing a more fun and engaging process. 
+It's a one-click solution to save you time and make UVing a more fun and engaging process. 
 
 ## <span style="color:rgba(255, 251, 0, 1);">**How it works**</span> ##
 
@@ -39,7 +42,7 @@ Please check the Rules section
         <figcaption><span style="color:rgba(22, 165, 110, 1);">**Unfolding a closed loop of faces**</span></span></figcaption>
         </figure>
     
-    * ### **<span style="color:rgba(22, 165, 110, 1);">Faces and edges selection</span>** (user defined) ###
+    * ### **<span style="color:rgba(22, 165, 110, 1);">Faces and edges selection</span>** (user-defined) ###
         * This operation requires the user to have faces and edges selected. The seams on your UV shell will be determined by your selected edges.
         * To select multiple different components at the same time hold down right click and select <span style="color:rgba(255, 251, 0, 1);">**Multi**</span>.
         
@@ -68,8 +71,8 @@ Please check the Rules section
         <figcaption><span style="color:rgba(22, 165, 110, 1);">**Aligning vertically**</span></span></figcaption>
         </figure>
 
-        * After the operation the tool will unfold your UV in a gridified manner. The spacing *(rows and columns)* of your UV shell are entirely dependant on your topology *(Longer sections will be unfolded horizontally)*.
-        * The tool will unfold your selection horizontally and place all shells in the center of the 0-1 UV space so all shell occupy the same space.
+        * After the operation the tool will unfold your UV in a gridified manner. The spacing *(rows and columns)* of your UV shell are entirely dependent on your topology *(Longer sections will be unfolded horizontally)*.
+        * The tool will unfold your selection horizontally and place all shells in the center of the 0-1 UV space so all shells occupy the same space.
             * This is done so users can map multiple selections of trims at the same time. 
 
         ???+ Info "Info - Further details"
@@ -78,7 +81,7 @@ Please check the Rules section
             * If you have multiple UV's selected the tool will recognise the last selected as the target.
             * Works with multiple source UV trim shells from different selected objects.
             * ### Aligning directly from the viewport ###
-            * It is even possible to align to existing trims directly from the viewport - without opening the UV Editor. Simply select a face, convert that face to uv then select a target uv from a trim you with to match.
+            * It is even possible to align to existing trims directly from the viewport - without opening the UV Editor. Simply select a face, convert that face to uv then select a target uv from a trim you wish to match.
             
             ??? "Converted Face + UV"
                 * This is the only way you can work within the viewport.
@@ -107,8 +110,8 @@ The tool will not work if you have only objects selected, it requires component 
     * No <span style="color:rgba(22, 165, 110, 1);">**n-gons**</span>.
         * If any detected the tool will abort and select the ngons instead. 
     * No  <span style="color:rgba(22, 165, 110, 1);">**triangles**</span> on your face selection as the tool unitizes each face. 
-        * If any detected you uv shell will fail to be stitched in a gridified way.
-    * Avoid <span style="color:rgba(22, 165, 110, 1);">**Fairregular/jaggedce**</span> face selections (they usually mess up the spacing, and orientation of your uv shell). 
+        * If any detected, your uv shell will fail to be stitched in a gridified way.
+    * Avoid <span style="color:rgba(22, 165, 110, 1);">**irregular/jagged**</span> face selections (they usually mess up the spacing, and orientation of your uv shell). 
     * Ensure you have <span style="color:rgba(22, 165, 110, 1);">**square**</span> or <span style="color:rgba(22, 165, 110, 1);">**rectangle**</span> face selections.
     ![Speed Trim multi select](images/speed_trim_selections_1.png){ .img-large .img-centered }
     

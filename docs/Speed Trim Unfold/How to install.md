@@ -10,7 +10,7 @@
 
     1.Unzip the [`Speed_Trim_Unfold_XXXX.zip`](#) file.
    
-    2.Copy-paste the [`speed_trim_unfold.py`](#) file in your [`\Documents\Maya\Scripts`](#) folder.
+    2.Copy-paste the [`speed_trim_unfold.py`](#) file into your [`\Documents\Maya\Scripts`](#) folder.
     
     3.Open [`Maya`](#). 
 
@@ -30,7 +30,7 @@
 
     ---
 
-    Copy the 2 ^^**python**^^  lines below to a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
+    Copy the 2 ^^**Python**^^  lines below to a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
 
     ``` py linenums="1"
     import speed_trim_unfold
@@ -49,7 +49,7 @@
 
 - Since this tool has no UI, this code will automatically create a shelf button. 
     * **Click** to run the tool
-    * **Double click** to open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
+    * **Double-click** to open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
 
 <div class="grid cards" markdown>
 
@@ -65,18 +65,17 @@
 
     def create_speed_trim_shelf_button():
         active_shelf = cmds.tabLayout("ShelfLayout", query=True, selectTab=True)
-        buttons = cmds.shelfLayout(active_shelf, q=True, ca=True)
+        
+        buttons = cmds.shelfLayout(active_shelf, q=True, ca=True) or []
         button_exists = False
 
         for b in buttons:
-            if "separator" in b:
-                pass
-            else:
+            if cmds.objectTypeUI(b) == "shelfButton":
                 label = cmds.shelfButton(b, q=True, l=True)
-                if "Speed Trim" == label:
-                    button_exists=True
+                if label == "Speed Trim":
+                    button_exists = True
                     break
-        
+
         if not button_exists: 
             single_click_cmd = "import speed_trim_unfold; speed_trim_unfold.execute_trim()"
             double_click_cmd = "import webbrowser; webbrowser.open('https://www.youtube.com/')"
@@ -91,12 +90,10 @@
                 overlayLabelColor=[1.0, 1.0, 0.0],
                 doubleClickCommand=double_click_cmd,
                 sourceType="python"
-
             )
-            
             print(f"Successfully added 'Speed Trim' button to shelf: {current_shelf}")
         else:
-            print(f"Shelf button already exists.")
+            print("Shelf button already exists.")
 
     create_speed_trim_shelf_button()
     ```
