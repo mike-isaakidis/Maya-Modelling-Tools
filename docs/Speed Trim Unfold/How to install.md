@@ -8,7 +8,7 @@
 
     ---
 
-    1.Unzip the [`Speed_Trim_Unfold_XXXX.zip`](#) file.
+    1.Unzip the [`Speed_Trim_Unfold.zip`](#) file.
    
     2.Copy-paste the [`speed_trim_unfold.py`](#) file into your [`\Documents\Maya\Scripts`](#) folder.
     
@@ -78,7 +78,7 @@
 
         if not button_exists: 
             single_click_cmd = "import speed_trim_unfold; speed_trim_unfold.execute_trim()"
-            double_click_cmd = "import webbrowser; webbrowser.open('https://www.youtube.com/')"
+            double_click_cmd = "import webbrowser; webbrowser.open('https://mike-isaakidis.github.io/Maya-Modelling-Tools/Speed%20Trim%20Unfold/')"
             current_shelf = cmds.tabLayout("ShelfLayout", query=True, selectTab=True)
             cmds.shelfButton(
                 parent=current_shelf,
