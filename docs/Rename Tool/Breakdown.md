@@ -20,7 +20,7 @@ The simplest version of the tool is to make a selection. Simply type anything in
 
 
 <div id="config-Warning" style="position: relative; top: -60px;"></div>
-???+ Warning "Important - Selection Order"
+??? Warning "Important - Selection Order"
     If your selection order is not tracked, make sure it is enabled in your <span style="color:rgb(255, 149, 220);">**settings/Preferences**</span> window *(under Selection)*.
     
     ![Rename Tool Main](images/selection_order_window_1.jpg){ .img-medium .img-centered }
@@ -71,7 +71,7 @@ The <span style="color:rgb(255, 149, 220);">**number tail**</span> feature autom
 
     <figure markdown>
     ![Rename](images/Rename_Tool_numberPadding_giff_2.gif){ .img-medium }
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">number padding changed</span></figcaption>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Number Padding Changed</span></figcaption>
     </figure>
 
 ## <span style="color:rgb(25, 214, 110);">**A_Z**</span> 
@@ -85,18 +85,18 @@ The <span style="color:rgb(25, 214, 110);">**A_Z**</span> feature allows you to 
 
 - <span style="color:rgb(25, 214, 110);">**Case Sensitivity (Lower & Upper Case)**</span>: The tool fully supports both uppercase and lowercase lettering based on what you type. You can start your sequence with a lowercase a (resulting in _a, _b, _c) or an uppercase A (_A, _B, _C). The internal sequence seamlessly flows from a-z into A-Z.
 
-- <span style="color:rgb(25, 214, 110);">**End of Alphabet Protection**</span>: If you select more objects than there are available letters left in the sequence, the tool automatically halts the operation and alerts you. This failsafe ensures your naming conventions don't break or generate unexpected characters when you reach the end of the alphabet.
-
-    <figure markdown>
-    ![Rename](images/Rename_Tool_A_Z_eoa_giff_1.gif){ .img-medium }
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">End of alphabet</span></figcaption>
-    </figure>
-
     * lower-case will traverse through to upper-case letters
 
     <figure markdown>
     ![Rename](images/Rename_Tool_A_Z_eoa_giff_2.gif){ .img-medium }
     <figcaption><span style="color:rgba(22, 165, 110, 1);">lower-case traversal to upper</span></figcaption>
+    </figure>
+
+- <span style="color:rgb(25, 214, 110);">**End of Alphabet Protection**</span>: If you select more objects than there are available letters left in the sequence, the tool automatically halts the operation and alerts you. This failsafe ensures your naming conventions don't break or generate unexpected characters when you reach the end of the alphabet.
+
+    <figure markdown>
+    ![Rename](images/Rename_Tool_A_Z_eoa_giff_1.gif){ .img-medium }
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">End of alphabet</span></figcaption>
     </figure>
 
 - <span style="color:rgb(25, 214, 110);">**Auto-Reset for Invalid Inputs**</span>: If you accidentally type a number or special character into the A–Z text field, the tool will instantly catch the error, alert you, and safely reset the field back to the default "A".
@@ -213,7 +213,7 @@ However, when working in massive production scenes with thousands of dense asset
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Search and Replace</span></figcaption>
     </figure>
 
-### <span style="color:rgb(25, 214, 110);">**Select Button**</span> 
+### <span style="color:rgb(25, 214, 110);">**Select Button (Function/Features)**</span> 
 
 The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more than just a way to grab objects—it is a context-sensitive multi-tool packed with shortcuts to speed up your workflow and keep your UI clean. Depending on the modifier key you hold, it performs completely different tasks:
 
