@@ -31,7 +31,11 @@ nav:
     - Mirror Tool:
       - Mirror Tool/index.md
       - "How to Install": Mirror Tool/How to install.md
-
+    
+    - Quick Custom Grid:
+      - Quick Custom Grid/index.md
+      - "How to Install": Quick Custom Grid/How to install.md
+    
     - Quick Sweep Mesh:
       - Quick Sweep Mesh/index.md
       - "How to Install": Quick Sweep Mesh/How to install.md

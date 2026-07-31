@@ -94,8 +94,6 @@ The script editor window should pop up.
 
 Occasionally tools will be shipped with an icon. You can use that icon to add it on your shelf button.
 
-Let see how to set that up.
-
 Coming soon!
 
 

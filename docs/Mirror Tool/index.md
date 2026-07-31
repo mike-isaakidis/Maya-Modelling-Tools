@@ -1,4 +1,4 @@
-# **<span style="color:rgb(255, 163, 217);">Mirror Tool</span>**
+# **<span style="color:rgb(255, 163, 217);">Mirror Tool</span>** :tools:
 
 ## <span style="color:rgba(255, 163, 217, 1);">**Overview**</span>
 

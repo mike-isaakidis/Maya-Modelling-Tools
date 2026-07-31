@@ -1,4 +1,4 @@
-# **<span style="color:rgb(214, 126, 25);">Welcome to Batch Exporter</span>**
+# **<span style="color:rgb(214, 126, 25);">Welcome to Batch Exporter</span>** :tools:
 
 
 ![Batch Exporter Window](images/Batch_Exporter_Window.jpg){ .img-medium } 
