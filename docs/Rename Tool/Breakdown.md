@@ -25,6 +25,27 @@ The simplest version of the tool is to make a selection. Simply type anything in
 
     ![Rename Tool Main](images/selection_order_window_2.jpg){ .img-medium .img-centered }
 
+- <span style="color:rgb(25, 214, 110);">**Node Type Color-Coding**</span>: To help you quickly identify what kinds of objects you are about to rename, the tool analyzes the shape node of each selected object and applies a faint background highlight:
+
+    ??? Info "Info - Colour Types"
+
+        📷 Cameras: Faint Grey
+
+        〰️ Curves (NURBS & Bezier): Faint Blue
+
+        📍 Locators: Faint Light Blue
+
+        💡 Lights (Any directional, point, spot, Arnold lights, etc.): Faint Yellow
+
+        📦 Geometry / Transforms (Standard meshes and empty groups): Faint Pink
+
+        🧧 Groups: Faint Red
+        
+
+
+    ![Rename](images/Rename_Tool_Colour_Types_1.jpg){ .img-medium } 
+
+
 
 ## <span style="color:rgb(25, 214, 110);">**Number Tail**</span> 
 
