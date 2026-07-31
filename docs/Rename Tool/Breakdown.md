@@ -18,12 +18,15 @@ The simplest version of the tool is to make a selection. Simply type anything in
   <figcaption><span style="color:rgba(22, 165, 110, 1);">Selection order tracked</span></figcaption>
 </figure>
 
-??? Warning "Important - Selection Order"
+
+<div id="config-Warning" style="position: relative; top: -60px;"></div>
+???+ Warning "Important - Selection Order"
     If your selection order is not tracked, make sure it is enabled in your <span style="color:rgb(255, 149, 220);">**settings/Preferences**</span> window *(under Selection)*.
     
     ![Rename Tool Main](images/selection_order_window_1.jpg){ .img-medium .img-centered }
 
     ![Rename Tool Main](images/selection_order_window_2.jpg){ .img-medium .img-centered }
+
 
 - <span style="color:rgb(25, 214, 110);">**Node Type Color-Coding**</span>: To help you quickly identify what kinds of objects you are about to rename, the tool analyzes the shape node of each selected object and applies a faint background highlight:
 
@@ -237,3 +240,42 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
     ![Rename](images/Rename_Tool_addFeat_giff_2.gif){ .img-medium }
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Delete Empty Groups</span></figcaption>
     </figure>
+
+## <span style="color:rgb(25, 214, 110);">**Important Info**</span> 
+
+- If your order of selection is not named correctly please ensure [track selection order](#config-Warning) is checked in the settings.
+
+- Maya <span style="color:rgb(25, 214, 110);">**hangs**</span> when UV Editor is open <span style="color:rgb(25, 214, 110);">**uvTkResolveAndUpdateTrees**</span>:
+
+    This is a bug in Maya's architecture that causes batch renaming scripts to completely lock up the software.
+
+    ??? Info "Hang Issue"
+        
+        <span style="color:rgb(25, 214, 110);">**What is Happening?**</span>:
+
+        * When you open the UV Editor and its accompanying UV Toolkit in a Maya session, Maya silently creates several background "scriptJobs." 
+        
+            These scriptJobs act like motion sensors—they watch the scene for any changes *(like object selections or name changes)* so they can automatically update the lists and UI trees inside the UV Toolkit *(specifically the "UV Sets" list at the bottom)*.
+
+            The internal command that updates this UI tree is called  <span style="color:rgb(25, 214, 110);">**uvTkResolveAndUpdateTrees**</span>.
+
+        * If you run a batch rename script that processes 1,000 objects in a fast for loop, Maya detects a name change 1,000 times in a fraction of a second. 
+        
+            Consequently, it triggers the uvTkResolveAndUpdateTrees scriptJob 1,000 times. 
+            
+            Maya physically cannot redraw the UV Toolkit UI that quickly, so the main processing thread gets choked, resulting in a total UI freeze *(UI Thrashing)*.
+
+        <span style="color:rgb(25, 214, 110);">**How Users Can Identify the Issue**</span>:
+            
+        If a user runs your Rename Tool and experiences a massive slowdown or freeze, they can confirm this specific bug by checking for these three symptoms:
+
+        * <span style="color:rgb(25, 214, 110);">**The Script Editor Spam**</span>: If they open the Script Editor, they will see an infinite wall of text printing uvTkResolveAndUpdateTrees; over and over again.
+
+        * <span style="color:rgb(25, 214, 110);">**The "Ghost" Hang**</span>: Maya's UI will lock up, turn white, or display "Not Responding," but the CPU usage in their Task Manager will be incredibly low (0-5%). Maya isn't calculating heavy geometry; it is just deadlocked trying to draw UI panels.
+
+        * <span style="color:rgb(25, 214, 110);">**The UV Editor Factor**</span>: The script will run blazingly fast in a fresh Maya scene, but the lag will only occur if the user has opened the UV Editor at least once during their current session.
+
+        * <span style="color:rgb(25, 214, 110);">**Closing Maya**</span>: Maya will not close immediately, as a result from parsing through all uvTkResolveAndUpdateTrees. 
+        
+            It could take 2 or 5 minutes to recover *(depending on the complexity of the situation)*. 
+
