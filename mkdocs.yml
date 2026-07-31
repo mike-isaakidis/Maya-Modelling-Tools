@@ -3,7 +3,6 @@ exclude_docs: |
 
   Baking Manager/*
   Batch Material Creation/* 
-  Rename Tool/*
   Vertex Colours/* 
   
 
@@ -38,6 +37,12 @@ nav:
       - "How to Install": Quick Sweep Mesh/How to install.md
       - "Videos": Quick Sweep Mesh/videos.md
 
+    - Rename Tool:
+      - Rename Tool/index.md
+      - "How to Install": Rename Tool/How to install.md
+      - "Breakdown": Rename Tool/Breakdown.md
+
+
     - Speed Trim Unfold:
       - Speed Trim Unfold/index.md
       - "How to Install": Speed Trim Unfold/How to install.md
@@ -66,9 +71,6 @@ nav:
     #  - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
     #- Batch Material Creation: 
     #  - Batch Material Creation/index.md
-
-    #- Rename Tool:
-    #  - Rename Tool/index.md
 
     #- Vertex Color Tool:
     #  - Vertex Colours/index.md
