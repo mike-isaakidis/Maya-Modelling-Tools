@@ -81,8 +81,7 @@
     * ++shift++: Emission
     * ++ctrl++ + ++shift++: Ambient
 
-![Vertex Colour Tool](images/vertex_colors_Color_Material_Channels_1.png){ .img-medium } 
-
+![Vertex Colour Tool](images/vertex_colors_Color_Material_Channels_1.png){ .img-medium .img-centered}
 
 ## <span style="color:rgb(199, 192, 99);">**5. Copy/Paste**</span>
 
