@@ -4,7 +4,7 @@
 
 ## <span style="color:rgb(199, 192, 99);">**Buttons**</span>
 
-1. <span style="color:lime">Options</span>  - Check the [options window](#options-window) below for more.
+1. <span style="color:lime">Options</span>  - Check the [options menu](#options-menu) below for more.
 
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
 3. <span style="color:lime">Dropdown menu</span> - Choose between different file types to export.
