@@ -81,10 +81,17 @@
     * ++shift++: Emission
     * ++ctrl++ + ++shift++: Ambient
 
+![Vertex Colour Tool](images/vertex_colors_Color_Material_Channels_1.png){ .img-medium } 
+
 
 ## <span style="color:rgb(199, 192, 99);">**5. Copy/Paste**</span>
 
 - Instantly copies the vertex color of the  <span style="color:rgb(199, 192, 99);">last selected face</span> and pastes it onto all other currently selected faces.
+
+    <figure style="text-align: center;">
+        <img src="../images/Vertex_Paint_Tool_CopyPaste_1.gif" class="img-medium" alt="Vertex Paint_Tool_CopyPaste 1">
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Copy Paste VC Faces</span></figcaption>
+    </figure>
 
 ## <span style="color:rgb(199, 192, 99);">**6. Random VC**</span>
 
@@ -98,7 +105,6 @@
 - Create smart selections based on vertex color data *(similar to polygroup selection in Zbrush)*.
     * Click <span style="color:rgb(199, 192, 99);">(Object Mode)</span>: Selects all faces matching the active swatch color <span style="color:rgb(199, 192, 99);">(10)</span>.
     * Click <span style="color:rgb(199, 192, 99);">(Face Mode)</span>: Selects all faces matching the color of your currently selected face.
-    * ++ctrl++ Click: Creates a custom selection set named <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
     * ++ctrl++ Click: Creates a custom selection set named <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
     * ++ctrl++ + ++shift++ Click: Adds selection to the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
     * ++alt++ + ++shift++ Click: Removes selection from the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.

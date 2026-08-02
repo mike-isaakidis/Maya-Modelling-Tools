@@ -71,7 +71,6 @@
     * Click <span style="color:rgb(199, 192, 99);">(Object Mode)</span>: Selects all faces matching the active swatch color <span style="color:rgb(199, 192, 99);">(10)</span>.
     * Click <span style="color:rgb(199, 192, 99);">(Face Mode)</span>: Selects all faces matching the color of your currently selected face.
     * ++ctrl++ Click: Creates a custom selection set named <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
-    * ++ctrl++ Click: Creates a custom selection set named <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
     * ++ctrl++ + ++shift++ Click: Adds selection to the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
     * ++alt++ + ++shift++ Click: Removes selection from the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
     * ++alt++ + ++ctrl++ Click: Deletes the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
