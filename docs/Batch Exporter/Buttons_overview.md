@@ -49,7 +49,7 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 - <span style="color:lime">Store</span> - Opens links to ArtStation and Gumroad.
 
 
-### <span style="color:rgb(199, 192, 99);;">**Useful info**</span>
+## <span style="color:rgb(199, 192, 99);;">**Useful info**</span>
 
 ???+ Info "Info - Decimated meshes from Zbrush"
     If your objects contains the name <span style="color:pink">_dm_high</span> or <span style="color:pink">_zb_high</span> (or <span style="color:pink">_DM_high or _ZB_high</span>) your objects will not be smoothed. 
