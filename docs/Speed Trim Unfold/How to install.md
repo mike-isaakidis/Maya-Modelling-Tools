@@ -30,7 +30,7 @@
 
     ---
 
-    Copy the 2 ^^**Python**^^  lines below to a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
+    Copy the 2 ^^**Python**^^  lines below to bind on a ^^**hotkey**^^  to execute the tool.
 
     ``` py linenums="1"
     import speed_trim_unfold

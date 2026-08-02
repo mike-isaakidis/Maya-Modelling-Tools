@@ -32,7 +32,7 @@
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Export</span> - Exports your selected Objects
 
-### <span style="color:rgb(199, 192, 99);">**Options Window**</span>
+### <span style="color:rgb(199, 192, 99);">**Options Menu**</span>
 
 ![Batch Exporter Window](images/Batch_Exporter_Options_Window.jpg){ .img-medium}
 
