@@ -3,8 +3,7 @@ exclude_docs: |
 
   Baking Manager/*
   Batch Material Creation/* 
-  Vertex Colours/* 
-  
+
 
 site_name: Mike's Maya Tools
 
@@ -51,7 +50,10 @@ nav:
       - Speed Trim Unfold/index.md
       - "How to Install": Speed Trim Unfold/How to install.md
 
-
+    - Vertex Colour Tool:
+      - Vertex Colours Tool/index.md
+      - "Buttons Overview": Vertex Colours Tool/Buttons Overview.md
+      - "Breakdown": Vertex Colours Tool/Breakdown.md
 
 
     #- Baking Manager: 
@@ -76,12 +78,7 @@ nav:
     #- Batch Material Creation: 
     #  - Batch Material Creation/index.md
 
-    #- Vertex Color Tool:
-    #  - Vertex Colours/index.md
-    #  - "Buttons Overview": Vertex Colours/Buttons Overview.md
 
-    #- Speed Trim:
-    #  - Speed Trim/index.md
       
   - Free Tools: 
     - Free Tools/index.md

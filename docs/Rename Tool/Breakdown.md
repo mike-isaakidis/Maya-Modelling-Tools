@@ -245,7 +245,7 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
 
 - If your order of selection is not named correctly please ensure [track selection order](#config-Warning) is checked in the settings.
 
-- Maya <span style="color:rgb(25, 214, 110);">**hangs**</span> when UV Editor is open <span style="color:rgb(25, 214, 110);">**uvTkResolveAndUpdateTrees**</span>:
+- Maya <span style="color:rgb(25, 214, 110);">**hangs**</span> when <span style="color:rgb(25, 214, 110);">**UV Editor**</span> is open (<span style="color:rgb(25, 214, 110);">**uvTkResolveAndUpdateTrees**</span>):
 
     This is a bug in Maya's architecture that causes batch renaming scripts to completely lock up the software.
 
