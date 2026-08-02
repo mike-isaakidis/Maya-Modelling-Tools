@@ -22,7 +22,7 @@
 
 
 
-### **<span style="color:rgba(195, 221, 80, 1);">Step 2 - Activating</span>** 
+### **<span style="color:rgba(195, 221, 80, 1);">Step 2 - Activating Hotkey</span>** 
 
 <div class="grid cards" markdown>
 
