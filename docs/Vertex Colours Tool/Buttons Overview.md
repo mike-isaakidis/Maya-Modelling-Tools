@@ -21,7 +21,7 @@
 
     * Pick a color from the swatch <span style="color:rgb(199, 192, 99);">(10)</span>, then select a face on your mesh. All faces sharing that exact color will be replaced with your new swatch color.
 
-    * ++ctrl++ + Click: Select multiple faces, and it will copy the color from the last selected face and replace the colors on the rest of your selection.
+    * ++ctrl++ + Click: Select multiple faces, the colour of your first selected face will be used to replace all similar colours from the rest of your selection.
 
 
 ## <span style="color:rgb(199, 192, 99);">**2. UV VC**</span>
