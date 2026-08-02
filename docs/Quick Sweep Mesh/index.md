@@ -35,14 +35,6 @@ What's different from the default Maya version is that it allows you to create m
 5.  <span style="color:rgba(22, 165, 110, 1);">**Paste**</span> - Pastes all the values copied. This works on existing sweepMeshes and curves.
     1. ++ctrl++ + Click to only paste the <span style="color:rgba(22, 165, 110, 1);">**TaperCurve**</span> values.
 
-**Sweep Options**
-
-![Quick_Sweep_3](images/Quick_Sweep_3.png){ .img-large .img-centered }
-
-The <span style="color:rgba(22, 165, 110, 1);">**Sweep Options**</span> will give you access to:
-
-- <span style="color:rgba(22, 165, 110, 1);">**Documentation**</span> *(link to this page)*.
-- Will create a <span style="color:rgba(22, 165, 110, 1);">**Shelf Button**</span> on any shelf tab.
 
 ## <span style="color:rgb(221, 137, 59);">**Hotkey Breakdown**</span>
 
@@ -253,3 +245,14 @@ This happens because when you selected the edge to create the derived sweep mesh
 <figcaption><span style="color:rgba(22, 165, 110, 1);">Stacking Quick Sweep Meshes</span></span></figcaption>
 </figure>
 
+
+### <span style="color:rgb(221, 137, 59);">**Sweep Options Menu**</span>
+
+
+![Quick_Sweep](images/Quick_Sweep_Menu_Rar.png){ .img-small } 
+
+* <span style="color:rgb(22, 165, 110, 1);">Documentation</span> - Opens a link to the documentation.
+* <span style="color:rgb(22, 165, 110, 1);">Create Shelf Button</span> - Creates a shelf  button for this tool directly to your active Maya shelf.
+
+* <span style="color:rgb(22, 165, 110, 1);">Artstation</span> - Opens a link to ArtStation.
+* <span style="color:rgb(22, 165, 110, 1);">Gumroad</span> - Opens a link to Gumroad.

@@ -1,6 +1,8 @@
 # **<span style="color:rgb(221, 59, 167);">Store</span>** :shopping_cart:
 
-You can browse and purchase my digital tools and resources on **ArtStation** and **Gumroad**. I regularly update both platforms with new tools, assets, and special discounts — so be sure to check back often!
+You can browse and purchase our digital tools and resources on **ArtStation** and **Gumroad**. 
+
+We regularly update both platforms with new tools, assets, and special discounts — so be sure to check back often!
 
 Stay tuned for exclusive releases and limited-time offers!
 

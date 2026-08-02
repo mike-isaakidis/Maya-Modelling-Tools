@@ -53,4 +53,4 @@ It features two distinct operating modes to suit different workflows: a standard
 
 * <span style="color:rgb(144, 137, 235);">Documentation</span> - Opens a link to the documentation.
 
-* <span style="color:rgb(144, 137, 235);">Store</span> - Opens links to the Artstation and Gumroad store.
+* <span style="color:rgb(144, 137, 235);">Store</span> - Opens links to ArtStation and Gumroad.

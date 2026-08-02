@@ -46,3 +46,7 @@ Built to handle heavy production scenes, it combines <span style="color:rgb(255,
 * <span style="color:rgba(25, 214, 110);">**Use Case Sensitive**</span>: This option enables you to search and replace case only sensitive text. Uncheck to ignore this rule.
 * <span style="color:rgba(25, 214, 110);">**Use underscore A_Z**</span>: This option adds an underscore *_* before applying the letter. 
 * <span style="color:rgba(25, 214, 110);">**Display Long Names**</span>: Enabling this option will display the long names of your selected objects. *(Useful when selecting objects using the same name that belong in different groups. The long name will be able to tell you which group each selection belongs.)*
+
+* <span style="color:rgb(25, 214, 110);">**Documentation**</span> - Opens a link to the documentation.
+
+* <span style="color:rgb(25, 214, 110);">**Store**</span> - Opens links to ArtStation and Gumroad.

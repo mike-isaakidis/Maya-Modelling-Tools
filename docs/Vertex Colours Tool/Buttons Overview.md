@@ -121,4 +121,4 @@
 
 * <span style="color:rgb(199, 192, 99);">Documentation</span> - Opens a link to the documentation.
 
-* <span style="color:rgb(199, 192, 99);">Store</span> - Opens links to the Artstation and Gumroad store.
+* <span style="color:rgb(199, 192, 99);">Store</span> - Opens links to ArtStation and Gumroad.

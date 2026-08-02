@@ -46,7 +46,7 @@ This is done so users wont have to worry about if their HP was smooth previewed 
         Maya scene must be saved after export in order for this to work.
 
 - <span style="color:lime">Documentation</span> - Opens a link to the documentation.
-- <span style="color:lime">Store</span> - Opens a link to the store. 
+- <span style="color:lime">Store</span> - Opens links to ArtStation and Gumroad.
 
 
 ### <span style="color:rgb(199, 192, 99);;">**Useful info**</span>
