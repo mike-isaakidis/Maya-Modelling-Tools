@@ -51,3 +51,6 @@ It features two distinct operating modes to suit different workflows: a standard
 
     This ensures the tool remembers your "Power of 2" preference the next time you open it.
 
+* <span style="color:rgb(144, 137, 235);">Documentation</span> - Opens a link to the documentation.
+
+* <span style="color:rgb(144, 137, 235);">Store</span> - Opens links to the Artstation and Gumroad store.
