@@ -45,6 +45,9 @@ nav:
       - "How to Install": Rename Tool/How to install.md
       - "Breakdown": Rename Tool/Breakdown.md
 
+    - Select Nth Edge/Face/Vertex:
+      - Select_nth_edge_face_vert/index.md
+      - "How to Install": Select_nth_edge_face_vert/How to install.md
 
     - Speed Trim Unfold:
       - Speed Trim Unfold/index.md
