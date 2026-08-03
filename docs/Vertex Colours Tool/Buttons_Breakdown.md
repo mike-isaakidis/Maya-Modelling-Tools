@@ -1,7 +1,7 @@
 # **<span style="color:rgb(238, 235, 77);">Breakdown</span>**
 
 
-![Vertex Colour Tool Window](images/Vertex_Colour_Buttons_Breakdown.jpg){ .img-medium } 
+![Vertex Colour Tool Window](images/Vertex_Colour_Buttons_Breakdown.jpg){ .img-medium .img-centered} 
 
 
 <div id="config-Selection Order" style="position: relative; top: -60px;"></div>
@@ -43,7 +43,7 @@
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Random Colour Per UV Shell</span></figcaption>
     </figure>
 
-    * Selecting a face will only change the vertex colour of the UV shell it belongs.
+    * Selecting a face will only change the vertex colour of the UV shell to which it belongs.
     * ++ctrl++ + Click: to cut UV edges *(if you have faces selected, those are converted to perimeter edges before being cut)*
     * ++shift++ + Click: to sew UV edges.
     * ++alt++ + Click: to select UV border edges *(from Object mode, not component)*.
@@ -65,7 +65,7 @@
     * Toggles vertex <span style="color:rgb(199, 192, 99);">color visibility</span> on the selected object *(or globally if nothing is selected)*.
         <figure style="text-align: center;">
             <img src="../images/Vertex_Paint_Tool_Toggle_1.gif" class="img-medium" alt="Vertex Paint Tool Toggle 1">
-            <figcaption><span style="color:rgba(22, 165, 110, 1);">Toggle Vsisbility on all or Selected</span></figcaption>
+            <figcaption><span style="color:rgba(22, 165, 110, 1);">Toggle Visibility on all or Selected</span></figcaption>
         </figure>
 
     * ++ctrl++ + Click: Force-turns off vertex color display for all objects in the scene.
@@ -147,12 +147,12 @@
         * ++ctrl++ + ++shift++ Click: Adds selection to the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
         <figure style="text-align: center;">
             <img src="../images/Vertex_Paint_Tool_Select_4.gif" class="img-medium" alt="Vertex Paint_Tool_Select_4">
-            <figcaption><span style="color:rgba(22, 165, 110, 1);">Add commponents to baking_manager_set Selection Set</span></figcaption>
+            <figcaption><span style="color:rgba(22, 165, 110, 1);">Add components to baking_manager_set Selection Set</span></figcaption>
         </figure>  
         * ++alt++ + Click: Removes selection from the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
         <figure style="text-align: center;">
             <img src="../images/Vertex_Paint_Tool_Select_5.gif" class="img-medium" alt="Vertex Paint_Tool_Select_5">
-            <figcaption><span style="color:rgba(22, 165, 110, 1);">Remove commponents from baking_manager_set Selection Set</span></figcaption>
+            <figcaption><span style="color:rgba(22, 165, 110, 1);">Remove components from baking_manager_set Selection Set</span></figcaption>
         </figure> 
         * ++alt++ + ++ctrl++ Click: Deletes the <span style="color:rgb(199, 192, 99);">baking_manager_set</span>.
         <figure style="text-align: center;">
@@ -200,12 +200,12 @@
 
 - Samples the color from a selected component and loads it into the Swatch <span style="color:rgb(199, 192, 99);">(10)</span>.
     * Works with <span style="color:rgb(199, 192, 99);">components</span> or in <span style="color:rgb(199, 192, 99);">Object Mode</span>. 
-        1.  When multiple components selected it only retrieves the first one one that has Vertex Colour applied.
+        1.  When multiple components selected it only retrieves the first one that has Vertex Colour applied.
         2.  In Object Mode it looks through all of the object's components and retrieves the first one that has Vertex Colour applied.
 
     <figure style="text-align: center;">
         <img src="../images/Vertex_Paint_Tool_Get_1.gif" class="img-medium" alt="Vertex Paint_Tool_Get_1">
-        <figcaption><span style="color:rgba(22, 165, 110, 1);">Retrieves the colour if selected component</span></figcaption>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Retrieves the colour of the selected component</span></figcaption>
     </figure>
 
     * ++alt++ + Click: Opens Maya's Apply Color Options.
@@ -225,7 +225,7 @@
             <img src="../images/Vertex_Paint_Tool_Get_2.gif" class="img-medium" alt="Vertex Paint_Tool_Get_2">
             <figcaption><span style="color:rgba(22, 165, 110, 1);">White Value Sampled is above 0-1 (RGB) causing the VC to be set to black</span></figcaption>
         </figure>
-        * This feature changes the colorSpace on Maya so the colour sampled does not exceed the 0-1 value range for **RGB**. 
+        * This feature changes the Color Space in Maya so the colour sampled does not exceed the 0-1 value range for **RGB**. 
         <figure style="text-align: center;">
             <img src="../images/Vertex_Paint_Tool_Get_3.gif" class="img-medium" alt="Vertex Paint_Tool_Get_3">
             <figcaption><span style="color:rgba(22, 165, 110, 1);">White Value is Clamped to 1 Rendered Correctly</span></figcaption>
@@ -259,14 +259,16 @@
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Copy the value of the last selected face to the rest of your selection</span></figcaption>
     </figure>
     * ++ctrl++ + Click  <span style="color:rgb(199, 192, 99);">(Faces)</span>: Opens the Paint Vertex Color Tool to apply colors via a texture based on your UV layout.
+        * The Vertex Paint application is determined by the objects UV layout *(from the active UV Set)*.
+
     <figure style="text-align: center;">
     <img src="../images/Vertex_Paint_Apply_3.gif" class="img-medium" alt="Vertex Paint_Tool_Apply_3">
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Image based application of VC</span></figcaption>
     </figure>
 
     ???+ Tip "Tip - Texture Based Interpolation (Smooth VS Faceted)"
-        - You can change the interpolation of how the Vertex Colour are applied from the image by changing the pain mode in the Paint Vertex Color Tool.
-            * Vertices will give you a smoother results, while Faces will give you a more faceted one.
+        - You can change the interpolation of how the Vertex Colour are applied from the image by changing the paint mode in the Paint Vertex Color Tool.
+            * Vertices will give you smoother results, while Faces will give you a more faceted one.
 
         ![Vertex Colour Tool](images/vertex_colors_Apply_1.png){ .img-small .img-centered  } 
 
@@ -316,37 +318,34 @@
 - Ensure Track selection order is enabled in the Maya Preferences [here.](#config-Selection Order)
 
 ### <span style="color:rgb(96, 192, 139);">Vertex Paint Not Removed</span>
-- In you are unable to simply remove vertex paint from your objects finr all the info [here.](#config-Remove_Vertex_Colour)
+- If you are unable to simply remove vertex paint from your objects find all the info [here.](#config-Remove_Vertex_Colour)
 
 ### <span style="color:rgb(96, 192, 139);">Sampling Colours</span>
 - If you need to sample colours follow the guide [here.](#config-Sampling_Colours)
 
 ### <span style="color:rgb(96, 192, 139);">Working with High Poly Counts</span>
 
-- The script constantly evaluates the size of your selection before executing heavy operations. 
+- The tool has been heavily optimized to work on high poly meshes. 
 
-    If the mesh exceeds specific thresholds, the tool steps in:
+    Because of this the tool bypass standard construction history.
+
+- The tool has been tested applying Vertex Colours with 500K faces and the results take just a few seconds.
 
     <figure style="text-align: center;">
-    <img src="../images/Vertex_Paint_High_poly_Objects_1.gif" class="img-medium" alt="Vertex Paint_Tool_High_Poly_Count_1">
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">Window Pop up when working with High Poly Objects</span></figcaption>
+    <img src="../images/Vertex_Paint_High_poly_Objects_2.gif" class="img-medium" alt="Vertex Paint_Tool_High_Poly_Count_2">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Applying Vertex Colour on a 1.2m tris object</span></figcaption>
     </figure>
+
+- Please make sure to <span style="color:rgb(96, 192, 139);">**save**</span> your scene before working on higher polycounts as the computational process may take some time.
+    
 
     ??? Info "Info - Built-in Poly Count Thresholds & Warnings"
 
-        * <span style="color:rgb(238, 235, 77);">5,000 Faces/Triangles (Progress Bar Threshold)</span>:
-            For operations that require cycling through every face one by one (like Select faces with same VC, Replace VC, or Random Sub-Object), hitting 5,000 faces will automatically trigger a Maya Progress Window. This allows you to visually track the computation rather than wondering if Maya has frozen.
-
-        * <span style="color:rgb(238, 235, 77);">30,000 Faces (Apply Color Threshold)</span>:
-            If you attempt to apply a swatch color directly to more than 30,000 selected faces, the tool pauses and triggers a confirmation popup warning you that the operation may take some time.
+        * <span style="color:rgb(238, 235, 77);">150,000 Faces (Select Threshold)</span>:
+            If you attempt to apply a swatch color directly to more than 150,000 selected faces, the tool pauses and triggers a confirmation popup warning you that the operation may take some time.
         
-        * <span style="color:rgb(238, 235, 77);">80,000 Triangles (Replace Color Threshold)</span>:
-            The Replace VC function is highly math-intensive (it compares RGB and Alpha values across the mesh). If the mesh has over 80,000 triangles, the tool explicitly warns you before proceeding.
 
-        * <span style="color:rgb(238, 235, 77);">100,000 Triangles (UV Island Threshold)</span>:
-            Applying random colors per UV Island (UV VC button) requires selecting shells and converting components iteratively. If your mesh exceeds 100,000 triangles, a severe warning popup will ask for confirmation before it begins.
-
-- Utilize the <span style="color:rgb(96, 192, 139);">**Escape**</span> Hatch (Progress Window Cancellation)
-
-    * If you click <span style="color:rgb(96, 192, 139);">"Yes"</span> on a heavy operation and realize it is taking far too long, you can press the <span style="color:rgb(96, 192, 139);">**ESC**</span> key *(Maya's default cancellation hotkey)* or click the cancel button on the progress window.
-    * The script will instantly break the loop, print <span style="color:rgb(96, 192, 139);">"Process aborted"</span>, and raise a safe error *(Cancelled by user.)*, giving you control of Maya back without crashing.
+        <figure style="text-align: center;">
+        <img src="../images/Vertex_Paint_High_poly_Objects_1.gif" class="img-medium" alt="Vertex Paint_Tool_High_Poly_Count_1">
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Window Pop up when working with a 600K High Poly Object</span></figcaption>
+        </figure>

@@ -53,8 +53,7 @@ nav:
     - Vertex Colour Tool:
       - Vertex Colours Tool/index.md
       - "How to Install": Vertex Colours Tool/How to Install.md
-      - "Buttons Overview": Vertex Colours Tool/Buttons Overview.md
-      - "Breakdown": Vertex Colours Tool/Breakdown.md
+      - "Buttons Breakdown": Vertex Colours Tool/Buttons_Breakdown.md
 
 
     #- Baking Manager: 
