@@ -40,7 +40,7 @@ The simplest version of the tool is to make a selection. Simply type anything in
 
         💡 Lights (Any directional, point, spot, Arnold lights, etc.): Faint Yellow
 
-        📦 Geometry / Transforms (Standard meshes and empty groups): Faint Pink
+        📦 Geometry : No Colour
 
         🧧 Groups: Faint Red
         
