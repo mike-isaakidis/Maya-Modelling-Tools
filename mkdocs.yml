@@ -45,13 +45,16 @@ nav:
       - "How to Install": Rename Tool/How to install.md
       - "Breakdown": Rename Tool/Breakdown.md
 
-    - Select Nth Edge/Face/Vertex / Selection Sets:
+    - Select Nth Edge/Face/Vertex / Selection Sets Tool:
       - Select_nth_edge_face_vert/index.md
       - "How to Install": Select_nth_edge_face_vert/How to install.md
+      - "Select Nth Edge_Face_Vert": Select_nth_edge_face_vert/Select Nth Edge_Face_Vert.md
+      - "Selection Sets": Select_nth_edge_face_vert/Selection Sets.md
 
     - Speed Trim Unfold:
       - Speed Trim Unfold/index.md
       - "How to Install": Speed Trim Unfold/How to install.md
+
 
     - Vertex Colour Tool:
       - Vertex Colours Tool/index.md
