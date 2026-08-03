@@ -194,7 +194,7 @@
             ![Vertex Colour Tool](images/vertex_colors_Color_Colour_Set_Editor_2.png){ .img-medium } 
 
 
-    * ++ctrl++ + ++shift++ Click: Aggressive fallback fix if Maya refuses to delete colors. (Merges with a temporary cube to reset data. Note: Deletes history and groups.)
+    * ++ctrl++ + ++shift++ Click: Aggressive fallback fix if Maya refuses to delete colors. (Merges with a temporary cube to reset data. <span style="color:rgb(199, 192, 99);">**Note**: Deletes history and groups.</span>)
 
 ## <span style="color:rgb(199, 192, 99);">**9. Get VC**</span>
 
