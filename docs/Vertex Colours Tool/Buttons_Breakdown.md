@@ -5,7 +5,7 @@
 
 
 <div id="config-Selection Order" style="position: relative; top: -60px;"></div>
-??? Warning "Important - Selection Order"
+??? Info "Important - Selection Order"
     For certain features of the Vertex Colour Tool you will need Maya to <span style="color:rgb(199, 192, 99);">**Track Selection Order**</span>.
     
     If features like **Copy/Paste** or **Select** etc. do not work correctly, make sure track selection order is enabled in your <span style="color:rgb(199, 192, 99);">**Settings/Preferences**</span> window *(under Selection)*.
@@ -13,6 +13,15 @@
     ![Rename Tool Main](../Rename%20Tool/images/selection_order_window_1.jpg){ .img-medium .img-centered }
 
     ![Rename Tool Main](../Rename%20Tool/images/selection_order_window_2.jpg){ .img-medium .img-centered }
+
+
+??? Info "Important - Untrusted Plugin Loading - Security Warning"
+
+    ![Vertex Colour Tool Window](images/vertex_colors_plugin_1.png){ .img-medium .img-centered} 
+
+    The first time you use the tool, Maya will show an "Untrusted Plugin Loading" warning for VertexColourToolCmd.py.
+    
+    <span style="color:rgb(199, 192, 99);">**VertexColourToolCmd.py**</span> is the tool's undo support — click Allow *(tick "Apply to all plugins in this location" to not be asked again)*. More info about this [here.](#config-Untrusted Plugin)
 
 ## <span style="color:rgb(199, 192, 99);">**1. Replace VC**</span>
 
@@ -173,13 +182,13 @@
     </figure>
     
     <div id="config-Remove_Vertex_Colour" style="position: relative; top: -60px;"></div>
-    ??? Warning "Maya Bug - Vertex Paint is not Removed"
+    ??? Bug "Maya Bug - Vertex Paint is not Removed"
         There is a Maya bug where the vertex paint is not removed in some instances. This usually happens when you apply some additional modelling to your object. 
 
-        It is advised on those instances to use the ++ctrl++ + Click feature of the tool which deletes the Colour Set. 
+        It is advised on those instances to use the ++ctrl++ + Click feature of the tool which deletes the Colour Set of the selected Object. 
         <figure style="text-align: center;">
             <img src="../images/Vertex_Paint_Tool_Remove_2.gif" class="img-medium" alt="Vertex Paint_Tool_Remove_2">
-            <figcaption><span style="color:rgba(22, 165, 110, 1);">Maya Bug Prevents Vertex Colour from being Removed</span></figcaption>
+            <figcaption><span style="color:rgba(22, 165, 110, 1);">Maya Bug Preventing Vertex Colour from being Removed</span></figcaption>
         </figure>
 
     * ++ctrl++ + Click: Completely deletes the underlying Color Set.
@@ -317,11 +326,31 @@
 
 - Ensure Track selection order is enabled in the Maya Preferences [here.](#config-Selection Order)
 
+### <span style="color:rgb(96, 192, 139);">Untrusted Plugin Loading - Security Warning</span>
+
+
+<div id="config-Untrusted Plugin" style="position: relative; top: -60px;"></div>
+![Vertex Colour Tool Window](images/vertex_colors_plugin_1.png){ .img-medium .img-centered} 
+
+- Why does Maya show a security warning the first time?
+
+    The first time you use the tool, Maya will show an <span style="color:rgb(238, 235, 77);">"Untrusted Plugin Loading"</span> warning for <span style="color:rgb(238, 235, 77);">VertexColourToolCmd.py.</span> This is normal and nothing to worry about.
+
+- Maya will ask for confirmation before loading any plug-in that lives outside Maya's own install folders — including plug-ins in your personal scripts directory, which is where this tool is installed. Maya isn't detecting anything harmful; it simply doesn't recognise the location as trusted yet.
+
+- <span style="color:rgb(238, 235, 77);">VertexColourToolCmd.py</span> is part of the Vertex Colour Tool. It's a small companion plug-in that makes vertex colour painting fully undoable — it stores each paint operation in the mesh's construction history, so <span style="color:rgb(238, 235, 77);">**Ctrl+Z**</span> removes the paint without touching the rest of your history.
+
+- Click <span style="color:rgb(238, 235, 77);">Allow</span> to load it. Tick <span style="color:rgb(238, 235, 77);">Apply to all plugins in this location"ow</span>" first if you don't want to be asked again — this tells Maya to trust the tool's folder from now on. If you click Deny, the tool still works, but painting won't be undoable and you'll see a warning in the Script Editor.
+
+You can review or change trusted locations at any time under <span style="color:rgb(238, 235, 77);">Windows → Settings/Preferences → Preferences → Security.</span>
+
+
 ### <span style="color:rgb(96, 192, 139);">Vertex Paint Not Removed</span>
 - If you are unable to simply remove vertex paint from your objects find all the info [here.](#config-Remove_Vertex_Colour)
 
 ### <span style="color:rgb(96, 192, 139);">Sampling Colours</span>
 - If you need to sample colours follow the guide [here.](#config-Sampling_Colours)
+
 
 ### <span style="color:rgb(96, 192, 139);">Working with High Poly Counts</span>
 

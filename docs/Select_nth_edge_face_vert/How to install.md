@@ -42,14 +42,15 @@
 </div>
 
 
-??? note  "Batch Exporter Shelf Image - Shelf Button Info"
-    Download this image to use as an image for your shelf button.
+??? note  "Select Nth Edge/Face/Vert Image - Shelf Button Info"
 
     First time you fire up the tool click on the <span style="color:rgb(221, 240, 115);">**Options Menu**</span>. 
     
     There you will find a <span style="color:rgb(221, 240, 115);">**create shelf button**</span> you can use that will automatically create a shelf button for you.
 
     ![Baking Manager](images/Select_nth_edge_face_vert_options.png)
+
+    Downloading the image is not necessary *(exists only as backup)*.
 
     <figure markdown="1" style="margin: 0; display: inline-block;"> 
 
