@@ -376,5 +376,5 @@ You can review or change trusted locations at any time under <span style="color:
 
         <figure style="text-align: center;">
         <img src="../images/Vertex_Paint_High_poly_Objects_1.gif" class="img-medium" alt="Vertex Paint_Tool_High_Poly_Count_1">
-        <figcaption><span style="color:rgba(22, 165, 110, 1);">Window Pop up when working with a 600K High Poly Object</span></figcaption>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Window Pop up when working with a (1.2m tris) High Poly Object</span></figcaption>
         </figure>
