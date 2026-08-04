@@ -8,7 +8,7 @@
 ??? Info "Important - Selection Order"
     For certain features of the Vertex Colour Tool you will need Maya to <span style="color:rgb(199, 192, 99);">**Track Selection Order**</span>.
     
-    If features like **Copy/Paste** or **Select** etc. do not work correctly, make sure track selection order is enabled in your <span style="color:rgb(199, 192, 99);">**Settings/Preferences**</span> window *(under Selection)*.
+    If features like **Copy/Paste** or **Replace VC** etc. do not work correctly, make sure track selection order is enabled in your <span style="color:rgb(199, 192, 99);">**Settings/Preferences**</span> window *(under Selection)*.
     
     ![Rename Tool Main](../Rename%20Tool/images/selection_order_window_1.jpg){ .img-medium .img-centered }
 
