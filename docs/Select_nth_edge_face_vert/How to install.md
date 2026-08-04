@@ -50,7 +50,7 @@
 
     ![Baking Manager](images/Select_nth_edge_face_vert_options.png)
 
-    Downloading the image is not necessary *(exists only as backup)*.
+    Downloading this image is not necessary *(exists only as backup)*.
 
     <figure markdown="1" style="margin: 0; display: inline-block;"> 
 

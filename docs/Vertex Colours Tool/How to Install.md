@@ -1,6 +1,6 @@
 # :octicons-tools-16: **<span style="color:rgb(238, 235, 77);">Installing Vertex Colour Tool</span>**
 
-![Baking Manager](images/Vertex_Colour_Main.jpg){ .img-small } 
+![Vertex Colour Tool](images/Vertex_Colour_Main.jpg){ .img-small } 
 
 ### <span style="color:rgb(238, 235, 77);">**Step 1 - Setting up**</span>
 <div class="grid cards" markdown>
@@ -42,8 +42,15 @@
 </div>
 
 
-??? note  "Vertex Colour Tool Shelf Image"
-    Download this image to use as an image for your shelf button.
+??? note  "Vertex Colour Tool Shelf Image - Shelf Button Info"
+
+    First time you fire up the tool click on the <span style="color:rgb(221, 240, 115);">**Options Menu**</span>. 
+    
+    There you will find a <span style="color:rgb(221, 240, 115);">**create shelf button**</span> you can use that will automatically create a shelf button for you.
+    
+    ![Vertex Colour Tool](images/Vertex_Colour_Menu_Bar_2.jpg)
+
+    Downloading this image is not necessary *(exists only as backup)*.
 
     <figure markdown="1" style="margin: 0; display: inline-block;">
 

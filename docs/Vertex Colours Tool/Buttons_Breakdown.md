@@ -315,6 +315,8 @@
 
 ![Vertex Colour Tool Window](images/Vertex_Colour_Menu_Bar.jpg){ .img-small } 
 
+* <span style="color:rgb(199, 192, 99);">Create Shelf Button</span> - Creates a shelf button for this tool directly on your active Maya shelf.
+
 * <span style="color:rgb(199, 192, 99);">Documentation</span> - Opens a link to the documentation.
 
 * <span style="color:rgb(199, 192, 99);">Store</span> - Opens links to ArtStation and Gumroad.
