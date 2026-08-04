@@ -30,7 +30,8 @@
 13. <span style="color:lime">Triangulate</span> - Triangulates your meshes before export. If Smooth exported .fbx files (from the Options menu) is checked the tool will export your smooth mesh preview Objects smoothed and triangulated. If Smooth_high checkbox is checked any Object with _high in its name will not be triangulated.
 14. <span style="color:lime">Smooth_high</span> - Any Object in your scene that contains the name _high will have its smoothness display set to 3 and will be exported Smoothed. Any Objects with that contain the name _low will have their smoothness display set to 1. 
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
-15. <span style="color:lime">Export</span> - Exports your selected Objects
+15. <span style="color:lime">Additional Stored Export Paths</span> - Adds the ability for the users to store as many additional paths as they want. Also users have the ability to export to multiple different folder paths at the same time.
+16. <span style="color:lime">Export</span> - Exports your selected Objects
 
 ### <span style="color:rgb(199, 192, 99);">**Options Menu**</span>
 
@@ -38,12 +39,12 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
 - <span style="color:lime">Smooth exported .fbx files</span> - Allows the user to choose if they want their .fbx files to be smoothed upon export (Turning this off will still smooth your _high poly objects if Smooth_high checkbox is checked).
 - <span style="color:lime">Show Warnings Manager</span> - will display any warnings during the export process (mainly any .fbx files that were smoothed upon export).
-- <span style="color:lime">Automatically update the export path when a new scene is opened</span> - When enabled, changing scenes automatically updates your export directory to the last saved export path for that specific scene.
+- <span style="color:lime">Automatically update the export paths when a new scene is opened</span> - When enabled, it loads all paths from a previously loaded scene. Pre-requisit the scene has to be saved whilst the tool is active.
 
     ???+ Info "Info - Auto Update Path"
-        Whenever you export an object, the tool saves that export location directly into the Maya scene file.
+        Whenever you save a scene in Maya *(whilst the tool is loaded, ot clicking on the Export or Close Buttons)*, the tool saves that export location of all your paths directly into the Maya scene file.
         
-        Maya scene must be saved after export in order for this to work.
+        Opening a previously saved scene will automatically load all paths when that scene was last saved.
 
 - <span style="color:lime">Documentation</span> - Opens a link to the documentation.
 - <span style="color:lime">Store</span> - Opens links to ArtStation and Gumroad.
