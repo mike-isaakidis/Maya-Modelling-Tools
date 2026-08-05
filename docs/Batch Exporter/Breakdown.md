@@ -203,7 +203,9 @@ The result in Marmoset.
     </figure>
 
     ??? Info "Info - Storing Paths in Scene"
-        Every time you click on the <span style="color:pink">Export or Close</span> button, all paths already set will be stored in the scene. Maya needs to be <span style="color:pink">saved</span> in order for those paths to be <span style="color:pink">permanently</span> saved. 
+        Every time you click on the <span style="color:pink">Export or Close</span> button, all paths already set will be stored in the scene. 
+        
+        Maya needs to be <span style="color:pink">saved</span> in order for those paths to be <span style="color:pink">permanently</span> saved. 
 
         * If you save your Maya scene whilst the tool is active the tool will do just that.  
         
