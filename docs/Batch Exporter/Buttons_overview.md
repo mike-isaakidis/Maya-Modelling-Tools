@@ -23,7 +23,7 @@
 13. <span style="color:lime">Triangulate</span> - Triangulates your meshes before export. If Smooth exported .fbx files (from the Options menu) is checked the tool will export your smooth mesh preview Objects smoothed and triangulated. If Smooth_high checkbox is checked any Object with _high in its name will not be triangulated.
 14. <span style="color:lime">Smooth_high</span> - Any Object in your scene that contains the name _high will have its smoothness display set to 3 and will be exported Smoothed. Any Objects with that contain the name _low will have their smoothness display set to 1. 
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
-15. <span style="color:lime">Additional Stored Export Paths</span> - Adds the ability for the users to store as many additional paths as they want. Also users have the ability to export to multiple different folder paths at the same time.
+15. <span style="color:lime">Additional Export Paths</span> - Adds the ability for the users to store as many additional paths as they want. Also users have the ability to export to multiple different folder paths at the same time.
 16. <span style="color:lime">Export</span> - Exports your selected Objects
 
 
