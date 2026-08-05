@@ -140,7 +140,7 @@ The Get button is your inspection and query tool for Selection Sets. Instead of 
 
         <figure markdown="1" style="text-align: center;">
         ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Selection_Sets_ExtraFeatures_4.gif){ .img-medium .img-centered }
-        <figcaption><span style="color: rgba(22, 165, 110, 1);">Wiping the Text Box</span></figcaption>
+        <figcaption><span style="color: rgba(22, 165, 110, 1);">Wiping the Text Box Clean</span></figcaption>
         </figure>
 
 

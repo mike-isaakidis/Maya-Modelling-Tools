@@ -2,7 +2,6 @@
 exclude_docs: |
 
   Baking Manager/*
-  Batch Material Creation/* 
 
 
 site_name: Mike's Maya Tools
@@ -26,6 +25,12 @@ nav:
       - "How to Install": Batch Exporter/how_to_install.md
       - "Buttons Overview": Batch Exporter/Buttons_overview.md
       - "Breakdown": Batch Exporter/Breakdown.md
+
+    - Batch Material Creation: 
+      - Batch Material Creation/index.md
+      - "How to Install": Batch Material Creation/How_to_Install.md
+      - "Buttons Overview": Batch Material Creation/Buttons_Overview.md
+      - "Breakdown": Batch Material Creation/Breakdown.md
 
     - Mirror Tool:
       - Mirror Tool/index.md
@@ -81,8 +86,7 @@ nav:
     #  - "Layers Button Overview": Baking Manager/Layers Button Overview.md
     #  - "Layers Window": Baking Manager/Layers Window.md
     #  - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
-    #- Batch Material Creation: 
-    #  - Batch Material Creation/index.md
+
 
 
       
