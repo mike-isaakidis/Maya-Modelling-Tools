@@ -82,7 +82,7 @@ Generates an infinitely repeating selection pattern along the entire loop or rin
 
              * If the parallel rows are directly touching *(0 gap)*, the tool flags an adjacency error.
 
-              * If there is a gap *(e.g., selecting components on Row 1 and Row 3)*, the tool calculates that 2-row lateral stride and projects your longitudinal pattern across all subsequent parallel rows at that exact interva
+                * If there is a gap *(e.g., selecting components on Row 1 and Row 3)*, the tool calculates that 2-row lateral stride and projects your longitudinal pattern across all subsequent parallel rows at that exact interval.
 
         ![Select Nth](images/select_nth_lateral_1.png){ .img-small } 
         ![Select Nth](images/select_nth_lateral_2.png){ .img-small } 
@@ -110,7 +110,7 @@ Generates an infinitely repeating selection pattern along the entire loop or rin
 * **<span style="color:rgb(67, 177, 168);">Rule</span>**: The total count of selected components must always be an even number (2, 4, 6...).
     
 ??? failure "Failure - Lateral Extensions"
-    You can't have more that 2 components selected on a loop that is going to be used laterally. 
+    You can't have more than 2 components selected on a loop that is going to be used laterally. 
     
     * The tool needs to pair up your selections into clean 2-item sets (one item on Row 1, one matching item on Row 3).
 

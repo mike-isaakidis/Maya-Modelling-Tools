@@ -54,7 +54,7 @@ The Select button is your one-click activator for Selection Sets. Once you have 
     * *<span style="color:rgb(226, 224, 106);">++shift++ + Click Cycle & Select Forward</span>: Having an Object or Component that contains Sets Selected. 
         - Steps forward through every set attached to your selection, highlighting each set's components one by one in the viewport while updating the text field.
 
-    * *<span style="color:rgb(226, 224, 106);">++ctrl++ + ++shift++ + Click Cycle & Select Backward:</span>: Having an Object or Component that contains Sets Selected. 
+    * *<span style="color:rgb(226, 224, 106);">++ctrl++ + ++shift++ + Click Cycle & Select Backward</span>: Having an Object or Component that contains Sets Selected. 
         - Steps backward through the sets attached to your selected object, highlighting them in reverse order.
 
 
@@ -70,7 +70,7 @@ Select new components on your model and click Add to include them in the active 
 
 <figure markdown="1" style="text-align: center;">
   ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Selection_Sets_Add_1.gif){ .img-medium .img-centered }
-  <figcaption><span style="color: rgba(22, 165, 110, 1);">Creating a Selection Set</span></figcaption>
+  <figcaption><span style="color: rgba(22, 165, 110, 1);">Adding Components to Existing Seleection Set</span></figcaption>
 </figure>
 
 ## **<span style="color:rgb(125, 127, 247);">Remove From Set</span>**
@@ -79,7 +79,7 @@ Select components and click Remove to take them out of the active set.
 
 <figure markdown="1" style="text-align: center;">
   ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Selection_Sets_Remove_1.gif){ .img-medium .img-centered }
-  <figcaption><span style="color: rgba(22, 165, 110, 1);">Creating a Selection Set</span></figcaption>
+  <figcaption><span style="color: rgba(22, 165, 110, 1);">Removing Components from Existing Selection Set</span></figcaption>
 </figure>
 
 ??? Info "Deleting Sets"
@@ -107,8 +107,8 @@ The Get button is your inspection and query tool for Selection Sets. Instead of 
 * **<span style="color:rgb(226, 224, 106);">Inspecting the Entire Scene (Nothing Selected)</span>**: The tool will fetch and list every custom Selection Set that exists in your current Maya file.
 
 <figure markdown="1" style="text-align: center;">
-  ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Selection_Sets_Remove_1.gif){ .img-medium .img-centered }
-  <figcaption><span style="color: rgba(22, 165, 110, 1);">Creating a Selection Set</span></figcaption>
+  ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Selection_Sets_Get_1.gif){ .img-medium .img-centered }
+  <figcaption><span style="color: rgba(22, 165, 110, 1);">Retrieve Selection Set Names</span></figcaption>
 </figure>
 
 ??? Info "Get Button - Extra Features"
@@ -122,7 +122,7 @@ The Get button is your inspection and query tool for Selection Sets. Instead of 
         </figure>
 
     1. ++alt++ + Click Search / Filter: Filters your scene's selection sets using the keyword currently typed in the text box.
-        * Use in conjuction with the **Use Case Sensitive** checkbox from the **Options Menu**. 
+        * Use in conjunction with the **Use Case Sensitive** checkbox from the **Options Menu**. 
 
         <figure markdown="1" style="text-align: center;">
         ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Selection_Sets_ExtraFeatures_2.gif){ .img-medium .img-centered }
