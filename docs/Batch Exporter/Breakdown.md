@@ -285,7 +285,7 @@ Move to Origin will move your objects to the World Origin (0,0,0), export them a
 ## <span style="color:rgb(199, 192, 99);">**Freeze Transforms for groups**</span>
 
 ???+ warning "Warning - Freezing Transforms on group objects"
-    When using any of the Freeze Transform options on a group node, it will only Freeze the transforms of the group.
+    When using any of the Freeze Transform options on a group node, it will only Freeze the transforms of the group *(not the children)*.
 
 ## Single Export
 
