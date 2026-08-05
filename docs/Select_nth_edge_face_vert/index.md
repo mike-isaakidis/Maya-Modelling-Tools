@@ -38,7 +38,7 @@ Blazing fast — built on the OpenMaya API
 - Toggle Pattern UI: Swaps the tool window layout between Full Mode and Compact Mode.
 
 <figure markdown="1" style="text-align: center;">
-  ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Select_nth_edge_face_vert_Options_Menul_1.gif){ .img-medium .img-centered }
+  ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Select_nth_edge_face_vert_Options_Menu_1.gif){ .img-medium .img-centered }
   <figcaption><span style="color: rgba(22, 165, 110, 1);">Swapping Layout Between Full and Compact</span></figcaption>
 </figure>
 
