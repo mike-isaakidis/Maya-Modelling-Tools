@@ -9,13 +9,6 @@
 2. <span style="color:lime">Export Path</span> - Displays the path of your exported files in the textfield.
 3. <span style="color:lime">Dropdown menu</span> - Choose between different file types to export.
 4. <span style="color:lime">Select Folder Path</span> :material-folder-plus: - Opens up a window for users to navigate to a desired folder and export their files.
-    1. Every time a file is exported the tool will **store** that Path, if the user saves the scene that path will be stored in the scene. If the user closes Maya and re-opens the Scene, opening the Batch Exporter tool will fill in the Export Path textfield with  the last stored path.
-    2. ++ctrl++ Click to reveal the last exported path (useful when jumping between different scenes).
-    3. User can store up to two Paths:
-        1. ++ctrl+shift++ Click to store a path.
-        2. ++shift++ + Click to display the path in the Export textfield.
-        3. ++ctrl+alt++ + Click to store a path.
-        4. ++alt++ + Click to display the path in the Export textfield.
 5. <span style="color:lime">Open Folder Path in explorer</span> :material-folder: - Opens the path set in the Export Path textfield.
 6. <span style="color:lime">Boomerang Export Behavior </span>- Moves your selected objects to the world origin, exports your files and moves them back to where they were.
 7. <span style="color:lime">Keep current position </span> - Exports your files from the Object's current position.
@@ -32,6 +25,34 @@
 This is done so users wont have to worry about if their HP was smooth previewed before export, or if their LP had their smoothness display set to 1.
 15. <span style="color:lime">Additional Stored Export Paths</span> - Adds the ability for the users to store as many additional paths as they want. Also users have the ability to export to multiple different folder paths at the same time.
 16. <span style="color:lime">Export</span> - Exports your selected Objects
+
+
+### <span style="color:rgb(199, 192, 99);">**Single Export**</span>
+
+![Batch Exporter Window](images/Batch_Exporter_Single_Export.jpg){ .img-medium } 
+
+The <span style="color:lime">Single Export</span> checkbox allows you export multiple selected objects as one file. 
+The only things you have to do is give your file a name and path. 
+
+When checking the Single Export checkbox you will see the <span style="color:lime">Name</span> textfield.  Use the textfield to type in the desired name for your exported Objects.
+
+The folder icon :material-folder-plus: next to the textfield, will open the folder path that is set up by the Export Path.
+Use it to click on an existing file to retrieve its name (this is added to avoid spelling mistakes and ensure your files will always be named correctly).
+
+???+ note
+    
+    The only export behavior *(when multiple objects are selected)*, that will work when **Single Export** is checked, is **Keep Current Position.** 
+    
+    Other behaviors like **Boomerang** or **Move to Origin** if checked will be ignored *(unless single objects are selected)*.
+
+    **Freeze Transforms** will also not work *(with multiple objects selected)* whilst Single Export is checked.
+
+### <span style="color:rgb(199, 192, 99);">**Additional Export Paths**</span>
+
+![Batch Exporter Window](images/Additional_Export_Paths_1.jpg){ .img-medium}
+
+- Allows for users to configure, save, and batch-export their assets to multiple directory destinations simultaneously in a single click.
+
 
 ### <span style="color:rgb(199, 192, 99);">**Options Menu**</span>
 
@@ -52,40 +73,28 @@ This is done so users wont have to worry about if their HP was smooth previewed 
 
 ## <span style="color:rgb(199, 192, 99);;">**Useful info**</span>
 
+### Decimated meshes from Zbrush
 ???+ Info "Info - Decimated meshes from Zbrush"
     If your objects contains the name <span style="color:pink">_dm_high</span> or <span style="color:pink">_zb_high</span> (or <span style="color:pink">_DM_high or _ZB_high</span>) your objects will not be smoothed. 
 
-    example. <span style="color:pink">SM_Chair_01a_dm_high</span>  
+    example. <span style="color:pink">Chair_01a_dm_high</span>  
     
     This is done to avoid smoothing any decimated Zbrush files that were brought in Maya.
     
-    Decimated files are dense in polycount and already triangulated - This can cause issues when being smoothed.
+    Decimated files are dense in polycount and already triangulated which can cause unwanted deformations when being smoothed.
 
+### Export Paths Stored in Scene
+???+ Info "Info - Storing Paths in Scene"
+    Every time you click on the <span style="color:pink">Export or Close</span> button, all paths already set will be stored in the scene. Maya needs to be <span style="color:pink">saved</span> in order for those paths to be <span style="color:pink">permanently</span> saved. 
 
-???+ Info "Info - Export Path Stored in Scene"
-    Every time you click on the <span style="color:pink">Export button</span>, the path set in the Export Path textfield will be stored in the scene. 
+    * If you save your Maya scene whilst the tool is active the tool will do just that.  
     
-    If the scene is saved then opening Maya for the first time to that scene and firing up the tool, will set that path in the textfield automatically. 
+    Opening a scene, will fill in all previously stored paths automatically. - <span style="color:yellow">*(Automatically update the export paths when a new scene is opened)*</span> from the Options Menu needs to be checked.
 
-    Alternatively, if you open another Maya scene where you know a path is stored ++ctrl++ + Click on the <span style="color:pink">Select Folder Path button</span> to retrieve the path.
+    * If unchecked you can ++ctrl++ + Click on the <span style="color:pink">main -Select Folder Path button</span> to retrieve all stored paths in your scene.
 
-## <span style="color:rgb(199, 192, 99);">**Single Export**</span>
+    * ++alt++ + Click resets the Additional Export Path to its default state.  
+   
+    ![Batch Exporter Window](images/Batch_Exporter_retrieve_paths_1.jpg){ .img-medium .img-centered} 
 
-![Batch Exporter Window](images/Batch_Exporter_Single_Export.jpg){ .img-medium } 
-
-The <span style="color:lime">Single Export</span> checkbox allows you export multiple selected objects as one file. 
-The only things you have to do is give your file a name and path. 
-
-When checking the Single Export checkbox you will see the <span style="color:lime">Name</span> textfield.  Use the textfield to type in the desired name for your exported Objects.
-
-The folder icon :material-folder-plus: next to the textfield, will open the folder path that is set up by the Export Path.
-Use it to click on an existing file to retrieve its name (this is added to avoid spelling mistakes and ensure your files will always be named correctly).
-
-???+ note
     
-    The only export behavior *(when multiple objects are selected)*, that will work when **Single Export** is checked, is **Keep Current Position.** 
-    
-    Other behaviors like **Boomerang** or **Move to Origin** if checked will be ignored *(unless single objects are selected)*.
-
-    **Freeze Transforms** will also not work *(with multiple objects selected)* whilst Single Export is checked.
-
