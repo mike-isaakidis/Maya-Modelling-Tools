@@ -186,9 +186,9 @@ The result in Marmoset.
 
 ![Batch Exporter Import 1](images/Additional_Export_Paths_1.jpg){ .img-medium}
 
-- The Additional Export Paths Drawer lets you configure, save, and batch-export your assets to multiple directory destinations simultaneously in a single click.
+- The Additional Export Paths section lets you configure, save, and batch-export your assets to multiple directory destinations simultaneously in a single click.
 
-- <span style="color:rgb(199, 192, 99);">**Multi-Destination Batching**</span>: Check two or more drawer paths to export your assets to all specified folders concurrently. If no drawer path is checked, the main Export Path serves as the default target.
+- <span style="color:rgb(199, 192, 99);">**Multi-Destination Batching**</span>: Check two or more additional paths to export your assets to all specified folders concurrently. If no additional path is checked, the main Export Path serves as the default target.
 
     <figure style="text-align: center;">
         <img src="../images/Batch_Exporter_Additional_Paths_1.gif" class="img-medium" alt="Vertex Paint Tool Replace VC 1">
@@ -202,18 +202,17 @@ The result in Marmoset.
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Loading up existing scenes with stored paths</span></figcaption>
     </figure>
 
-    ??? Info "Info - Storing Paths in Scene"
-        Every time you click on the <span style="color:pink">Export or Close</span> button, all paths already set will be stored in the scene. 
+    ??? Info "Info - Storing/Retrieving Paths in Scene"
+        Every time you click on the <span style="color:pink">Export or Close</span> button, all paths already set will be temporarily stored in the scene. 
         
-        Maya needs to be <span style="color:pink">saved</span> in order for those paths to be <span style="color:pink">permanently</span> saved. 
+        Maya **Scene** needs to be <span style="color:pink">saved</span> in order for those paths to be <span style="color:pink">permanently</span> saved. 
 
-        * If you save your Maya scene whilst the tool is active the tool will do just that.  
         
-        Opening a scene, will fill in all previously stored paths automatically. - <span style="color:yellow">*(Automatically update the export paths when a new scene is opened)*</span> from the Options Menu needs to be checked.
+        - Opening a scene, will fill in all previously stored paths automatically. - <span style="color:yellow">*(Automatically update the export paths when a new scene is opened)*</span> from the Options Menu needs to be checked.
 
-        * If unchecked you can ++ctrl++ + Click on the <span style="color:pink">main -Select Folder Path button</span> to retrieve all stored paths in your scene.
+            * If unchecked you can ++ctrl++ + Click on the <span style="color:pink">main -Select Folder Path button</span> to retrieve all stored paths in your scene.
 
-        * ++alt++ + Click resets the Additional Export Path to its default state.  
+            * ++alt++ + Click resets the Additional Export Path to its default state.  
     
         ![Batch Exporter Window](images/Batch_Exporter_retrieve_paths_1.jpg){ .img-medium .img-centered} 
 
