@@ -183,9 +183,10 @@
     
     <div id="config-Remove_Vertex_Colour" style="position: relative; top: -60px;"></div>
     ??? Bug "Maya Bug - Vertex Paint is not Removed"
-        There is a Maya bug where the vertex paint is not removed in some instances. This usually happens when you apply some additional modelling to your object. 
+        There is a Maya bug where the vertex paint is not removed. This usually happens when you already have vertex paint and apply some additional modelling to your object. 
 
-        It is advised on those instances to use the ++ctrl++ + Click feature of the tool which deletes the Colour Set of the selected Object. 
+        It is advised on those instances to use the ++ctrl++ + Click feature of the tool which deletes the Colour Set of the selected Object, or use ++ctrl++ + ++shift++ which will delete history but will remove the colours on selected components.
+
         <figure style="text-align: center;">
             <img src="../images/Vertex_Paint_Tool_Remove_2.gif" class="img-medium" alt="Vertex Paint_Tool_Remove_2">
             <figcaption><span style="color:rgba(22, 165, 110, 1);">Maya Bug Preventing Vertex Colour from being Removed</span></figcaption>
@@ -203,7 +204,9 @@
             ![Vertex Colour Tool](images/vertex_colors_Color_Colour_Set_Editor_2.png){ .img-medium } 
 
 
-    * ++ctrl++ + ++shift++ Click: Aggressive fallback fix if Maya refuses to delete colors. (Merges with a temporary cube to reset data. <span style="color:rgb(199, 192, 99);">**Note**: Deletes history and groups.</span>)
+    * ++ctrl++ + ++shift++ Click: Aggressive fallback fix if Maya refuses to delete colors. Works only in component mode.
+    
+        <span style="color:rgb(199, 192, 99);">**Note**</span>: Deletes history and ungroups the object.
 
 ## <span style="color:rgb(199, 192, 99);">**9. Get VC**</span>
 
