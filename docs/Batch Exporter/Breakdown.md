@@ -259,7 +259,7 @@ Result in Marmoset, all objects sit in world origin at (0,0,0).
 
 ![Batch Exporter Bommerand 2](images/Batch_Exporter_Boomerang_2.jpg){ .img-medium}
 
-???+ Tip "Tip - exporting modular sets :simple-unrealengine:"
+??? Tip "Tip - exporting modular sets :simple-unrealengine:"
     Using the Boomerang option is very useful when working on modular static meshes for :simple-unrealengine: <span style="color:pink">Unreal Engine</span>.
 
     Unreal needs each file to be exported from the origin position (0,0,0).
@@ -278,7 +278,7 @@ Result in Marmoset, all objects sit in world origin at (0,0,0).
 
 ### <span style="color:rgb(199, 192, 99);">**Move to Origin**</span>
 
-Move to Origin will move your objects to the World Origin (0,0,0) export them and leave them there. 
+Move to Origin will move your objects to the World Origin (0,0,0), export them and leave them there. 
 
 ## <span style="color:rgb(199, 192, 99);">**Freeze Transforms for groups**</span>
 
