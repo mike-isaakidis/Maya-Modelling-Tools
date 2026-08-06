@@ -22,10 +22,19 @@ Whether you're building massive environment scenes or prepping prop hero assets,
 
 - <span style="color:rgb(171, 199, 69);">Flexible Suffix Mapping & Prefix Controls</span>: Customize naming conventions *(Albedo, Normal, Mask, Opacity)* and automatically handle material prefix overrides (such as converting T_ texture naming to customized material prefixes like MI_).
 
-## **<span style="color:rgb(71, 187, 119);">Asset & Scene Maintenance</span>**:
+## **<span style="color:rgb(71, 187, 119);">Asset & Scene Maintenance</span>**
 
 - <span style="color:rgb(171, 199, 69);">Refresh & Relink</span>: Missing a map? Instantly scan your folders to find and reconnect lost textures.
 
 - <span style="color:rgb(171, 199, 69);">Texture Swapping</span>: Swap color and normal maps on the fly without breaking connections.
 
 - <span style="color:rgb(171, 199, 69);">Scene Cleanup</span>: Purge unassigned shaders or clear material assignments from selected meshes with ease.
+
+## **<span style="color:rgb(71, 187, 119);">Preferences</span>**
+
+![Batch Exporter Window](images/Batch_Material_Creation_Options_1.png){ .img-small } 
+![Batch Exporter Window](images/Batch_Material_Creation_Options_2.png){ .img-small } 
+
+The  <span style="color:rgb(171, 199, 69);">Additional Preferences</span> window *(located in the Options Menu)* serves as the main configuration hub for the Batch Material Creation tool. 
+
+In short, it allows you to  <span style="color:rgb(171, 199, 69);">customize</span> naming conventions, selective texture  <span style="color:rgb(171, 199, 69);">refreshing</span>, and  <span style="color:rgb(171, 199, 69);">packed mask</span> routing to match your project's pipeline.
