@@ -123,10 +123,16 @@ If a SkyDome already exists in your scene, clicking the button will update its t
 
 - ++shift++ + Click: Activates viewport dragging. Hold down your Middle Mouse Button anywhere in the viewport to interactively rotate your SkyDome light and shift your environment lighting.
 
+
     <figure style="text-align: center;">
-        <img src="../images/Batch_Material_Creation_HDRI_2.gif" class="img-medium" alt="Batch_Material_Creation_1">
+        <video class="img-medium" autoplay loop muted playsinline controls>
+            <source src="../images/Batch_Material_Creation_HDRI_2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Shift Click to Rotate your Skydome</span></figcaption>
     </figure>
+
+
 
 - ++ctrl++ + Click: Toggles the SkyDome's viewport opacity between 0.0 and 1.0. This hides the background HDRI image in your viewport so it doesn't get in your way while keeping your scene lit!
 
