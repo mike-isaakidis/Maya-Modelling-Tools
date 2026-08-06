@@ -206,9 +206,21 @@ If a texture map was missing when you first created a material—or if you updat
     </figure>
 
 
+## **<span style="color:rgb(71, 187, 119);">Swap Textures</span>**
 
+The Swap Texture feature allows you to instantly swap texture maps *(such as Albedo, Normal, or Mask maps)* on materials already assigned in your scene—without breaking shader connections or needing to rebuild your material network from scratch.
 
-## **<span style="color:rgb(71, 187, 119);">Options Menu</span>** :tools:
+<figure style="text-align: center;">
+    <img src="../images/Batch_Material_Creation_Swap_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Swapping Albedo with Normal textures</span></figcaption>
+</figure>
+
+??? Failure "Swap Fail"
+    * If you are missing any of your source texture files you will get a message to inform you. 
+
+    ![Batch Exporter Window](images/Batch_Material_Creation_Swap_1.png){ .img-small .img-centered} 
+
+## **<span style="color:rgb(71, 187, 119);">Options Menu</span>**
 
 ![Batch Exporter Window](images/Batch_Material_Creation_Buttons_2.png){ .img-small } 
 
@@ -236,7 +248,6 @@ If a texture map was missing when you first created a material—or if you updat
     <img src="../images/Batch_Material_txFiles_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
     <figcaption><span style="color:rgba(22, 165, 110, 1);">.tx files creating Additional files in your folder</span></figcaption>
 </figure>
-
 
 
 ### 3. Auto-update textures path
@@ -338,3 +349,10 @@ The Refresh Settings section allows you to fine-tune how the Refresh button beha
 - The Packed Mask Settings window lets you tell the tool exactly which map lives inside each channel so it wires everything into Maya automatically.
 
 - Simply choose which property belongs to each channel, and the tool will automatically wire everything into your shader!
+
+
+![Batch Exporter Window](images/Batch_Material_Creation_add_Pref_4.png){ .img-medium} 
+
+- You don't need to use all channels. Any unchecked options will be ignored during material setup, leaving those shader attributes untouched.
+
+![Batch Exporter Window](images/Batch_Material_Creation_add_Pref_5.png){ .img-medium} 
