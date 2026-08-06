@@ -103,8 +103,11 @@ Generates an infinitely repeating selection pattern along the entire loop or rin
     </figure>
 
     <figure style="text-align: center;">
-        <img src="../images/Select_nth_edge_face_vert_Lateral_5.gif" class="img-medium" alt="Select_nth 1">
-        <figcaption><span style="color:rgba(22, 165, 110, 1);">Lateral Extension on Edges</figcaption>
+        <video class="img-medium" autoplay loop muted playsinline controls>
+            <source src="../images/Select_nth_edge_face_vert_Lateral_5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Lateral Extension on Edges</span></figcaption>
     </figure>
 
 * **<span style="color:rgb(67, 177, 168);">Rule</span>**: The total count of selected components must always be an even number (2, 4, 6...).
