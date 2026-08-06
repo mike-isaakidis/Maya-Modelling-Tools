@@ -107,13 +107,19 @@ The HDRI button makes setting up environment lighting quick and easy by automati
 If a SkyDome already exists in your scene, clicking the button will update its texture map instead of creating a duplicate dome.
 
 
+
+
 - Opens a file browser to select an HDRI map (.hdr, .exr, .tif, .tiff). Creates a SkyDome light with the image applied (or updates the existing dome).
     * Interactive Rotation: As soon as the SkyDome is created, you can instantly hold down your Middle Mouse Button in the viewport to rotate your lighting and background!
 
     <figure style="text-align: center;">
-        <img src="../images/Batch_Material_Creation_HDRI_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
+        <video class="img-medium" autoplay loop muted playsinline controls>
+            <source src="../images/Batch_Material_Creation_HDRI_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Creating a skydome light for Arnold</span></figcaption>
     </figure>
+
 
 - ++shift++ + Click: Activates viewport dragging. Hold down your Middle Mouse Button anywhere in the viewport to interactively rotate your SkyDome light and shift your environment lighting.
 
