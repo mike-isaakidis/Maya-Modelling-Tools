@@ -54,9 +54,10 @@ Please check the Rules section
         </figure>
 
 
-    *  ### **<span style="color:rgba(22, 165, 110, 1);">3. UV selection</span>** (for aligning to existing trims). ###
-        * After your trims have been unfolded your selection will change to a UV selection. This means you can activate the other feature of the tool which is aligning and scaling it to match any other trim sheet. 
-        * With your trims selected *(source)*, select a UV from another trim *(target)* and the tool will orient *(vertically or horizontally)* scale and move all initial trim uv shells to match the size and placement of the target trim UV shell.
+    *  ### **<span style="color:rgba(22, 165, 110, 1);">3. UV selection</span>** (for aligning to existing shells). ###
+        * Automatic UV Selection: Once your trims are unfolded, your selection automatically switches to UV points—preparing your shells for quick alignment.
+        * With those points selected, select a UV point on any target shell. The tool will automatically orient (vertically or horizontally), scale, and move your unfolded trim to match the target's size and placement.
+        * You are not constrained to moving one shell at a time. Select multiple shells and align them to the last shell UVs you selected.
 
         <figure>
         <img src="images/unfold_align_1.gif" class="img-medium" alt="Mirror Cut Demo">
