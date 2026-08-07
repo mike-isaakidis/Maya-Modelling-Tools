@@ -79,6 +79,8 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
 ### 3. Materials with Opacity
 - Opacity maps aren't assigned automatically during material creation. However, once your materials are applied to your mesh, hooking up opacity is super easy!
     * Simply select any objects *(or faces)* that have the material applied, then click the Opacity button to automatically connect your opacity texture.
+
+    ![Batch Exporter Window](images/Batch_Material_Creation_Opacity_1.png){ .img-small .img-centered} 
     <figure style="text-align: center;">
         <img src="../images/Batch_Material_Creation_Opacity_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Applying Opacity</span></figcaption>
@@ -100,7 +102,7 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
     * Head to **Options > Additional Preferences** [*(more info here)*](#Additional_Preferences) to set up automatic search and replace rules (e.g., swapping a texture prefix like T_ for a material prefix like MI_).
     * If no prefixes are defined, your texture name becomes your material name—giving you full control over how your scene stays organized.
 
-![Batch Exporter Window](images/Batch_Material_Names_1.png){ .img-small .img-centered } 
+![Batch Exporter Window](images/Batch_Material_Names_1.png){ .img-small } ![Batch Exporter Window](images/Batch_Material_Creation_raw_material_1.png){ .img-small } 
 
 
 
