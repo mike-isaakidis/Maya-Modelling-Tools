@@ -85,6 +85,10 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
     </figure>
 
     * Your opacity map can live either inside the Alpha channel of your Diffuse/Albedo texture or as a standalone black-and-white texture file. Just make sure the suffix in the Opacity field matches your file name or Albedo suffix.
+    <figure style="text-align: center;">
+        <img src="../images/Batch_Material_Creation_Opacity_3.gif" class="img-medium" alt="Batch_Material_Creation_1">
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Opacity from Diffuse/Albedo texture</span></figcaption>
+    </figure>   
     * ++ctrl++ + Click the Opacity button to strip transparency from selected materials.
     <figure style="text-align: center;">
         <img src="../images/Batch_Material_Creation_Opacity_2.gif" class="img-medium" alt="Batch_Material_Creation_1">
