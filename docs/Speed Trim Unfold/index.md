@@ -30,7 +30,7 @@ Depending on the type of component you have chosen the tool has different behavi
 Please check the Rules section 
 
 - The tool works by selecting:
-    * ### <span style="color:rgba(22, 165, 110, 1);">**Faces selection**</span> (automatic approach) ###
+    * ### <span style="color:rgba(22, 165, 110, 1);">**1. Faces selection**</span> (automatic approach) ###
         <figure>
         <img src="images/Face_unfold_1.gif" class="img-medium" alt="Mirror Cut Demo">
         <figcaption><span style="color:rgba(22, 165, 110, 1);">**Unfolding face selections**</span></span></figcaption>
@@ -42,7 +42,7 @@ Please check the Rules section
         <figcaption><span style="color:rgba(22, 165, 110, 1);">**Unfolding a closed loop of faces**</span></span></figcaption>
         </figure>
     
-    * ### **<span style="color:rgba(22, 165, 110, 1);">Faces and edges selection</span>** (user-defined) ###
+    * ### **<span style="color:rgba(22, 165, 110, 1);">2. Faces and edges selection</span>** (user-defined) ###
         * This operation requires the user to have faces and edges selected. The seams on your UV shell will be determined by your selected edges.
         * To select multiple different components at the same time hold down right click and select <span style="color:rgba(255, 251, 0, 1);">**Multi**</span>.
         
@@ -54,7 +54,7 @@ Please check the Rules section
         </figure>
 
 
-    *  ### **<span style="color:rgba(22, 165, 110, 1);">UV selection</span>** (for aligning to existing trims). ###
+    *  ### **<span style="color:rgba(22, 165, 110, 1);">3. UV selection</span>** (for aligning to existing trims). ###
         * After your trims have been unfolded your selection will change to a UV selection. This means you can activate the other feature of the tool which is aligning and scaling it to match any other trim sheet. 
         * With your trims selected *(source)*, select a UV from another trim *(target)* and the tool will orient *(vertically or horizontally)* scale and move all initial trim uv shells to match the size and placement of the target trim UV shell.
 
@@ -80,7 +80,7 @@ Please check the Rules section
             * The tool will deselect the target UVs after the operation so you can re-map your shell to another trim if needed. 
             * If you have multiple UV's selected the tool will recognise the last selected as the target.
             * Works with multiple source UV trim shells from different selected objects.
-            * ### Aligning directly from the viewport ###
+            * ### Aligning Shells directly from the viewport ###
             * It is even possible to align to existing trims directly from the viewport - without opening the UV Editor. Simply select a face, convert that face to uv then select a target uv from a trim you wish to match.
             
             ??? "Converted Face + UV"
@@ -103,10 +103,10 @@ Please check the Rules section
 
 The tool will not work if you have only objects selected, it requires component selections.
 
-- ### Selection ###
+- ### 1. Selection ###
     * Selection: 
         * The tool only accepts <span style="color:rgba(22, 165, 110, 1);">**Face**</span>, <span style="color:rgba(22, 165, 110, 1);">**Face/Edge**</span> and <span style="color:rgba(22, 165, 110, 1);">**UV**</span> selections.
-- ### Topology ###
+- ### 2. Topology ###
     * No <span style="color:rgba(22, 165, 110, 1);">**n-gons**</span>.
         * If any detected the tool will abort and select the ngons instead. 
     * No  <span style="color:rgba(22, 165, 110, 1);">**triangles**</span> on your face selection as the tool unitizes each face. 
@@ -116,7 +116,7 @@ The tool will not work if you have only objects selected, it requires component 
     ![Speed Trim multi select](images/speed_trim_selections_1.png){ .img-large .img-centered }
     
 
-- ### Track Selection Order ###
+- ### 3. Track Selection Order ###
     * Order of operations matter for this tool. If you are experiencing issues with aligning UVs check <span style="color:rgba(22, 165, 110, 1);">**Track Selection Order**</span> in your preferences.
         * Go to Windows -> Settings/Preferences -> Preferences -> Selection.
             * Under modifier you should see the Track Selection Order checkbox.
