@@ -163,7 +163,7 @@ If a SkyDome already exists in your scene, clicking the button will update its t
     </figure>
 
 
-## **<span style="color:rgb(71, 187, 119);">Refresh</span>** :tools:
+## **<span style="color:rgb(71, 187, 119);">Refresh</span>** 
 
 The Refresh button is your go-to tool for updating, fixing, or checking texture maps on materials that are already in your Maya scene.
 
