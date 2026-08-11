@@ -115,6 +115,8 @@ Please check the Rules section
  
  - When aligning UVs to a target shell, the tool calcualtes the bounding box of that target shell. That calculation is how the tool know how to orient the source UV shells.  
     * Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold U (Long)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **long** side of the targets bounding box. 
+    ??? Tip "Tip - Hotkey"
+        * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use this button as a hotkey, this will ensure your UVs will be aligned to the length of your target UV shells. 
 
     ![Speed Trim multi select](images/Speed_Trim_button_1.png){ .img-medium .img-centered }
 
