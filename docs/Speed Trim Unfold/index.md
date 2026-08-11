@@ -124,6 +124,8 @@ Please check the Rules section
 
     ![Speed Trim multi select](images/Speed_Trim_button_2.png){ .img-medium .img-centered }
 
+    * Please note that the long side of the source shells is being used to **align** towards the target shells.
+
     * Here's a basic demonstration:
 
 <figure style="text-align: center;">
