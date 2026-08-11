@@ -25,6 +25,12 @@ It's a one-click solution to save you time and make UVing a more fun and engagin
 
 ## <span style="color:rgba(255, 251, 0, 1);">**How it works**</span> ##
 
+???+ Tip "Important"
+    The examples presented are all using the <span style="color:rgb(186, 187, 105);">**Unfold Horizontally - Long Align**</span> hotkey.
+    
+    For the UI version check [UI Button Functionality](#ui-button-functionality).
+    
+
 Depending on the type of component you have chosen the tool has different behaviours. 
 
 Please check the Rules section 
@@ -100,6 +106,36 @@ Please check the Rules section
                     * When converting vertices or edges that share border edges you will also select uvs that are shared between shells.
                     * This will mess up the number of shells to be aligned and possibly their orientation.
 
+## <span style="color:rgba(255, 251, 0, 1);">**UI Button Functionality**</span> ##
+![Speed Trim multi select](images/Speed_Trim_UI_1.png){ .img-small .img-centered }
+
+ <span style="color:rgba(22, 165, 110, 1);">**Unfold U and Unfold V**</span> : When having faces selected these buttons will unfold your trims **Horizontally** and **Vertically**.
+
+ The difference these make is when you have UV's selected. 
+ 
+ - When aligning UVs to a target shell, the tool calcualtes the bounding box of that target shell. That calculation is how the tool know how to orient the source UV shells.  
+    * Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold U (Long)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **long** side of the targets bounding box. 
+
+    ![Speed Trim multi select](images/Speed_Trim_button_1.png){ .img-medium .img-centered }
+
+     *  Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold V (Short)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **short** side of the targets bounding box. 
+
+    ![Speed Trim multi select](images/Speed_Trim_button_2.png){ .img-medium .img-centered }
+
+    * Here's a basic demonstration:
+
+<figure style="text-align: center;">
+    <img src="images/Speed_Trim_Buttons_alignment_2.gif" class="img-medium" alt="Speed_Trim_Buttons">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Unfolding Horizontally / Vertically</span></figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <img src="images/Speed_Trim_Buttons_alignment_1.gif" class="img-medium" alt="Speed_Trim_Buttons">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Aligning shells anlongside the targets long/short bounding box sides</span></figcaption>
+</figure>
+
+
+
 ## <span style="color:rgba(255, 251, 0, 1);">**Rules**</span> ##
 
 The tool will not work if you have only objects selected, it requires component selections.
@@ -125,8 +161,14 @@ The tool will not work if you have only objects selected, it requires component 
         ![Speed Trim multi select](images/Speed_Trim_track_selection_order_1.png){ .img-large .img-centered }
 
 
+## <span style="color:rgba(255, 251, 0, 1);">**Options Menu**</span> ##
+
+![Speed Trim multi select](images/speed_trim_Options_2.png){ .img-small .img-centered }
 
 
 
+- <span style="color:rgba(22, 165, 110, 1);">**Create Shelf Button**</span> - Creates a shelf button for this tool directly on your active Maya shelf.
 
+- <span style="color:rgba(22, 165, 110, 1);">**Documentation**</span> - Opens a link to the documentation.
 
+- <span style="color:rgba(22, 165, 110, 1);">**Store**</span> - Opens links to ArtStation and Gumroad.

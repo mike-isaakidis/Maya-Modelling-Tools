@@ -1,6 +1,6 @@
 # :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Trim Speed Unfold</span>**  
 
-![Mirror Tool 1](images/Speed_Trim_Unfold_2.png){ .img-large .img-centered }
+![Speed Trim Unfold](images/Speed_Trim_Unfold_2.png){ .img-large .img-centered }
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 1 - Setting up</span>** 
 <div class="grid cards" markdown>
 
@@ -10,7 +10,7 @@
 
     1.Unzip the [`Speed_Trim_Unfold.zip`](#) file.
    
-    2.Copy-paste the [`speed_trim_unfold.py`](#) file into your [`\Documents\Maya\Scripts`](#) folder.
+    2.Copy-paste the [`Speed_Trim_Unfold`](#) folder into your [`\Documents\Maya\Scripts`](#) folder.
     
     3.Open [`Maya`](#). 
 
@@ -20,9 +20,7 @@
 
 </div>
 
-
-
-### **<span style="color:rgba(195, 221, 80, 1);">Step 2 - Activating Hotkey</span>** 
+### **<span style="color:rgba(195, 221, 80, 1);">Step 2 - Activating UI</span>** 
 
 <div class="grid cards" markdown>
 
@@ -30,26 +28,18 @@
 
     ---
 
-    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^  to execute the tool.
+    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ or ^^**shelf button**^^ to execute the tool.
 
     ``` py linenums="1"
-    import speed_trim_unfold
-    speed_trim_unfold.execute_trim()
+    from Speed_Trim_Unfold import speed_trim_unfold
+    speed_trim_unfold.show_ui()
+
     ```
 
-
 </div>
 
 
-</div>
-
-
-
-### **<span style="color:rgba(195, 221, 80, 1);">Step 3 - Creating Shelf button code</span>** 
-
-- Since this tool has no UI, this code will automatically create a shelf button. 
-    * **Click** to run the tool
-    * **Double-click** to open a **<span style="color:rgba(3, 173, 108, 1);">web browser link</span> to the **<span style="color:rgba(3, 173, 108, 1);">documentation</span>.
+### **<span style="color:rgba(195, 221, 80, 1);">Hotkeys</span>** 
 
 <div class="grid cards" markdown>
 
@@ -57,49 +47,45 @@
 
     ---
 
-    Use the script editor to copy the ^^**python**^^  lines below to automatically create a shelf button.
+    Unfold Horizontally - Long Align (Recommended)*
+
+    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^horizontally^^ and align your shells alongside the ^^long^^ side your targets bounding box. 
 
     ``` py linenums="1"
-    import maya.cmds as cmds
-    import webbrowser
+    from Speed_Trim_Unfold import speed_trim_unfold
+    speed_trim_unfold.unfold_long()
 
-    def create_speed_trim_shelf_button():
-        active_shelf = cmds.tabLayout("ShelfLayout", query=True, selectTab=True)
-        
-        buttons = cmds.shelfLayout(active_shelf, q=True, ca=True) or []
-        button_exists = False
+    ```
+    Unfold Vertically - Short Align
 
-        for b in buttons:
-            if cmds.objectTypeUI(b) == "shelfButton":
-                label = cmds.shelfButton(b, q=True, l=True)
-                if label == "Speed Trim":
-                    button_exists = True
-                    break
-
-        if not button_exists: 
-            single_click_cmd = "import speed_trim_unfold; speed_trim_unfold.execute_trim()"
-            double_click_cmd = "import webbrowser; webbrowser.open('https://mike-isaakidis.github.io/Maya-Modelling-Tools/Speed%20Trim%20Unfold/')"
-            current_shelf = cmds.tabLayout("ShelfLayout", query=True, selectTab=True)
-            cmds.shelfButton(
-                parent=current_shelf,
-                label="Speed Trim",
-                annotation="Click to Execute Trim / Double-Click for Documentation",
-                image1="checker.svg",
-                command=single_click_cmd,
-                imageOverlayLabel='TRIM',
-                overlayLabelColor=[1.0, 1.0, 0.0],
-                doubleClickCommand=double_click_cmd,
-                sourceType="python"
-            )
-            print(f"Successfully added 'Speed Trim' button to shelf: {current_shelf}")
-        else:
-            print("Shelf button already exists.")
-
-    create_speed_trim_shelf_button()
+    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^vertically^^ and align your shells alongside the ^^short^^ side your targets bounding box. 
+    
+    ``` py linenums="1"
+    from Speed_Trim_Unfold import speed_trim_unfold
+    speed_trim_unfold.unfold_short()
     ```
 
-
 </div>
+
+
+??? note  "Speed Trim Unfold Shelf Image - Shelf Button Info"
+
+    First time you fire up the tool **(Step 2)** click on the <span style="color:rgb(221, 240, 115);">**Options Menu**</span>. 
+    
+    There you will find a <span style="color:rgb(221, 240, 115);">**create shelf button**</span> you can use that will automatically create a shelf button for you.
+    
+    ![Speed Trim Unfold](images/speed_trim_Options_1.png){ .img-small }
+
+    Downloading this image is not necessary *(exists only as backup)*.
+
+    <figure markdown="1" style="margin: 0; display: inline-block;">
+
+    [![Batch Export](../Speed%20Trim%20Unfold/images/Speed_Trim.png)](../Speed%20Trim%20Unfold/images/Speed_Trim.png){: .md-button download="Speed_Trim.png" }
+
+    <figcaption style="text-align: center;"><span style="color:rgb(168, 136, 228);"></span></figcaption>
+    </figure>
+
+
 
 Click the button below to learn how to create hotkeys and shelf buttons.
 
