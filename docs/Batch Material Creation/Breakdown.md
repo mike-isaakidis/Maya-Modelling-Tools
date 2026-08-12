@@ -224,6 +224,13 @@ If a texture map was missing when you first created a material—or if you updat
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Fixing Colour Space</span></figcaption>
     </figure>
 
+- ++alt++ + Click: Connects/Disconnect the Mask channel on selected materials. 
+
+    <figure style="text-align: center;">
+        <img src="../images/Batch_Material_Toggle_Mask_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Toggling Mask On/Off</span></figcaption>
+    </figure>
+
 
 ## **<span style="color:rgb(71, 187, 119);">Swap Textures</span>**
 
@@ -297,16 +304,20 @@ The Swap Texture feature allows you to instantly swap texture maps *(such as Alb
     <figcaption><span style="color:rgba(22, 165, 110, 1);">.Enabling/Disabling Mask Support</span></figcaption>
 </figure>
 
+### 6. Disconnect Mask when normal map is swapped
+- When checked, swapping to see your Nomral in the colour channel, disconnects your Mask input. 
+
+    * This is done because having the Mask over the Normal map gets in the way of evaluating your normal map in the viewport. 
 
 
-### 6. Additional Preferences
+### 7. Additional Preferences
 - Additional Preferences [*(more info here)*](#Additional_Preferences).
     * Opens up a dedicated window for deeper customization.
 
     * Set up smart naming rules (like automatically turning T_ texture names into MI_ material names), pick which texture types get refreshed, and map out custom RGBA channels.
 
 
-### 7. Shelf /Documentation /Store
+### 8. Shelf /Documentation /Store
 - Create Shelf Button.
 - Documentation.
     * Opens your browser and takes you straight to the online user guide whenever you need a quick hand.
