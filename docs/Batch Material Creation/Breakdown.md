@@ -32,7 +32,7 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
 
 ![Batch Exporter Window](images/Batch_Material_Creation_2.png){ .img-medium } 
 
-- First thing we need to do, is to ensure our suffixes for Albedo, Normal and Mask match our texture files. 
+- First thing we need to do, is to ensure our suffixes for Albedo, Normal and Mask *(from our tool)* match the suffixes of our texture files. 
 
 - Supported formats: 
     * PSD, PSB, PNG, TGA, JPEG, JPG, TIFF, TIF *(more can be added upon request)*.
@@ -47,7 +47,7 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
 ![Batch Exporter Window](images/Batch_Material_Creation_textures_1.png){ .img-medium } 
 
 - In our case all files in our folder match the suffixes we applied on the tool, apart from the T_Brick_Wall_01b.
-    * The suffixes for Albedo, Normal and Mask do not match our suffixes, thus the tool will skip those on the Material Creation process. 
+    * The texture suffixes for Albedo, Normal and Mask do not match our tool suffixes, thus those will be ignored during the Material Creation process. 
 
 ### 2. Set your path, select your textures and create your materials
 
@@ -89,7 +89,7 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
     * Your opacity map can live either inside the Alpha channel of your Diffuse/Albedo texture or as a standalone black-and-white texture file. Just make sure the suffix in the Opacity field matches your file name or Albedo suffix.
     <figure style="text-align: center;">
         <img src="../images/Batch_Material_Creation_Opacity_3.gif" class="img-medium" alt="Batch_Material_Creation_1">
-        <figcaption><span style="color:rgba(22, 165, 110, 1);">Opacity from Diffuse/Albedo texture</span></figcaption>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Opacity from Albedo texture</span></figcaption>
     </figure>   
     * ++ctrl++ + Click the Opacity button to strip transparency from selected materials.
     <figure style="text-align: center;">
