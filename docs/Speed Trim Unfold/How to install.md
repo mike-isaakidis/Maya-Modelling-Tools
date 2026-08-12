@@ -1,6 +1,6 @@
 # :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Speed Trim Unfold</span>**  
 
-![Speed Trim Unfold](images/Speed_Trim_Unfold_2.png){ .img-large .img-centered }
+![Speed Trim Unfold](images/Speed_Trim_Unfold_5.png){ .img-medium .img-centered }
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 1 - Setting up</span>** 
 <div class="grid cards" markdown>
 

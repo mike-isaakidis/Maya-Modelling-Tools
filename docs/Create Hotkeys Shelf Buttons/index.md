@@ -124,7 +124,7 @@ From there click on <span style="color:rgb(99, 199, 149);">**New**</span>:
 | **Name**:      |  <span style="color:rgb(99, 199, 149);">**Mirror_Tool**</span>|                                  |
 | ----------- | ------------------------------------------|----------------------------------------------------|
 | **Description**:    |   <span style="color:rgb(99, 199, 149);">**Mirror_Tool**</span>  *(use same as Name, you could alternatively use a small description if you like)*   
-| **Language**:  |  <span style="color:rgb(99, 199, 149);">**Python**</span> *(always check on the How to Install page of each tool, to see which language to use)*    
+| **Language**:  |  <span style="color:rgb(99, 199, 149);">**Python**</span> *(always check on the ^^How to Install^^ page of each tool, to see which language to use)*    
 
 Then copy paste the python code underneath the language area.
 
@@ -135,6 +135,11 @@ Once happy click on <span style="color:rgb(99, 199, 149);">**Save Runtime Comman
 Your new hotkey should now be added in the custom scripts drowpdown. From there click on the Hotkey area and assign your hotkey.
 
 ![Hotkey Editor 4](images/Hotkey_Editor_4.png){ .img-medium}
+
+
+<img src="images/Hotkey_Invoke_Mirror_Tool_1.gif" class="img-medium" alt="Mirror Cut Demo">
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Invoking the Mirror Tool using the Hotkey</span></span></figcaption>
+</figure>
 
 ??? Note "Important - Close **Maya** to save HotKey"
     It's best to close and re-open Maya after saving your hotkeys because if **Maya crashes**, you will have to repeat the process all over again.

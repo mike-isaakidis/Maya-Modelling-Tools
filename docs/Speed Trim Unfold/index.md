@@ -176,3 +176,4 @@ The tool will not work if you have only objects selected, it requires component 
 - <span style="color:rgba(22, 165, 110, 1);">**Documentation**</span> - Opens a link to the documentation.
 
 - <span style="color:rgba(22, 165, 110, 1);">**Store**</span> - Opens links to ArtStation and Gumroad.
+
