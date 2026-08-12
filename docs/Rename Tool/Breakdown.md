@@ -249,6 +249,8 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
 
     This is a bug in Maya's architecture that causes batch renaming scripts to completely lock up the software.
 
+    The occurrence is dependant on how many times you rename your files, for normal use you probably wont notice the issue. 
+
     ??? Info "Hang Issue"
         
         <span style="color:rgb(25, 214, 110);">**What is Happening?**</span>:
