@@ -229,6 +229,9 @@
 
     <div id="config-Sampling_Colours" style="position: relative; top: -60px;"></div>
     * ++ctrl++ + ++alt++ + ++shift++ + Click: Toggles Maya's Color Management View Transform to "Un-tone-mapped" & Rendering Space to "scene-linear Red.709-sRGB"to ensure accurate color sampling.
+    
+    ![Vertex Colour Tool](images/Vertex_Colors_Mario_1.png){ .img-medium .img-centered} 
+
     ???+ Warning "Important - Sampling Colours"
         Use this when you want to sample colours (e.g. trying to match colours from a different application).
 
