@@ -14,7 +14,7 @@
 </div>
 -->
 
-![Speed Trim 1](images/Speed_Trim_Unfold_1.png){ .img-large .img-centered }
+![Speed Trim 1](images/Speed_Trim_Unfold_3.png){ .img-large .img-centered }
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2022-2027*

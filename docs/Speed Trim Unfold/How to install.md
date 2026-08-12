@@ -1,4 +1,4 @@
-# :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Trim Speed Unfold</span>**  
+# :octicons-tools-16: **<span style="color:rgba(195, 221, 80, 1);">Installing Speed Trim Unfold</span>**  
 
 ![Speed Trim Unfold](images/Speed_Trim_Unfold_2.png){ .img-large .img-centered }
 ### **<span style="color:rgba(195, 221, 80, 1);">Step 1 - Setting up</span>** 
@@ -47,7 +47,7 @@
 
     ---
 
-    Unfold Horizontally - Long Align (Recommended)*
+    Unfold Horizontally - Long Align <span style="color:rgba(195, 221, 80, 1);">*(Recommended)**</span>
 
     Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^horizontally^^ and align your shells alongside the ^^long^^ side your targets bounding box. 
 
