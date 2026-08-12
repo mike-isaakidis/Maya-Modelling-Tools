@@ -1,6 +1,5 @@
 # **<span style="color:rgb(221, 137, 59);">Speed Trim Unfold</span>** :tools:
 
-## <span style="color:rgba(255, 251, 0, 1);">**Intro**</span>
 
 <!-- >
 <div class="video-clean-wrapper">
