@@ -48,7 +48,7 @@
     
     There you will find a <span style="color:rgb(221, 240, 115);">**create shelf button**</span> you can use that will automatically create a shelf button for you.
     
-    ![Vertex Colour Tool](images/Vertex_Colour_Menu_Bar_2.jpg)
+    ![Vertex Colour Tool](images/Vertex_Colour_Menu_Bar_2.jpg){ .img-small } 
 
     Downloading this image is not necessary *(exists only as backup)*.
 

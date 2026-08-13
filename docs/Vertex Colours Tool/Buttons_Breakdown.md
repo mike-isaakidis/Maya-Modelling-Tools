@@ -287,6 +287,52 @@
 
         ![Vertex Colour Tool](images/vertex_colors_Apply_1.png){ .img-small .img-centered  } 
 
+- ### Using sRGB - Linear textures to apply vertex colours
+
+    ??? Tips "Important information about Texture Colour Space - sRGB vs Linear" 
+
+        * When you use an image to create vertex colours (++ctrl++ + Click on **Apply VC**), the image's pixel values are copied as-is. 
+        
+            Image files store colours sRGB-encoded, but Maya treats vertex colours as linear data — so the viewport applies its display transform on top of the already-encoded values, and the result looks washed out and brighter than the source image.
+
+        * In the **Options Menu** the checkbox <span style="color:rgb(12, 241, 100);">**Convert sRGB to Linear on Image Import**</span>,  converts the imported vertex colours from sRGB to linear immediately after the import, so what you see in the viewport matches the source texture. 
+            
+            The conversion runs per face-vertex (respecting the **Paint mode** of the **Paint Vertex Color Tool** — Vertex, Vertex face, or Face), leaves alpha untouched, and is fully undoable as part of the import.
+
+        * Disable it if your target engine or pipeline expects raw sRGB values stored in the vertex colours (e.g. a shader that handles the conversion itself).
+
+        - Examples: 
+
+        - The Issue: Washed out Vertex colours not matching the source image colour values.
+            
+            ???+ Tips "View Transform"
+                Ensure your **View Transform** is always set to **Un-tone-mapped (sRGB)** when you are trying to match colours, as this will match external apps like Photoshop, Unreal etc. 
+
+        ![Vertex Colour Tool](images/Vertex_Colour_Mario_1.jpg){ .img-medium .img-centered  } 
+
+        - Notice how if we change our **View Transform** to **RAW** the colours in our viewport match the reference image.
+        ![Vertex Colour Tool](images/Vertex_Colour_Mario_2.jpg){ .img-medium .img-centered  } 
+
+        - <span style="color:rgb(12, 241, 100);">**Fix 1: Convert your image to Linear in Photoshop.**</span>
+        ![Vertex Colour Tool](images/Vertex_Colour_Mario_3.jpg){ .img-medium .img-centered  } 
+
+        - <span style="color:rgb(12, 241, 100);">**Fix 2: Use Checkbox - Convert sRGB to Linear on Image Import.**</span>
+
+            ![Vertex Colour Tool](images/Vertex_Colour_Menu_Bar_3.jpg){ .img-small .img-centered} 
+
+            <figure style="text-align: center;" markdown>
+            ![Vertex Paint Tool](images/VC_Mario_1.gif){ .img-medium }
+            <figcaption><span style="color:rgba(22, 165, 110, 1);">Converting sRGB to Linear</span></figcaption>
+            </figure>
+
+            * This is the easier option and automatically converts the colours when applied to your object in Maya. 
+            * By default the value is always on, so if you notice and discrepancies with your reference image, uncheck the checkbox and try again. 
+        ![Vertex Colour Tool](images/Vertex_Colour_Mario_4.jpg){ .img-medium .img-centered  } 
+
+        - Final Result in **Unreal Engine**
+
+        ![Vertex Colour Tool](images/Vertex_Colour_Mario_5.jpg){ .img-medium .img-centered  } 
+
 
 ## <span style="color:rgb(199, 192, 99);">**12. Hue**</span>
 
@@ -320,6 +366,12 @@
 ## **<span style="color:rgb(238, 235, 77);">Options Menu</span>**
 
 ![Vertex Colour Tool Window](images/Vertex_Colour_Menu_Bar.jpg){ .img-small } 
+
+* <span style="color:rgb(199, 192, 99);">Convert sRGB to Linear on Image Import</span> - Refers to when using texture images to create vertex colours (++ctrl++ + Click the **Apply VC** button). 
+
+    * For more info click [here (sRGB -Linear)](#using-srgb-linear-textures-to-apply-vertex-colours)
+
+
 
 * <span style="color:rgb(199, 192, 99);">Create Shelf Button</span> - Creates a shelf button for this tool directly on your active Maya shelf.
 
