@@ -268,7 +268,7 @@
     <img src="../images/Vertex_Paint_Apply_1.gif" class="img-medium" alt="Vertex Paint_Tool_Apply_1">
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Applies the Colour from the Swatch</span></figcaption>
     </figure>
-    * ++shift++ + Click  <span style="color:rgb(199, 192, 99);">(Faces)</span>: Applies the color of the last selected face to all other selected faces *(much faster approach)*.
+    * ++shift++ + Click  <span style="color:rgb(199, 192, 99);">(Faces)</span>: Applies the color of the last selected face to all other selected faces *(much faster approach)*. Does the same exact thing as the Copy/Paste button.
     <figure style="text-align: center;">
     <img src="../images/Vertex_Paint_Apply_2.gif" class="img-medium" alt="Vertex Paint_Tool_Apply_2">
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Copy the value of the last selected face to the rest of your selection</span></figcaption>
@@ -313,20 +313,21 @@
         - Notice how if we change our **View Transform** to **RAW** the colours in our viewport match the reference image.
         ![Vertex Colour Tool](images/Vertex_Colour_Mario_2.jpg){ .img-medium .img-centered  } 
 
-        - <span style="color:rgb(12, 241, 100);">**Fix 1: Convert your image to Linear in Photoshop.**</span>
-        ![Vertex Colour Tool](images/Vertex_Colour_Mario_3.jpg){ .img-medium .img-centered  } 
+        - <span style="color:rgb(12, 241, 100);">**2 Ways to Fix:**</span>
+            * <span style="color:rgb(12, 241, 100);">**Fix 1: Convert your image to Linear in Photoshop.**</span>
+            ![Vertex Colour Tool](images/Vertex_Colour_Mario_3.jpg){ .img-medium .img-centered  } 
 
-        - <span style="color:rgb(12, 241, 100);">**Fix 2: Use Checkbox - Convert sRGB to Linear on Image Import.**</span>
+            - <span style="color:rgb(12, 241, 100);">**Fix 2: Use Checkbox - Convert sRGB to Linear on Image Import.**</span>
 
-            ![Vertex Colour Tool](images/Vertex_Colour_Menu_Bar_3.jpg){ .img-small .img-centered} 
+                * ![Vertex Colour Tool](images/Vertex_Colour_Menu_Bar_3.jpg){ .img-small .img-centered} 
 
-            <figure style="text-align: center;" markdown>
-            ![Vertex Paint Tool](images/VC_Mario_1.gif){ .img-medium }
-            <figcaption><span style="color:rgba(22, 165, 110, 1);">Converting sRGB to Linear</span></figcaption>
-            </figure>
+                <figure style="text-align: center;" markdown>
+                ![Vertex Paint Tool](images/VC_Mario_1.gif){ .img-medium }
+                <figcaption><span style="color:rgba(22, 165, 110, 1);">Converting sRGB to Linear</span></figcaption>
+                </figure>
 
-            * This is the easier option and automatically converts the colours when applied to your object in Maya. 
-            * By default the value is always on, so if you notice and discrepancies with your reference image, uncheck the checkbox and try again. 
+        * This is the easier option and automatically converts the colours when applied to your object in Maya *(no texture conversion in Photoshop needed)*. 
+        * By default the value is always on, so if you notice and discrepancies with your reference image, uncheck the checkbox and try again. 
         ![Vertex Colour Tool](images/Vertex_Colour_Mario_4.jpg){ .img-medium .img-centered  } 
 
         - Final Result in **Unreal Engine**
