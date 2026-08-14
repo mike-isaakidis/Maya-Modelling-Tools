@@ -1,7 +1,7 @@
 # **<span style="color:rgb(125, 127, 247);">Select Nth Edge/Face/Vertex & Selection Sets Tool</span>** :tools:
 
 
-![Select Nth](images/Select_nth_edge_face_vert_main.png){ .img-small } 
+![Select Nth](images/Main_Marketing_Page_1.png){ .img-medium } 
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2020-2027*
