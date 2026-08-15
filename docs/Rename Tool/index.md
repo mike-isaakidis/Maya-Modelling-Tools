@@ -3,7 +3,7 @@
 ## <span style="color:rgba(25, 214, 110);">**Intro**</span>
 
 
-![Rename Tool Main](images/Rename_Tool_main.jpg)
+![Rename Tool Main](images/Rename_Tool_Main_1.png)
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2022-2027*

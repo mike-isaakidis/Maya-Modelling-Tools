@@ -236,10 +236,25 @@ If a texture map was missing when you first created a material—or if you updat
 
 The Swap Texture feature allows you to instantly swap texture maps *(such as Albedo, Normal, or Mask maps)* on materials already assigned in your scene—without breaking shader connections or needing to rebuild your material network from scratch.
 
+- This is an feature added so you can better view your normal map on your actual geo to make any necessary adjustments.
+
 <figure style="text-align: center;">
     <img src="../images/Batch_Material_Creation_Swap_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Swapping Albedo with Normal textures</span></figcaption>
 </figure>
+
+
+
+- Sometimes when swapping, the Mask may be in the way of you evaluating your objects. That's why when swapping, if the <span style="color:rgb(71, 187, 119);">Disconnect Mask when Swapping Textures</span> checkbox *(in the Options Menu)* is checked, the tool will automatically do that. 
+    * Swapping back will re-connect your mask to your materials *(this won't happen if the checkbox is unchecked)*. 
+
+![Batch Exporter Window](images/BMC_swap_textures_checkbox_1.png){ .img-medium .img-centered } 
+
+<figure style="text-align: center;">
+    <img src="../images/BMC_Swapping_Textures_Mask_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Mask Behavior when Swapping</span></figcaption>
+</figure>
+
 
 ??? Failure "Swap Fail"
     * If you are missing any of your source texture files you will get a message to inform you. 
@@ -301,7 +316,7 @@ The Swap Texture feature allows you to instantly swap texture maps *(such as Alb
 
 <figure style="text-align: center;">
     <img src="../images/Batch_Material_UsePackedRGBA_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">.Enabling/Disabling Mask Support</span></figcaption>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Enabling/Disabling Mask Support</span></figcaption>
 </figure>
 
 ### 6. Disconnect Mask when normal map is swapped
