@@ -112,18 +112,18 @@ Please check the Rules section
 
  The difference these make is when you have UV's selected. 
  
- - When aligning UVs to a target shell, the tool calcualtes the bounding box of that target shell. That calculation is how the tool know how to orient the source UV shells.  
-    * Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold U (Long)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **long** side of the targets bounding box. 
+ - When aligning UVs to a target shell, the tool calcualtes the bounding box of that target shell. That calculation is how the tool knows how to orient the source UV shells.  
+    * Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold U (Length)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **Length** of the targets bounding box. 
     ??? Tip "Tip - Hotkey"
-        * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use this button as a hotkey, this will ensure your UVs will be aligned to the length of your target UV shells. 
+        * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use this button as a hotkey, this will ensure your UVs will be aligned to the length of your target UV shells *(horizontally and vertically)*. 
 
     ![Speed Trim multi select](images/Speed_Trim_button_1.png){ .img-medium .img-centered }
 
-     *  Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold V (Short)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **short** side of the targets bounding box. 
+     *  Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold V (Width)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **width** of the targets bounding box. 
 
     ![Speed Trim multi select](images/Speed_Trim_button_2.png){ .img-medium .img-centered }
 
-    * Please note that the long side of the source shells is being used to **align** towards the target shells.
+    * Please note that the length of the **source** shells is being used to **align** towards the target shells.
 
     * Here's a basic demonstration:
 
