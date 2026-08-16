@@ -1,7 +1,7 @@
 # **<span style="color:rgb(144, 137, 235);">Quick Custom Grid</span>** :tools:
 
 
-![Batch Exporter Window](images/Quick_Custom_Grid_main.jpg){ .img-small } 
+![Batch Exporter Window](images/Quick_Custom_Grid_Main_1.png){ .img-large } 
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2022-2027*
@@ -39,17 +39,32 @@ It features two distinct operating modes to suit different workflows: a standard
     </figure>
 
 
-## **<span style="color:rgb(144, 137, 235);">Options Menu</span>**
+## **<span style="color:rgb(144, 137, 235);">Preferences</span>**
 
-![Batch Exporter Window](images/Quick_Custom_Grid_options.jpg){ .img-small } 
+![Batch Exporter Window](images/Quick_Custom_Grid_Preferences.jpg){ .img-small } 
+
+
+
+<span style="color:rgb(144, 137, 235);">**Interpolation**</span>
 
 - <span style="color:rgb(144, 137, 235);">Use Power of 2 (Checkbox)</span>: Found in the top menu bar under "Options". 
 
     When activated, all grid size and spacing calculations are locked to powers of two (e.g., 8, 16, 32, 64, 128, 256, 512, 1024, 2048).
 
-- <span style="color:rgb(144, 137, 235);">Persistent Preferences</span>: The tool creates a Quick_Custom_Grid folder in Maya's user preference directory and saves a JSON file. 
+<span style="color:rgb(144, 137, 235);">**Display/Color**</span>
 
-    This ensures the tool remembers your "Power of 2" preference the next time you open it.
+- Apart from **Use Power of 2**, every option here mirrors Maya's **Grid Options** — the tool simply applies changes on the fly.
+
+![Batch Exporter Window](images/Quick_Custom_Grid_same_grid_options.jpg){ .img-medium .img-centered} 
+
+<figure>
+<img src="images/Quick_Custom_Grid_Preferences_1.gif" class="img-medium" alt="Quick Custom Grid">
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Adjusting grid options</span></span></figcaption>
+</figure>
+
+
+
+<span style="color:rgb(144, 137, 235);">**Documentation/Store**</span>
 
 * <span style="color:rgb(144, 137, 235);">Documentation</span> - Opens a link to the documentation.
 
