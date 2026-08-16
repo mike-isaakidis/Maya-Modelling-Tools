@@ -2,9 +2,9 @@
 
 ## <span style="color:rgb(25, 214, 110);">**Rename**</span> 
 
-The simplest version of the tool is to make a selection. Simply type anything in the name textfield and click the <span style="color:rgb(255, 149, 220);">**Rename**</span> button.
+At its most basic, the tool renames a selection: enter any name in the text field and click  <span style="color:rgb(255, 149, 220);">**Rename**</span>.
 
-- The <span style="color:rgb(255, 149, 220);">**interactive update**</span> feature of the tool will update the preview window, the moment you type in the **Name**, or make a **New** selection. 
+- The <span style="color:rgb(255, 149, 220);">**interactive update**</span> feature of the tool will update the preview window, the moment you type in the **Name** or make a **New** selection. 
 
 <figure markdown>
   ![Rename](images/Rename_Tool_giff_1.gif){ .img-medium }
@@ -21,14 +21,14 @@ The simplest version of the tool is to make a selection. Simply type anything in
 
 <div id="config-Warning" style="position: relative; top: -60px;"></div>
 ??? Warning "Important - Selection Order"
-    If your selection order is not tracked, make sure it is enabled in your <span style="color:rgb(255, 149, 220);">**settings/Preferences**</span> window *(under Selection)*.
+    If your selection order is not tracked, make sure it is enabled in your <span style="color:rgb(255, 149, 220);">**Settings/Preferences**</span> window *(under Selection)*.
     
     ![Rename Tool Main](images/selection_order_window_1.jpg){ .img-medium .img-centered }
 
     ![Rename Tool Main](images/selection_order_window_2.jpg){ .img-medium .img-centered }
 
 
-- <span style="color:rgb(25, 214, 110);">**Node Type Color-Coding**</span>: To help you quickly identify what kinds of objects you are about to rename, the tool analyzes the shape node of each selected object and applies a faint background highlight:
+- <span style="color:rgb(25, 214, 110);">**Node Type Color-Coding**</span>: To help you quickly identify what kind of objects you are about to rename, the tool analyzes the shape node of each selected object and applies a faint background highlight:
 
     ??? Info "Info - Colour Types"
 
@@ -210,7 +210,7 @@ However, when working in massive production scenes with thousands of dense asset
 
     <figure markdown>
     ![Rename](images/Rename_Tool_interaciveUpdate_giff_1.gif){ .img-medium }
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">Search and Replace</span></figcaption>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Refreshing Manually</span></figcaption>
     </figure>
 
 ### <span style="color:rgb(25, 214, 110);">**Select Button (Function/Features)**</span> 
@@ -228,7 +228,7 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
 
 - <span style="color:rgb(25, 214, 110);">**Reset All Checkboxes (++ctrl++ + Click)**</span>: If you've just finished a complex rename with prefixes, suffixes, and trims, Ctrl + Click will instantly uncheck every single box, giving you a clean slate for your next operation.
 
-- <span style="color:rgb(25, 214, 110);">**Reset All Textfields (++ctrl++ + ++shift++ + Click)**</span>: This modifier instantly clears every text field, zeroing out your trims, and restoring the UI to its default *(no entered text)* state.
+- <span style="color:rgb(25, 214, 110);">**Reset All Textfields (++ctrl++ + ++shift++ + Click)**</span>: This modifier instantly clears every text field, zeroing out your trims and restoring the UI to its default *(no entered text)* state.
 
 - <span style="color:rgb(25, 214, 110);">**Purge Empty Groups (++shift++ + Click)**</span>: A powerful built-in scene cleanup utility. 
 
@@ -243,13 +243,13 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
 
 ## <span style="color:rgb(25, 214, 110);">**Important Info**</span> 
 
-- If your order of selection is not named correctly please ensure [track selection order](#config-Warning) is checked in the settings.
+- If your order of selection is not renamed correctly please ensure [track selection order](#config-Warning) is checked in the settings.
 
 - Maya <span style="color:rgb(25, 214, 110);">**hangs**</span> when <span style="color:rgb(25, 214, 110);">**UV Editor**</span> is open (<span style="color:rgb(25, 214, 110);">**uvTkResolveAndUpdateTrees**</span>):
 
     This is a bug in Maya's architecture that causes batch renaming scripts to completely lock up the software.
 
-    The occurrence is dependant on how many times you rename your files, for normal use you probably wont notice the issue. 
+    The occurrence is dependent on how many times you rename your files, for normal use you probably won't notice the issue. 
 
     ??? Info "Hang Issue"
         
@@ -277,7 +277,7 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
 
         * <span style="color:rgb(25, 214, 110);">**The UV Editor Factor**</span>: The script will run blazingly fast in a fresh Maya scene, but the lag will only occur if the user has opened the UV Editor at least once during their current session.
 
-        * <span style="color:rgb(25, 214, 110);">**Closing Maya**</span>: Maya will not close immediately, as a result from parsing through all uvTkResolveAndUpdateTrees. 
+        * <span style="color:rgb(25, 214, 110);">**Closing Maya**</span>: Maya will not close immediately, as a result of parsing through all uvTkResolveAndUpdateTrees. 
         
             It could take 2 or 5 minutes to recover *(depending on the complexity of the situation)*. 
 
