@@ -41,7 +41,7 @@ It features two distinct operating modes to suit different workflows: a standard
 
 ## **<span style="color:rgb(144, 137, 235);">Preferences</span>**
 
-![Batch Exporter Window](images/Quick_Custom_Grid_Preferences.jpg){ .img-small } 
+![Batch Exporter Window](images/Quick_Custom_Grid_preferences.jpg){ .img-small } 
 
 
 
