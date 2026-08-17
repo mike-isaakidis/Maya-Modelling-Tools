@@ -2,7 +2,7 @@
 
 
 
-![Vertex Colour Tool Window Window](images/Vertex_Colors_Main_1.png){ .img-medium } 
+![Vertex Colour Tool Window Window](images/Vertex_Colors_Main_1.png){ .img-large } 
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2022-2027*
