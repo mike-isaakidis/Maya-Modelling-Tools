@@ -33,9 +33,7 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
 ![Batch Exporter Window](images/Batch_Material_Creation_2.png){ .img-medium } 
 
 - First thing we need to do, is to ensure our suffixes for Albedo, Normal and Mask *(from our tool)* match the suffixes of our texture files. 
-
-- Supported formats: 
-    * PSD, PSB, PNG, TGA, JPEG, JPG, TIFF, TIF *(more can be added upon request)*.
+    * These fields are fully customizable, so feel free to update these to match your own workflow.
 
 
 | Map      | Suffix                          |
@@ -43,6 +41,10 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
 | `Albedo`       |  D |
 | `Normal`       |  N |
 | `Mask`         |  M |
+
+
+- Supported image formats: 
+    * PSD, PSB, PNG, TGA, JPEG, JPG, TIFF, TIF *(more can be added upon request)*.
 
 ![Batch Exporter Window](images/Batch_Material_Creation_textures_1.png){ .img-medium } 
 
