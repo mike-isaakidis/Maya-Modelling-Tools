@@ -8,7 +8,9 @@
     *Tested in Maya 2022-2027*
 
 
-Batch Material Creation is a light, fast Python tool designed to supercharge your texturing workflow in Maya. 
+Batch Material Creation is a lightweight Python tool designed to accelerate texturing workflows in Maya. 
+
+Built specifically for **game** artists, it lets you instantly generate and assign materials with native support for <span style="color:rgb(171, 199, 69);">Albedo, Normal</span>, and custom Packed  <span style="color:rgb(171, 199, 69);">Mask</span> maps.
 
 Whether you're building massive environment scenes or prepping prop hero assets, this tool <span style="color:rgb(171, 199, 69);">automatically generates materials</span> and plugs in your texture maps based on custom suffixes—in just a single click.
 
