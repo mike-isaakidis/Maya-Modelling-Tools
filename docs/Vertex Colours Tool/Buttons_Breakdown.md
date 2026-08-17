@@ -421,6 +421,8 @@ You can review or change trusted locations at any time under <span style="color:
 
 - The tool has been tested applying Vertex Colours with 500K faces and the results take just a few seconds.
 
+- With dense objects it is advised to <span style="color:rgb(96, 192, 139);">**delete your history**</span> as it may impact performance. 
+
     <figure style="text-align: center;">
     <img src="../images/Vertex_Paint_High_poly_Objects_2.gif" class="img-medium" alt="Vertex Paint_Tool_High_Poly_Count_2">
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Applying Vertex Colour on a 1.2m tris object</span></figcaption>
