@@ -1,7 +1,8 @@
 # **<span style="color:rgb(71, 187, 119);">Batch Material Creation</span>** :tools:
 
 
-![Batch Exporter Window](images/Batch_Material_Creation.png){ .img-medium } 
+![Batch Exporter Window](images/Batch_Material_Creation_Main_1.png){ .img-large } 
+
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2022-2027*
