@@ -36,11 +36,11 @@ Once it finishes, a handy <span style="color:rgb(215, 238, 115);">log window</sp
     * These fields are fully customizable, so feel free to update these to match your own workflow.
 
 
-| Map      | Suffix                          |
-| ----------- | ------------------------------------ |
-| `Albedo`       |  D |
-| `Normal`       |  N |
-| `Mask`         |  M |
+        | Map      | Suffix                          |
+        | ----------- | ------------------------------------ |
+        | `Albedo`       |  D |
+        | `Normal`       |  N |
+        | `Mask`         |  M |
 
 
 - Supported image formats: 
