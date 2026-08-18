@@ -1,0 +1,2865 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Write your documentation in Markdown and create a professional static site in minutes – searchable, customizable, in 60+ languages, for all devices">
+      
+      
+        <meta name="author" content="Michail Isaakidis">
+      
+      
+        <link rel="canonical" href="https://mike-isaakidis.github.io/Maya-Modelling-Tools/Rename%20Tool/Breakdown/">
+      
+      
+        <link rel="prev" href="../How%20to%20install/">
+      
+      
+        <link rel="next" href="../../Select_nth_edge_face_vert/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Breakdown - Mike's Maya Tools</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#breakdown" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Mike's Maya Tools" class="md-header__button md-logo" aria-label="Mike's Maya Tools" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z"></path>
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5"></path>
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z"></path>
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25"></path>
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mike's Maya Tools
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Breakdown
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="deep-orange" aria-hidden="true" type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard="" data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../Tools%20Page/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Free%20Tools/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Free Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Create%20Hotkeys%20Shelf%20Buttons/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Create Hotkeys/Shelf Buttons
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Changelog/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Changelog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Store/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Store
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Contact/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Mike's Maya Tools" class="md-nav__button md-logo" aria-label="Mike's Maya Tools" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z"></path>
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5"></path>
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z"></path>
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25"></path>
+</svg>
+
+    </a>
+    Mike's Maya Tools
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Tools%20Page/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Batch%20Exporter/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Batch Exporter
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Batch Exporter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Batch%20Exporter/how_to_install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Batch%20Exporter/Buttons_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Buttons Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Batch%20Exporter/Breakdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breakdown
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Batch%20Material%20Creation/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Batch Material Creation
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Batch Material Creation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Batch%20Material%20Creation/How_to_Install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Batch%20Material%20Creation/Breakdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breakdown
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Mirror%20Tool/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mirror Tool
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mirror Tool
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mirror%20Tool/How%20to%20install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Quick%20Custom%20Grid/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Custom Grid
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quick Custom Grid
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Quick%20Custom%20Grid/How%20to%20install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Quick%20Sweep%20Mesh/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Sweep Mesh
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quick Sweep Mesh
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Quick%20Sweep%20Mesh/How%20to%20install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Quick%20Sweep%20Mesh/videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Videos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rename Tool
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Rename Tool
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../How%20to%20install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breakdown
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Breakdown
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#rename" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rename
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#number-tail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number Tail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a_z" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A_Z
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix-suffix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prefix - Suffix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combining-all-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combining all features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-and-replace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search and Replace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove-firstlast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove First/Last
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Additional Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interactive-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interactive Update
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-button-functionfeatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Button (Function/Features)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Info
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Select_nth_edge_face_vert/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Select Nth Edge/Face/Vertex &amp; Selection Sets Tool
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Select Nth Edge/Face/Vertex &amp; Selection Sets Tool
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Select_nth_edge_face_vert/How%20to%20install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Select_nth_edge_face_vert/Select%20Nth%20Edge_Face_Vert/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Select Nth Edge_Face_Vert
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Select_nth_edge_face_vert/Selection%20Sets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selection Sets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Speed%20Trim%20Unfold/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Speed Trim Unfold
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_9" id="__nav_2_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Speed Trim Unfold
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Speed%20Trim%20Unfold/How%20to%20install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_10">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Vertex%20Colours%20Tool/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vertex Colour Tool
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vertex Colour Tool
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Vertex%20Colours%20Tool/How%20to%20Install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Vertex%20Colours%20Tool/Buttons_Breakdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Buttons Breakdown
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Free%20Tools/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Free Tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Free Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Free%20Tools/Bevel%20Tool/Bevel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bevel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Free%20Tools/Pro%20Boolean/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pro Boolean
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Create%20Hotkeys%20Shelf%20Buttons/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Hotkeys/Shelf Buttons
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Create Hotkeys/Shelf Buttons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Changelog/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Changelog
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Store/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Store
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Store
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Contact/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contact
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#rename" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rename
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#number-tail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number Tail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a_z" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A_Z
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix-suffix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prefix - Suffix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combining-all-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combining all features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-and-replace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search and Replace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove-firstlast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove First/Last
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Additional Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interactive-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interactive Update
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-button-functionfeatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Button (Function/Features)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Info
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="breakdown"><strong><span style="color:rgb(25, 214, 110);">Breakdown</span></strong><a class="headerlink" href="#breakdown" title="Permanent link">¶</a></h1>
+<h2 id="rename"><span style="color:rgb(25, 214, 110);"><strong>Rename</strong></span><a class="headerlink" href="#rename" title="Permanent link">¶</a></h2>
+<p>At its most basic, the tool renames a selection: enter any name in the text field and click  <span style="color:rgb(255, 149, 220);"><strong>Rename</strong></span>.</p>
+<ul>
+<li>The <span style="color:rgb(255, 149, 220);"><strong>interactive update</strong></span> feature of the tool will update the preview window, the moment you type in the <strong>Name</strong> or make a <strong>New</strong> selection. </li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_giff_1.gif"></a>
+  </p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Plain Rename Feature</span></figcaption>
+</figure>
+<ul>
+<li><span style="color:rgb(25, 214, 110);"><strong>Selection Order Matters</strong></span>: The tool respects the exact order in which you select your objects in the viewport or Outliner. </li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_rev_order_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_rev_order_giff_1.gif"></a>
+  </p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Selection order tracked</span></figcaption>
+</figure>
+<div id="config-Warning" style="position: relative; top: -60px;"></div>
+<details class="warning">
+<summary>Important - Selection Order</summary>
+<p>If your selection order is not tracked, make sure it is enabled in your <span style="color:rgb(255, 149, 220);"><strong>Settings/Preferences</strong></span> window <em>(under Selection)</em>.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/selection_order_window_1.jpg" data-desc-position="bottom"><img alt="Rename Tool Main" class="img-medium img-centered" src="../images/selection_order_window_1.jpg"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/selection_order_window_2.jpg" data-desc-position="bottom"><img alt="Rename Tool Main" class="img-medium img-centered" src="../images/selection_order_window_2.jpg"></a></p>
+</details>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Node Type Color-Coding</strong></span>: To help you quickly identify what kind of objects you are about to rename, the tool analyzes the shape node of each selected object and applies a faint background highlight:</p>
+<details class="info">
+<summary>Info - Colour Types</summary>
+<p>📷 Cameras: Faint Grey</p>
+<p>〰️ Curves (NURBS &amp; Bezier): Faint Blue</p>
+<p>📍 Locators: Faint Light Blue</p>
+<p>💡 Lights (Any directional, point, spot, Arnold lights, etc.): Faint Yellow</p>
+<p>📦 Geometry : No Colour</p>
+<p>🧧 Groups: Faint Red</p>
+</details>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_Colour_Types_1.jpg" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_Colour_Types_1.jpg"></a> </p>
+</li>
+</ul>
+<h2 id="number-tail"><span style="color:rgb(25, 214, 110);"><strong>Number Tail</strong></span><a class="headerlink" href="#number-tail" title="Permanent link">¶</a></h2>
+<p>The <span style="color:rgb(255, 149, 220);"><strong>number tail</strong></span> feature automatically appends sequential numbering to your batch-renamed assets, ensuring every object has a unique, organized identifier.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_numberPadding_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_numberPadding_giff_1.gif"></a>
+  </p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Subsequent numbers applied to selection</span></figcaption>
+</figure>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Selection Order Matters</strong></span>: The tool respects the exact order in which you select your objects in the viewport or Outliner. The first object you click gets the first number, and subsequent selections will count up sequentially (e.g., 1, 2, 3, 4).</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Custom Zero-Padding</strong></span>: You have full control over the number format. By simply typing extra zeroes into the text field, the tool dynamically adjusts the padding length of the suffix.</p>
+<ul>
+<li>
+<p>Type 1 ➔ _1, _2, _3... _10</p>
+</li>
+<li>
+<p>Type 01 ➔ _01, _02, _03... _10</p>
+</li>
+<li>
+<p>Type 001 ➔ _001, _002, _003... _010</p>
+</li>
+</ul>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_numberPadding_giff_2.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_numberPadding_giff_2.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Number Padding Changed</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h2 id="a_z"><span style="color:rgb(25, 214, 110);"><strong>A_Z</strong></span><a class="headerlink" href="#a_z" title="Permanent link">¶</a></h2>
+<p>The <span style="color:rgb(25, 214, 110);"><strong>A_Z</strong></span> feature allows you to sequence your batch renames using letters instead of (or alongside) numbers. This is perfect for variation sets, modular kits, or LODs.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_A_Z_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_A_Z_giff_1.gif"></a>
+  </p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Subsequent letters applied to selection</span></figcaption>
+</figure>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Case Sensitivity (Lower &amp; Upper Case)</strong></span>: The tool fully supports both uppercase and lowercase lettering based on what you type. You can start your sequence with a lowercase a (resulting in _a, _b, _c) or an uppercase A (_A, _B, _C). The internal sequence seamlessly flows from a-z into A-Z.</p>
+<ul>
+<li>lower-case will traverse through to upper-case letters</li>
+</ul>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_A_Z_eoa_giff_2.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_A_Z_eoa_giff_2.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">lower-case traversal to upper</span></figcaption>
+</figure><p></p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>End of Alphabet Protection</strong></span>: If you select more objects than there are available letters left in the sequence, the tool automatically halts the operation and alerts you. This failsafe ensures your naming conventions don't break or generate unexpected characters when you reach the end of the alphabet.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_A_Z_eoa_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_A_Z_eoa_giff_1.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">End of alphabet</span></figcaption>
+</figure><p></p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Auto-Reset for Invalid Inputs</strong></span>: If you accidentally type a number or special character into the A–Z text field, the tool will instantly catch the error, alert you, and safely reset the field back to the default "A".</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_A_Z_giff_3.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_A_Z_giff_3.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Auto Reset Letter</span></figcaption>
+</figure><p></p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Customizable Underscores (Options Menu)</strong></span>: By default, the tool adds an underscore before the letter (e.g., Barrel_A, Barrel_B). If your pipeline requires the letter to be directly attached to the base name (e.g., BarrelA, BarrelB), you can easily turn this off by unchecking "Use underscore before A_Z" directly in the top Options menu.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_A_Z_giff_4.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_A_Z_giff_4.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Customizable Underscore</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h2 id="prefix-suffix"><span style="color:rgb(25, 214, 110);"><strong>Prefix - Suffix</strong></span><a class="headerlink" href="#prefix-suffix" title="Permanent link">¶</a></h2>
+<p>The <span style="color:rgb(25, 214, 110);"><strong>Prefix and Suffix</strong></span> features allow you to instantly prepend or append standard pipeline tags to your assets. The tool automatically handles the formatting, seamlessly inserting underscores between the prefix, base name, and suffix so you don't have to type them manually.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_preSuf_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_preSuf_giff_1.gif"></a></p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Prefix-Suffix</span></figcaption>
+</figure>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Maya Rule Protection (No Leading Digits)</strong></span>: Maya's architecture strictly forbids node names from starting with a number. If you accidentally attempt to start your Prefix with a digit (e.g., 1_Prop), the tool instantly catches the violation, halts the operation, and clears the field with a warning.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_preSuf_giff_2.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_preSuf_giff_2.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Leading Numbers</span></figcaption>
+</figure><p></p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Pipeline-Safe Validation</strong></span>: Both text fields actively scan for illegal characters (like spaces, dashes, or special symbols). It ensures your tags contain only letters, numbers, and underscores, keeping your names 100% compliant with game engines and Maya's backend.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_preSuf_giff_3.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_preSuf_giff_3.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Illegal characters</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h2 id="combining-all-features"><span style="color:rgb(25, 214, 110);"><strong>Combining all features</strong></span><a class="headerlink" href="#combining-all-features" title="Permanent link">¶</a></h2>
+<p>The true power of the Rename Tool lies in its ability to combine features seamlessly. Every toggle—Prefixes, Base Names, Number Tails, A–Z sequencing, and Suffixes—can be stacked simultaneously to match even the most complex and strict studio naming conventions.</p>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Worry-Free Experimentation</strong></span>: Because of the Real-Time Live Preview, you can check and uncheck different combinations, adjust padding, and change prefixes on the fly. You will see the exact final output for your entire selection instantly—before you commit to a single rename.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_comb_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_comb_giff_1.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Combining all features</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h2 id="search-and-replace"><span style="color:rgb(25, 214, 110);"><strong>Search and Replace</strong></span><a class="headerlink" href="#search-and-replace" title="Permanent link">¶</a></h2>
+<p>The <span style="color:rgb(255, 149, 220);"><strong>Search &amp; Replace</strong></span> feature is a lifesaver for fixing typos, updating outdated naming conventions, or mass-migrating asset tags without having to manually re-type everything.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_S%26R_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_S%26R_giff_1.gif"></a></p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Search and Replace</span></figcaption>
+</figure>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Case Sensitivity Control</strong></span>: Controlled directly from the top Options menu, you can toggle strict case sensitivity.</p>
+<ul>
+<li>Case Sensitive ON: Perfect for targeted fixes (e.g., changing LOD to lod without affecting other uppercase letters).</li>
+<li>Case Sensitive OFF: Great for sweeping, case-insensitive mass replacements across a messy scene.</li>
+</ul>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_S%26R_giff_2.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_S%26R_giff_2.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Case-Sensitive/insensitive</span></figcaption>
+</figure><p></p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Smart Clash Protection</strong></span>: If a replacement accidentally results in two objects having the exact same name, the tool's built-in name clash resolution kicks in automatically, appending numbers to prevent Maya from throwing errors or scrambling your hierarchy.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_S%26R_giff_3.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_S%26R_giff_3.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Name Clash Protection</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h2 id="remove-firstlast"><span style="color:rgb(25, 214, 110);"><strong>Remove First/Last</strong></span><a class="headerlink" href="#remove-firstlast" title="Permanent link">¶</a></h2>
+<p>The <span style="color:rgb(25, 214, 110);"><strong>Remove First / Last</strong></span> feature is your go-to tool for instantly cleaning up messy imported assets, stripping out baked-in namespaces, or removing unwanted tags from hundreds of objects at once.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_firstLast_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_firstLast_giff_1.gif"></a></p>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Remove First/Last</span></figcaption>
+</figure>
+<details class="info">
+<summary>Info - Additional features</summary>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Quick Zero-Out Shortcut</strong></span>: Made a mistake or want to start over? </p>
+<p>Simply <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + Click on any of the <span style="color:rgb(25, 214, 110);"><strong>+</strong></span> or <span style="color:rgb(25, 214, 110);"><strong>-</strong></span> buttons to instantly snap the trim value back to <span style="color:rgb(25, 214, 110);"><strong>0</strong></span>.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Maya Rule Protection (Leading Digits)</strong></span>: Maya will fatally error if an object name starts with a number. </p>
+<p>If you trim the front of a name and accidentally expose a digit (for example, trimming 5 characters from Prop_01_Barrel leaves 01_Barrel), the tool intelligently detects this and automatically injects an underscore (_01_Barrel) to keep your scene completely stable.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Overshoot Failsafe</strong></span>: If you accidentally dial the removal number higher than the total length of the object's name, the tool prevents the name from being completely deleted, ensuring your Outliner items never vanish into nameless data.</p>
+</li>
+</ul>
+</details>
+<h2 id="additional-features"><span style="color:rgb(25, 214, 110);"><strong>Additional Features</strong></span><a class="headerlink" href="#additional-features" title="Permanent link">¶</a></h2>
+<h3 id="interactive-update"><span style="color:rgb(25, 214, 110);"><strong>Interactive Update</strong></span><a class="headerlink" href="#interactive-update" title="Permanent link">¶</a></h3>
+<p>By default, the <span style="color:rgb(25, 214, 110);"><strong>Preview Window</strong></span> is fully interactive, updating instantly with every keystroke, checkbox toggle, or selection change. </p>
+<p>However, when working in massive production scenes with thousands of dense assets, live-calculating name clashes on every keystroke can sometimes cause UI lag.</p>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Interactive Update Toggle</strong></span>: Located right above the rename button, the Interactive Update checkbox gives you full control over performance. Unchecking this box pauses the real-time preview calculations, instantly restoring maximum UI responsiveness in extremely heavy scenes.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Manual Refresh Button</strong></span>: When Interactive Update is toggled off, you can type out your complex naming conventions, adjust padding, and dial in character trims with zero lag. Once your setup is ready, simply click the dedicated Refresh button to calculate and display the Preview Window on demand.</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_interaciveUpdate_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_interaciveUpdate_giff_1.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Refreshing Manually</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h3 id="select-button-functionfeatures"><span style="color:rgb(25, 214, 110);"><strong>Select Button (Function/Features)</strong></span><a class="headerlink" href="#select-button-functionfeatures" title="Permanent link">¶</a></h3>
+<p>The <span style="color:rgb(25, 214, 110);"><strong>Select</strong></span> button is much more than just a way to grab objects—it is a context-sensitive multi-tool packed with shortcuts to speed up your workflow and keep your UI clean. Depending on the modifier key you hold, it performs completely different tasks:</p>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Select by Name (Standard Click)</strong></span>: Type any word into the Base Name text field and click Select. The tool will instantly scan your entire scene and select every object that contains that string. It even respects your strict Case Sensitivity toggle from the Options menu!</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_addFeat_giff_1.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_addFeat_giff_1.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Select by Name</span></figcaption>
+</figure><p></p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Sample Object Name (<span class="keys"><kbd class="key-alt">Alt</kbd></span> + Click)</strong></span>: Don't want to type? Simply select an object in the viewport or Outliner and Alt + Click the Select button. It will instantly sample that object's name and paste it directly into the Base Name text field.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Reset All Checkboxes (<span class="keys"><kbd class="key-control">Ctrl</kbd></span> + Click)</strong></span>: If you've just finished a complex rename with prefixes, suffixes, and trims, Ctrl + Click will instantly uncheck every single box, giving you a clean slate for your next operation.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Reset All Textfields (<span class="keys"><kbd class="key-control">Ctrl</kbd></span> + <span class="keys"><kbd class="key-shift">Shift</kbd></span> + Click)</strong></span>: This modifier instantly clears every text field, zeroing out your trims and restoring the UI to its default <em>(no entered text)</em> state.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Purge Empty Groups (<span class="keys"><kbd class="key-shift">Shift</kbd></span> + Click)</strong></span>: A powerful built-in scene cleanup utility. </p>
+<p>If you have a messy hierarchy selected, <span class="keys"><kbd class="key-shift">Shift</kbd></span> + Click will scan through it and intelligently delete any empty transforms or "junk" groups <em>(groups containing only hidden intermediate shapes)</em>. </p>
+<p>If you have nothing selected, it will scan and clean your entire scene in a fraction of a second!</p>
+<p></p><figure markdown="">
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/Rename_Tool_addFeat_giff_2.gif" data-desc-position="bottom"><img alt="Rename" class="img-medium" src="../images/Rename_Tool_addFeat_giff_2.gif"></a>
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Delete Empty Groups</span></figcaption>
+</figure><p></p>
+</li>
+</ul>
+<h2 id="important-info"><span style="color:rgb(25, 214, 110);"><strong>Important Info</strong></span><a class="headerlink" href="#important-info" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<p>If your order of selection is not renamed correctly please ensure <a href="#config-Warning">track selection order</a> is checked in the settings.</p>
+</li>
+<li>
+<p>Maya <span style="color:rgb(25, 214, 110);"><strong>hangs</strong></span> when <span style="color:rgb(25, 214, 110);"><strong>UV Editor</strong></span> is open (<span style="color:rgb(25, 214, 110);"><strong>uvTkResolveAndUpdateTrees</strong></span>):</p>
+<p>This is a bug in Maya's architecture that causes batch renaming scripts to completely lock up the software.</p>
+<p>The occurrence is dependent on how many times you rename your files, for normal use you probably won't notice the issue. </p>
+<details class="info">
+<summary>Hang Issue</summary>
+<p><span style="color:rgb(25, 214, 110);"><strong>What is Happening?</strong></span>:</p>
+<ul>
+<li>
+<p>When you open the UV Editor and its accompanying UV Toolkit in a Maya session, Maya silently creates several background "scriptJobs." </p>
+<p>These scriptJobs act like motion sensors—they watch the scene for any changes <em>(like object selections or name changes)</em> so they can automatically update the lists and UI trees inside the UV Toolkit <em>(specifically the "UV Sets" list at the bottom)</em>.</p>
+<p>The internal command that updates this UI tree is called  <span style="color:rgb(25, 214, 110);"><strong>uvTkResolveAndUpdateTrees</strong></span>.</p>
+</li>
+<li>
+<p>If you run a batch rename script that processes 1,000 objects in a fast for loop, Maya detects a name change 1,000 times in a fraction of a second. </p>
+<p>Consequently, it triggers the uvTkResolveAndUpdateTrees scriptJob 1,000 times. </p>
+<p>Maya physically cannot redraw the UV Toolkit UI that quickly, so the main processing thread gets choked, resulting in a total UI freeze <em>(UI Thrashing)</em>.</p>
+</li>
+</ul>
+<p><span style="color:rgb(25, 214, 110);"><strong>How Users Can Identify the Issue</strong></span>:</p>
+<p>If a user runs your Rename Tool and experiences a massive slowdown or freeze, they can confirm this specific bug by checking for these three symptoms:</p>
+<ul>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>The Script Editor Spam</strong></span>: If they open the Script Editor, they will see an infinite wall of text printing uvTkResolveAndUpdateTrees; over and over again.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>The "Ghost" Hang</strong></span>: Maya's UI will lock up, turn white, or display "Not Responding," but the CPU usage in their Task Manager will be incredibly low (0-5%). Maya isn't calculating heavy geometry; it is just deadlocked trying to draw UI panels.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>The UV Editor Factor</strong></span>: The script will run blazingly fast in a fresh Maya scene, but the lag will only occur if the user has opened the UV Editor at least once during their current session.</p>
+</li>
+<li>
+<p><span style="color:rgb(25, 214, 110);"><strong>Closing Maya</strong></span>: Maya will not close immediately, as a result of parsing through all uvTkResolveAndUpdateTrees. </p>
+<p>It could take 2 or 5 minutes to recover <em>(depending on the complexity of the situation)</em>. </p>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.artstation.com/michailisaakidis/store?tab=digital_product" target="_blank" rel="noopener" title="Artstation Store" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m0 17.723 2.027 3.505h.001a2.42 2.42 0 0 0 2.164 1.333h13.457l-2.792-4.838zm24 .025c0-.484-.143-.935-.388-1.314L15.728 2.728a2.42 2.42 0 0 0-2.142-1.289H9.419L21.598 22.54l1.92-3.325c.378-.637.482-.919.482-1.467m-11.129-3.462L7.428 4.858l-5.444 9.428z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://mike3d.gumroad.com/" target="_blank" rel="noopener" title="Gumroad Store" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0m-.007 5.12c4.48 0 5.995 3.025 6.064 4.744h-3.239c-.069-.962-.897-2.406-2.896-2.406-2.136 0-3.514 1.857-3.514 4.126s1.378 4.125 3.514 4.125c1.93 0 2.758-1.512 3.103-3.025h-3.103v-1.238h6.509v6.327h-2.855v-3.989c-.207 1.444-1.102 4.264-4.617 4.264-3.516 0-5.584-2.82-5.584-6.326 0-3.645 2.276-6.602 6.618-6.602"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/@michailisaakidis" target="_blank" rel="noopener" title="Youtube Channel" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.selections", "navigation.top", "header.autohide", "announce.dismiss", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy", "toc.follow", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
