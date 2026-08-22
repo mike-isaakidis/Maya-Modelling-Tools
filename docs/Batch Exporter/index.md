@@ -1,7 +1,6 @@
 # **<span style="color:rgb(214, 126, 25);">Batch Exporter</span>** :tools:
 
-
-![Batch Exporter Window](images/Batch_Exporter_Window.jpg){ .img-medium } 
+![Batch Exporter Window](images/Batch_Exporter_Main_1.png){ .img-large } 
 
 ??? Tip "Maya Versions"
     *Tested in Maya 2022-2027*
@@ -28,6 +27,7 @@ The tool also allows to export objects as a  <span style="color:lime">single fil
 * <span style="color:lime">Import</span> - Batch Imports files.
 * <span style="color:lime">Freeze transforms</span> - Freezes transforms for Translate, Rotate and Scale.
 * <span style="color:lime">Additional Export Paths</span> - Allows for storing and exporting to multiple folder paths at the same time.
+
 
 <span style="color:pink">Baking Workflow options</span>:
 
