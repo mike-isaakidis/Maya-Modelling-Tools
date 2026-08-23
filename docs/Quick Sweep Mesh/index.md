@@ -1,7 +1,5 @@
 # **<span style="color:rgb(221, 137, 59);">Quick Sweep Mesh</span>** :tools:
 
-## <span style="color:rgb(221, 137, 59);">**Intro**</span>
-
 ![Quick_Sweep_1](images/Quick_Sweep_1.png){ .img-large}
 
 ??? Tip "Maya Versions"
