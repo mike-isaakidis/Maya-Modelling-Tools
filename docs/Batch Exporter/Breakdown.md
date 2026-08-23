@@ -1,5 +1,65 @@
 # **<span style="color:rgb(214, 126, 25);">Breakdown</span>**
 
+## <span style="color:rgb(199, 192, 99);">**Stored Paths**</span>
+
+The path field is a dropdown that remembers the folders you use. Paths are stored globally, so they persist across scenes and Maya sessions. 
+
+
+<figure style="text-align: center;">
+    <img src="../images/Batch_Exporter_Temp_Paths_1.gif" class="img-medium" alt="Vertex Paint Tool Replace VC 1">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Storing Temp paths from folder dropping</span></figcaption>
+</figure>
+
+### How paths get stored
+
+- A folder is added to the top of the dropdown whenever you:
+
+    * Pick a folder through the browse dialog
+    * Type or paste a valid path and press Enter (or click away from the field)
+    * Drag and drop one or more folders from Explorer anywhere onto the tool window
+    * Use the path in an export / import / material creation
+
+### Pinned favorites (<span style="color:rgb(199, 192, 99);">**★**</span>)
+
+- Click the star button next to the path field to pin the current folder as a favorite.
+
+    <figure style="text-align: center;">
+        <img src="../images/Batch_Exporter_Temp_Paths_3.gif" class="img-medium" alt="Vertex Paint Tool Replace VC 1">
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Pinning Favorites</span></figcaption>
+    </figure>
+
+    * Favorites always stay at the top of the dropdown, marked with a gold star.
+    * Favorites never fall out of the list and survive "clear all recent paths".
+    * Favorites are protected from deletion — unpin them first (click the star again) to remove them.
+
+
+### Missing folder detection
+
+- Every time you open the dropdown, the tool checks whether each stored folder still exists on disk.
+
+    <figure style="text-align: center;">
+        <img src="../images/Batch_Exporter_Temp_Paths_2.gif" class="img-medium" alt="Vertex Paint Tool Replace VC 1">
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Missing paths</span></figcaption>
+    </figure>
+
+    * Folders that no longer exist (renamed, moved, or deleted) are shown with a faint red background.
+    * Hovering the entry shows the full path with a "folder no longer exists" note.
+    * The check runs live on every click, so changes on disk show up immediately — no restart needed.
+
+- The path field itself also turns red while it contains an invalid path, and clears back to normal as soon as the path is valid (or the field is emptied).
+
+### Removing stored paths
+
+- All removal shortcuts are on the folder *(Select Folder Path)* button:
+
+    * ++ctrl++ + Click	Delete all recent paths (pinned favorites are kept)
+    * ++ctrl++ + ++shift++ + Click	Remove only the path currently shown in the field
+
+???+ Tip "Tip - Long Paths"
+    * Long paths that don't fit in the field can be read in full by hovering the dropdown entry (tooltip).
+
+
+
 ## <span style="color:rgb(199, 192, 99);">**How to export**</span>
 
 When batch exporting - the tool uses the Object's name as the file name.
@@ -286,6 +346,8 @@ Move to Origin will move your objects to the World Origin (0,0,0), export them a
 ???+ warning "Warning - Freezing Transforms on group objects"
     When using any of the Freeze Transform options on a group node, it will only Freeze the transforms of the group *(not the children)*.
 
-## Single Export
+## <span style="color:rgb(199, 192, 99);">**Single Export**</span>
 
 [Link to Single Export documentation](../Batch%20Exporter/Buttons_overview.md#single-export){ .md-button .md-button--primary }
+
+
