@@ -35,7 +35,7 @@
 
     ``` py linenums="1"
     from VertexColourTool import Vertex_Colour
-    Vertex_Colour.VertexColour().show_dialog()
+    Vertex_Colour.VertexColour.show_dialog()
     ```
 
 
