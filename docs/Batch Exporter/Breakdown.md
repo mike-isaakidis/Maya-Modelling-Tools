@@ -58,6 +58,13 @@ The path field is a dropdown that remembers the folders you use. Paths are store
 ???+ Tip "Tip - Long Paths"
     * Long paths that don't fit in the field can be read in full by hovering the dropdown entry (tooltip).
 
+### <span style="color:rgb(199, 192, 99);">**Difference between Stored paths and Additional paths**</span> 
+
+- **Recent Paths (the dropdown)** — just a memory helper. The tool remembers the last 10 folders you've used, plus any you've pinned as favorites (★), and offers them in the dropdown so you don't have to browse again. They're saved in Maya itself, so you see the same list in every scene. Picking one doesn't export anywhere — it just fills in the main Export Path for you.
+
+
+
+- **Additional Export Paths (the drawer)** — actual extra destinations. Each row is a folder your files can export to, with a checkbox to turn it on. Check two or more and your files go to all of them at once; check none and everything goes to the main Export Path. These are saved inside the scene file, so they come back when you reopen that scene *(for more info on Additional Paths click [**here**](#additional-export-paths))*.
 
 
 ## <span style="color:rgb(199, 192, 99);">**How to export**</span>
@@ -349,5 +356,15 @@ Move to Origin will move your objects to the World Origin (0,0,0), export them a
 ## <span style="color:rgb(199, 192, 99);">**Single Export**</span>
 
 [Link to Single Export documentation](../Batch%20Exporter/Buttons_overview.md#single-export){ .md-button .md-button--primary }
+
+
+## **<span style="color:rgb(71, 187, 119);">Dockable</span>** 
+
+- The tool is dockable in the Maya UI.
+
+<figure style="text-align: center;">
+    <img src="../../Batch Exporter/images/Batch_Exporter_Dockable_1.gif" ...>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Docking the tool</span></figcaption>
+</figure>
 
 

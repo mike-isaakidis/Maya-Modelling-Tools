@@ -30,6 +30,16 @@ Blazing fast — built on the OpenMaya API
 
 - The Selection Sets module provides a lightweight, keyboard-driven manager for creating, querying, modifying, and selecting Maya objectSet nodes directly from the tool interface—without opening the Outliner or Set Editor.
 
+### <span style="color:rgb(125, 127, 247);">Dockable</span>
+
+- The tool can be integrated within Maya's UI.
+
+<figure markdown="1" style="text-align: center;">
+  ![Pattern Selection on Faces](../Select_nth_edge_face_vert/images/Select_nth_Dockable_1.gif){ .img-medium .img-centered }
+  <figcaption><span style="color: rgba(22, 165, 110, 1);">Docking the tool</span></figcaption>
+</figure>
+
+
 
 ### <span style="color:rgb(125, 127, 247);">Options Menu</span>
 

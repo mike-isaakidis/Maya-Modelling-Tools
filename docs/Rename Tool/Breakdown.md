@@ -241,6 +241,14 @@ The <span style="color:rgb(25, 214, 110);">**Select**</span> button is much more
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Delete Empty Groups</span></figcaption>
     </figure>
 
+## <span style="color:rgb(25, 214, 110);">**Docking**</span> 
+- The tool is dockable in the Maya UI.
+
+    <figure markdown>
+    ![Rename](images/Rename_Tool_Docking_1.gif){ .img-medium }
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Docking</span></figcaption>
+    </figure>
+
 ## <span style="color:rgb(25, 214, 110);">**Important Info**</span> 
 
 - If your order of selection is not renamed correctly please ensure [track selection order](#config-Warning) is checked in the settings.

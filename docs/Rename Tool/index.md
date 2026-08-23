@@ -38,6 +38,8 @@ Built to handle heavy production scenes, it combines <span style="color:rgb(255,
 
     ![Speed Trim 1](images/Rename_Tool_5.jpg){ .img-small }
     
+    * <span style="color:rgba(25, 214, 110);">**Fully Dockable**</span>: The tool can be integrated within Maya's UI.
+
 
 ### <span style="color:rgba(25, 214, 110);">**Options Dropdown Window**</span> ###
 

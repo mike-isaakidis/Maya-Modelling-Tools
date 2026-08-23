@@ -26,7 +26,7 @@ The tool also allows to export objects as a  <span style="color:lime">single fil
 * <span style="color:lime">Warn user of existing files</span> - Does what it says. 
 * <span style="color:lime">Import</span> - Batch Imports files.
 * <span style="color:lime">Freeze transforms</span> - Freezes transforms for Translate, Rotate and Scale.
-* <span style="color:lime">Additional Export Paths</span> - Allows for storing and exporting to multiple folder paths at the same time.
+* <span style="color:lime">Fully Dockable</span> - The tool can be integrated within Maya's UI.
 
 
 <span style="color:pink">Baking Workflow options</span>:

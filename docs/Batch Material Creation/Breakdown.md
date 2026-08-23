@@ -263,6 +263,80 @@ The Swap Texture feature allows you to instantly swap texture maps *(such as Alb
 
     ![Batch Exporter Window](images/Batch_Material_Creation_Swap_1.png){ .img-small .img-centered} 
 
+
+
+
+## <span style="color:rgb(199, 192, 99);">**Stored Paths**</span>
+
+The path field is a dropdown that remembers the folders you use. Paths are stored globally, so they persist across scenes and Maya sessions. 
+
+???+ Tip "Tip - Long Paths"
+    * Long paths that don't fit in the field can be read in full by hovering the dropdown entry (tooltip).
+
+
+
+
+<figure style="text-align: center;">
+    <img src="../../Batch Material Creation/images/BMC_Temp_Paths_1.gif" ...>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Storing Temp paths from folder dropping</span></figcaption>
+</figure>
+
+
+
+### How paths get stored
+
+- A folder is added to the top of the dropdown whenever you:
+
+    * Pick a folder through the browse dialog
+    * Type or paste a valid path and press Enter (or click away from the field)
+    * Drag and drop one or more folders from Explorer anywhere onto the tool window
+    * Use the path in an export / import / material creation
+
+### Pinned favorites (<span style="color:rgb(199, 192, 99);">**★**</span>)
+
+- Click the star button next to the path field to pin the current folder as a favorite.
+
+    <figure style="text-align: center;">
+        <img src="../../Batch Material Creation/images/BMC_Temp_Paths_3.gif" ...>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Pinning Favorites</span></figcaption>
+    </figure>
+
+
+    * Favorites always stay at the top of the dropdown, marked with a gold star.
+    * Favorites never fall out of the list and survive "clear all recent paths".
+    * Favorites are protected from deletion — unpin them first (click the star again) to remove them.
+
+
+### Missing folder detection
+
+- Every time you open the dropdown, the tool checks whether each stored folder still exists on disk.
+
+
+    <figure style="text-align: center;">
+        <img src="../../Batch Material Creation/images/BMC_Temp_Paths_2.gif" ...>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Missing paths</span></figcaption>
+    </figure>
+
+    * Folders that no longer exist (renamed, moved, or deleted) are shown with a faint red background.
+    * Hovering the entry shows the full path with a "folder no longer exists" note.
+    * The check runs live on every click, so changes on disk show up immediately — no restart needed.
+
+- The path field itself also turns red while it contains an invalid path, and clears back to normal as soon as the path is valid (or the field is emptied).
+
+### Removing stored paths
+
+- All removal shortcuts are on the folder *(Select Folder Path)* button:
+
+    <figure style="text-align: center;">
+        <img src="../../Batch Material Creation/images/BMC_Temp_Paths_4.gif" ...>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Removing Paths</span></figcaption>
+    </figure>
+
+    * ++ctrl++ + Click	Delete all recent paths (pinned favorites are kept)
+    * ++ctrl++ + ++shift++ + Click	Remove only the path currently shown in the field
+
+
+
 ## **<span style="color:rgb(71, 187, 119);">Options Menu</span>**
 
 ![Batch Exporter Window](images/Batch_Material_Creation_Buttons_2.png){ .img-small } 
@@ -403,3 +477,13 @@ The Refresh Settings section allows you to fine-tune how the Refresh button beha
 - You don't need to use all channels. Any unchecked options will be ignored during material setup, leaving those shader attributes untouched.
 
 ![Batch Exporter Window](images/Batch_Material_Creation_add_Pref_5.png){ .img-medium} 
+
+
+## **<span style="color:rgb(71, 187, 119);">Dockable</span>** 
+
+- The tool is dockable in the Maya UI.
+
+<figure style="text-align: center;">
+    <img src="../../Batch Material Creation/images/BMC_Dockable_1.gif" ...>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Docking the tool</span></figcaption>
+</figure>

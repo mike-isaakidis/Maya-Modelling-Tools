@@ -25,6 +25,8 @@ Whether you're building massive environment scenes or prepping prop hero assets,
 
 - <span style="color:rgb(171, 199, 69);">Flexible Suffix Mapping & Prefix Controls</span>: Customize naming conventions *(Albedo, Normal, Mask, Opacity)* and automatically handle material prefix overrides (such as converting T_ texture naming to customized material prefixes like MI_).
 
+- <span style="color:rgb(171, 199, 69);">Fully Dockable</span>: The tool can be integrated within Maya's UI. .
+
 ## **<span style="color:rgb(71, 187, 119);">Asset & Scene Maintenance</span>**
 
 - <span style="color:rgb(171, 199, 69);">Refresh & Relink</span>: Missing a map? Instantly scan your folders to find and reconnect lost textures.

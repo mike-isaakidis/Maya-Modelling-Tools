@@ -381,6 +381,15 @@
 * <span style="color:rgb(199, 192, 99);">Store</span> - Opens links to ArtStation and Gumroad.
 
 
+## <span style="color:rgb(238, 235, 77);">Dockable</span>
+
+- The tool can be integrated within Maya's UI.
+
+<figure style="text-align: center;">
+<img src="../images/VCT_Docking_1.gif" class="img-medium" alt="Vertex Paint_Tool_Alpha_3">
+<figcaption><span style="color:rgba(22, 165, 110, 1);">Docking the tool</span></figcaption>
+</figure>
+
 ## <span style="color:rgb(238, 235, 77);">Important Reminders</span>
 
 ### <span style="color:rgb(96, 192, 139);">Track Selection order</span>
