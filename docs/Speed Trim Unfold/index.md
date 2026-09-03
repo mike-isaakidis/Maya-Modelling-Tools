@@ -127,7 +127,7 @@ If <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> is ^^checke
 ???+ Tip "Tip - Hotkey"
     * The state of the <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> checkbox is stored in Maya when using the Hotkey. 
         * It is designed that way so you can customize the behavior of the tool and adjust accordingly. 
-    * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use the Unfold/Align U button as a hotkey, this will ensure your UVs will be aligned to the length of your target UV shells *(horizontally and vertically)*. 
+    * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use the Unfold/Align U button as a hotkey with the Auto-Orient checkbox checked, this will ensure your UVs will be unfolded in the U direction and aligned to the U or V boundaries of your target UV shells *(depends on which side of the targets bounding box UV shell is longer)*. 
  
  
  When the Auto-Orient checkbox is unchecked.
@@ -154,7 +154,7 @@ If <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> is ^^checke
 
 <figure style="text-align: center;">
     <img src="images/Speed_Trim_Buttons_alignment_1.gif" class="img-medium" alt="Speed_Trim_Buttons">
-    <figcaption><span style="color:rgba(22, 165, 110, 1);">Aligning shells anlongside the targets long/short bounding box sides</span></figcaption>
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Aligning shells anlongside the targets U/V boundaries of the target UV Shell</span></figcaption>
 </figure>
 
 
