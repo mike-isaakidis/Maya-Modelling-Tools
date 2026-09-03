@@ -30,6 +30,7 @@ nav:
       - Batch Material Creation/index.md
       - "How to Install": Batch Material Creation/How_to_Install.md
       - "Breakdown": Batch Material Creation/Breakdown.md
+      - "Changelog": Batch Material Creation/Changelog.md
 
     - Mirror Tool:
       - Mirror Tool/index.md
@@ -86,8 +87,6 @@ nav:
     #  - "Layers Window": Baking Manager/Layers Window.md
     #  - "Tips Hotkeys": Baking Manager/Tips Hotkeys.md
 
-
-
       
   - Free Tools: 
     - Free Tools/index.md
@@ -100,8 +99,6 @@ nav:
   - Create Hotkeys/Shelf Buttons: 
     - Create Hotkeys Shelf Buttons/index.md
 
-  - Changelog:
-    - Changelog/index.md
 
   - Store:
     - Store/index.md
@@ -114,6 +111,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   #name: readthedocs
   #logo: images/favicon.png
 
@@ -131,7 +129,7 @@ theme:
     #- navigation.expand
     - navigation.top
     - header.autohide
-    - announce.dismiss
+    #- announce.dismiss
     - search.suggest
     - search.highlight
     - search.share

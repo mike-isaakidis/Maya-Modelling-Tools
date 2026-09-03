@@ -1,3 +1,9 @@
+---
+announce: >-
+  🛠️ <strong>Batch Material Creation has been updated! Some images may not show the latest updates</strong>
+  See the <a href="Changelog/">changelog</a> for details.
+---
+
 # **<span style="color:rgb(71, 187, 119);">Batch Material Creation</span>** :tools:
 
 

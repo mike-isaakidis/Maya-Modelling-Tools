@@ -25,3 +25,19 @@
   height: 100%;
 }
 
+
+.md-banner__inner {
+  position: relative;
+  padding-right: 2.5rem;
+}
+.announce-close {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}

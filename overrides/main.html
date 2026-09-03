@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+
+{% block announce %}{% if page and page.meta and page.meta.announce %}{{ page.meta.announce }}{% if page.meta.announce_link %} See the <a href="{{ page.meta.announce_link | url }}">changelog</a> for details.{% endif %}<button class="announce-close" onclick="this.closest('.md-banner').remove()" aria-label="Close">✕</button>{% endif %}{% endblock %}

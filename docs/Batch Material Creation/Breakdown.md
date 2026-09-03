@@ -1,3 +1,9 @@
+---
+announce: "🛠️ <strong>Batch Material Creation has been updated!</strong>"
+announce_link: "Batch Material Creation/Changelog/"
+---
+
+
 # **<span style="color:rgb(71, 187, 119);">Breakdown</span>** :tools:
 
 
@@ -268,6 +274,9 @@ The Swap Texture feature allows you to instantly swap texture maps *(such as Alb
 
 ## <span style="color:rgb(199, 192, 99);">**Stored Paths**</span>
 
+![Batch Material Creation](images/Batch_Material_Creation_Stored_Paths_1.png){ .img-medium .img-centered } 
+
+
 The path field is a dropdown that remembers the folders you use. Paths are stored globally, so they persist across scenes and Maya sessions. 
 
 ???+ Tip "Tip - Long Paths"
@@ -332,9 +341,35 @@ The path field is a dropdown that remembers the folders you use. Paths are store
         <figcaption><span style="color:rgba(22, 165, 110, 1);">Removing Paths</span></figcaption>
     </figure>
 
-    * ++ctrl++ + Click	Delete all recent paths (pinned favorites are kept)
-    * ++ctrl++ + ++shift++ + Click	Remove only the path currently shown in the field
+    * ++ctrl++ + Click	Click	Remove only the path currently shown in the field
+    * ++ctrl++ + ++shift++ + Delete all recent paths (pinned favorites are kept)
 
+
+## Tiling/Offset
+
+Tiling/Offset allows you to control the tiling or offset values in the place2dtexture node within the hypershade. 
+    
+* Find the controls in the Additional Preferences Window.
+
+![Batch Material Creation](images/BMC_tiling_1.png){ .img-large .img-centered} 
+
+Three ways the values get applied:
+
+* On creation. Every new material's place2dTexture node is created with the current Repeat/Offset values. Nothing to do beyond setting the fields first.
+* Hitting Enter in any field (live apply). Select objects, faces, or materials (Hypershade), type a value, hit Enter. Only repeatU/V and offsetU/V on the selected materials' place2dTexture nodes change — no textures are reconnected or refreshed. Works regardless of the Tiling checkbox. Focus stays in the field so you can type another value and hit Enter again. Undoable as a single step. Warns if nothing is selected or the material has no place2dTexture.
+
+    <figure style="text-align: center;">
+        <img src="../../Batch Material Creation/images/BMC_tiling_1.gif" ...>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Hitting Enter to change Tiling/Offset</span></figcaption>
+    </figure>
+
+
+* Refresh button. If the Tiling checkbox (Refresh Settings) is checked, refreshing also pushes the current Repeat/Offset values onto the existing place2dTexture nodes of the selected materials. Uncheck Tiling to refresh textures without touching UVs.
+
+    <figure style="text-align: center;">
+        <img src="../../Batch Material Creation/images/BMC_tiling_2.gif" ...>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">Refreshing Tiling/Offset</span></figcaption>
+    </figure>
 
 
 ## **<span style="color:rgb(71, 187, 119);">Options Menu</span>**
@@ -443,7 +478,16 @@ Instead of being stuck with raw image file names, you can set up smart Search & 
 
 - Reversible Logic for Refresh: These naming rules work both ways! When you use the Refresh button later on a material named MI_Chair_A, the tool reverses this rule behind the scenes to look for source textures starting with T_Chair_A.
 
-### 2. Refresh Settings
+### 2. Tiling / Offset Controls
+
+![Batch Exporter Window](images/Batch_Material_Creation_Tiling_1.png){ .img-medium} 
+
+Tiling/Offset controls for the tiling or offset values in the place2dtexture node within the hypershade.
+
+For more info checkout [Tiling/Offset](#tilingoffset) section. 
+
+
+### 3. Refresh Settings
 
 ![Batch Exporter Window](images/Batch_Material_Creation_add_Pref_2.png){ .img-medium} 
 
@@ -457,7 +501,7 @@ The Refresh Settings section allows you to fine-tune how the Refresh button beha
 
 - Unchecked Behavior: If unchecked, the tool relies strictly on the existing texture file paths already assigned to the shader rather than using the material's name to perform a new search.
 
-### 3. Packed Mask Settings
+### 4. Packed Mask Settings
 
 ![Batch Exporter Window](images/Batch_Material_Creation_add_Pref_3.png){ .img-medium} 
 
