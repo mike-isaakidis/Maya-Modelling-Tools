@@ -25,7 +25,7 @@ It's a one-click solution to save you time and make UVing a more fun and engagin
 ## <span style="color:rgba(255, 251, 0, 1);">**How it works**</span> ##
 
 ???+ Tip "Important"
-    The examples presented are all using the <span style="color:rgb(186, 187, 105);">**Unfold Horizontally - Long Align**</span> hotkey.
+    The examples presented are all using the <span style="color:rgb(186, 187, 105);">**Unfold/Align U**</span> as a hotkey, with the Auto-Orient checkbox *(from the UI)* checked.
     
     For the UI version check [UI Button Functionality](#ui-button-functionality).
     
