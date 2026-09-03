@@ -47,22 +47,30 @@
 
     ---
 
-    Unfold Horizontally - Long Align <span style="color:rgba(195, 221, 80, 1);">*(Recommended)**</span>
+    Unfold/Align U <span style="color:rgba(195, 221, 80, 1);">*(Recommended)**</span>
 
-    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^horizontally^^ and align your shells alongside the ^^long^^ side your targets bounding box. 
+    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^horizontally^^ and align your shells to the horizontal U boundary of the target UV shell. *(Auto-Orient needs to be checked off in the UI for this to happen)*. 
+
+    ![Speed Trim multi select](images/Speed_Trim_UI_1.png){ .img-small }
 
     ``` py linenums="1"
     from Speed_Trim_Unfold import speed_trim_unfold
     speed_trim_unfold.unfold_long()
 
     ```
-    Unfold Vertically - Short Align
 
-    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^vertically^^ and align your shells alongside the ^^short^^ side your targets bounding box. 
+    ???+ Tip "Tip - Unfold/Align U Hotkey"
+        * Since trim sheets are usually long, thin strips of UV shells, it's recommended to use the Unfold/Align U button as a hotkey with the Auto-Orient option always on.
+        * This ensures your UVs are unfolded horizontally, then oriented and aligned to match whatever the target shell is.
+
+
+    Unfold/Align V 
+
+    Copy the 2 ^^**Python**^^  lines below and bind these on a ^^**hotkey**^^ to unfold ^^vertically^^ and align your shells to the vertical V boundary of the target UV shell. *(Auto-Orient needs to be checked off in the UI for this to happen)*. 
     
     ``` py linenums="1"
     from Speed_Trim_Unfold import speed_trim_unfold
-    speed_trim_unfold.unfold_short()
+    speed_trim_unfold.unfold_short_rotated()
     ```
 
 </div>

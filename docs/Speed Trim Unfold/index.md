@@ -69,15 +69,21 @@ Please check the Rules section
         <figcaption><span style="color:rgba(22, 165, 110, 1);">**Aligning trim sheets**</span></span></figcaption>
         </figure>
 
-        * The orientation of your shell is entirely dependent on the target orientation. 
-            * The tool calculates the bounding box of your target uv shell to determine its orientation. If it's longer on the V axis, it knows it's vertical and will rotate your source uvs to match that orientation.
+        * When Auto-Orient checkbox is checked, the tool compares bounding boxes between your source and target UV shells.  
+            * If your Target UV shell's bounding box is longer on the V axis and your Source UV Shell bounding box is longer in the U axis, the tool knows your source is vertical and will rotate that source uv shells to match that orientation of the target. 
+        ![Speed Trim multi select](images/Speed_Trim_UI_1.png){ .img-small .img-centered }
+        * When that checkbox is unchecked, the tool aligns your source shells to the U or V bounding box of your target shell. No automatic rotation or bounding box calculation happening. 
+        * Checking or Unchecking the checkbox impacts the way your Hokey behaves. Hotkeys will always look if the checkbox is checked and perform the necessary actions. So keep that in mind. 
+
 
         <figure>
         <img src="images/unfold_orient_scale_vertical_horizontal_1.gif" class="img-medium" alt="Mirror Cut Demo">
-        <figcaption><span style="color:rgba(22, 165, 110, 1);">**Aligning vertically**</span></span></figcaption>
+        <figcaption><span style="color:rgba(22, 165, 110, 1);">**Aligning horizontally/vertically**</span></span></figcaption>
         </figure>
 
-        * After the operation the tool will unfold your UV in a gridified manner. The spacing *(rows and columns)* of your UV shell are entirely dependent on your topology *(Longer sections will be unfolded horizontally)*.
+
+
+        * After the operation the tool will unfold your UV in a gridified manner. The spacing *(rows and columns)* of your UV shell are entirely dependent on your topology.
         * The tool will unfold your selection horizontally and place all shells in the center of the 0-1 UV space so all shells occupy the same space.
             * This is done so users can map multiple selections of trims at the same time. 
 
@@ -108,24 +114,38 @@ Please check the Rules section
 ## <span style="color:rgba(255, 251, 0, 1);">**UI Button Functionality**</span> ##
 ![Speed Trim multi select](images/Speed_Trim_UI_1.png){ .img-small .img-centered }
 
- <span style="color:rgba(22, 165, 110, 1);">**Unfold U and Unfold V**</span> : When having faces selected these buttons will unfold your trims **Horizontally** and **Vertically**.
+ <span style="color:rgba(22, 165, 110, 1);">**Unfold/Align U and Unfold/Align V**</span> : When having faces *(and edges)* selected these buttons will unfold your trims **Horizontally** and **Vertically**.
 
- The difference these make is when you have UV's selected. 
  
- - When aligning UVs to a target shell, the tool calcualtes the bounding box of that target shell. That calculation is how the tool knows how to orient the source UV shells.  
-    * Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold U (Length)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **Length** of the targets bounding box. 
-    ??? Tip "Tip - Hotkey"
-        * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use this button as a hotkey, this will ensure your UVs will be aligned to the length of your target UV shells *(horizontally and vertically)*. 
+The difference the UI makes is with how the Orientation between the Source and Target Shells happen. 
+
+If <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> is ^^checked^^ the tool calculates the bounding boxes between the source and target UV shells. Then rotates if necessary and moves and scales the source uvs to match the target. 
+ 
+ 
+ If <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> is ^^un-checked^^ then the tool does not calculate any bounding box or rotate any UV shell. It just takes into account each sources current UV shell layout and moves and scales it to either the U (if Unfold/Align U) is clicked or V (if Unfold/Align V) button is clicked. 
+ 
+???+ Tip "Tip - Hotkey"
+    * The state of the <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> checkbox is stored in Maya when using the Hotkey. 
+        * It is designed that way so you can customize the behavior of the tool and adjust accordingly. 
+    * Since trim sheets are usually long thin strips of UV Shells, it is recommended to use the Unfold/Align U button as a hotkey, this will ensure your UVs will be aligned to the length of your target UV shells *(horizontally and vertically)*. 
+ 
+ 
+ When the Auto-Orient checkbox is unchecked.
+
+* Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold/Align U**</span> button: will unfold your selected *(source)* Trim sheets alongside the **U direction** of the targets bounding box. 
+
 
     ![Speed Trim multi select](images/Speed_Trim_button_1.png){ .img-medium .img-centered }
 
-     *  Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold V (Width)**</span> button: will unfold your selected *(source)* Trim sheets alongside the **width** of the targets bounding box. 
+*  Clicking on the <span style="color:rgba(22, 165, 110, 1);">**Unfold/Align V**</span> button: will unfold your selected *(source)* Trim sheets alongside the **V direction** of the targets bounding box. 
 
     ![Speed Trim multi select](images/Speed_Trim_button_2.png){ .img-medium .img-centered }
 
-    * Please note that the length of the **source** shells is being used to **align** towards the target shells.
-
-    * Here's a basic demonstration:
+* Orientation of Source matters when aligning. 
+    
+    ![Speed Trim multi select](images/Speed_Trim_button_3.png){ .img-medium .img-centered }
+    
+* Here's a basic demonstration:
 
 <figure style="text-align: center;">
     <img src="images/Speed_Trim_Buttons_alignment_2.gif" class="img-medium" alt="Speed_Trim_Buttons">
@@ -171,6 +191,14 @@ The tool will not work if you have only objects selected, it requires component 
 
 
 - <span style="color:rgba(22, 165, 110, 1);">**Create Shelf Button**</span> - Creates a shelf button for this tool directly on your active Maya shelf.
+
+- <span style="color:rgba(22, 165, 110, 1);">**Hotkey Setup...**</span> - Opens up a window so you can copy the **Python** code to create hotkeys for Horizonral and Vertical Unfold and Alignment. 
+
+![Speed Trim multi select](images/speed_trim_Options_3.png){ .img-small .img-centered }
+
+???+ Tip "Tip - Hotkey Recommentation"
+    * Since trim sheets are usually long, thin strips of UV shells, it's recommended to use the Unfold/Align U button as a hotkey with the Auto-Orient option always on.
+    * This ensures your UVs are unfolded horizontally, then oriented and aligned to match whatever the target shell is.
 
 - <span style="color:rgba(22, 165, 110, 1);">**Documentation**</span> - Opens a link to the documentation.
 
