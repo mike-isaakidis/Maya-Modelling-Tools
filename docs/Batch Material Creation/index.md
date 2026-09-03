@@ -25,7 +25,9 @@ Whether you're building massive environment scenes or prepping prop hero assets,
 
 - <span style="color:rgb(171, 199, 69);">Automated Material & Texture Setup</span>: Instantly generates shaders and links Albedo, Normal, Opacity, and Packed Mask maps *(R+G+B+A)* directly from a selected texture folder or active selection.
 
-- <span style="color:rgb171, 199, 69);">Multi-Shader Support</span>: Full compatibility with Blinn, Standard Surface, and OpenPBR Surface (Maya 2025+).
+- <span style="color:rgb(171, 199, 69);">Multi-Shader Support</span>: Full compatibility with Blinn, Standard Surface, and OpenPBR Surface (Maya 2025+).
+
+- <span style="color:rgb(171, 199, 69);">Batch Tile/Offset</span>: Allows for changing the tiling and offset values on multiple materials at once. 
 
 - <span style="color:rgb(171, 199, 69);">HDRI Skydome Integration</span>: One-click setup for Arnold Skydome lighting with instant HDRI assignment and interactive viewport light toggling.
 
