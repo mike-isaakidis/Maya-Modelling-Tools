@@ -39,7 +39,7 @@
 </div>
 
 
-### **<span style="color:rgba(195, 221, 80, 1);">Hotkeys</span>** 
+### **<span style="color:rgba(195, 221, 80, 1);">Step 3 - Hotkeys</span>** 
 
 <div class="grid cards" markdown>
 
@@ -55,7 +55,7 @@
 
     ``` py linenums="1"
     from Speed_Trim_Unfold import speed_trim_unfold
-    speed_trim_unfold.unfold_long()
+    speed_trim_unfold.unfold_align_U()
 
     ```
 
@@ -70,7 +70,7 @@
     
     ``` py linenums="1"
     from Speed_Trim_Unfold import speed_trim_unfold
-    speed_trim_unfold.unfold_short_rotated()
+    speed_trim_unfold.unfold_align_V()
     ```
 
 </div>
