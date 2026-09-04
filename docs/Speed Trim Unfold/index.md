@@ -120,7 +120,13 @@ Please check the Rules section
 The difference the UI makes is with how the Orientation between the Source and Target Shells happen. 
 
 If <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> is ^^checked^^ the tool calculates the bounding boxes between the source and target UV shells. Then rotates if necessary and moves and scales the source uvs to match the target. 
- 
+
+??? Note "Note - Equal Bounding Boxes" 
+    * In cases where the bounding box of your target UV shell is same for the U and V axis, the tool will align your UVs on the U boundaries. 
+    * This will only happen when Auto-Orient is checked. 
+
+    ![Speed Trim multi select](images/Speed_Trim_button_4.jpg){ .img-medium .img-centered }
+
  
  If <span style="color:rgba(22, 165, 110, 1);">**Auto-Orient**</span> is ^^un-checked^^ then the tool does not calculate any bounding box or rotate any UV shell. It just takes into account each sources current UV shell layout and moves and scales it to either the U (if Unfold/Align U) is clicked or V (if Unfold/Align V) button is clicked. 
  
