@@ -33,7 +33,7 @@
     Copy the 2 ^^**python**^^  lines below on a ^^**shelf**^^  or bind these to a ^^**hotkey**^^  to load the tool.
 
     ``` py linenums="1"
-    from batch_Exporter import OpenImportDialog
+    from Rename_Tool import OpenImportDialog
     OpenImportDialog.show_dialog()
     ```
 
