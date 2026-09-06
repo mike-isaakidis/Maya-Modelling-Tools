@@ -25,12 +25,14 @@ nav:
       - "How to Install": Batch Exporter/how_to_install.md
       - "Buttons Overview": Batch Exporter/Buttons_overview.md
       - "Breakdown": Batch Exporter/Breakdown.md
+      - "Videos": Batch Exporter/Videos.md
 
     - Batch Material Creation: 
       - Batch Material Creation/index.md
       - "How to Install": Batch Material Creation/How_to_Install.md
       - "Breakdown": Batch Material Creation/Breakdown.md
       - "Pro Version": Batch Material Creation/Pro_Version.md
+      - "Videos": Batch Material Creation/Videos.md
       - "Changelog": Batch Material Creation/Changelog.md
 
     - Mirror Tool:
@@ -40,6 +42,7 @@ nav:
     - Quick Custom Grid:
       - Quick Custom Grid/index.md
       - "How to Install": Quick Custom Grid/How to install.md
+      - "Videos": Quick Custom Grid/Videos.md
     
     - Quick Sweep Mesh:
       - Quick Sweep Mesh/index.md
@@ -50,22 +53,26 @@ nav:
       - Rename Tool/index.md
       - "How to Install": Rename Tool/How to install.md
       - "Breakdown": Rename Tool/Breakdown.md
+      - "Videos": Rename Tool/Videos.md
 
     - Select Nth Edge/Face/Vertex & Selection Sets Tool:
       - Select_nth_edge_face_vert/index.md
       - "How to Install": Select_nth_edge_face_vert/How to install.md
       - "Select Nth Edge_Face_Vert": Select_nth_edge_face_vert/Select Nth Edge_Face_Vert.md
       - "Selection Sets": Select_nth_edge_face_vert/Selection Sets.md
+      - "Videos": Select_nth_edge_face_vert/Videos.md
 
     - Speed Trim Unfold:
       - Speed Trim Unfold/index.md
       - "How to Install": Speed Trim Unfold/How to install.md
+      - "Videos": Speed Trim Unfold/Videos.md
 
 
     - Vertex Colour Tool:
       - Vertex Colours Tool/index.md
       - "How to Install": Vertex Colours Tool/How to Install.md
       - "Buttons Breakdown": Vertex Colours Tool/Buttons_Breakdown.md
+      - "Videos": Vertex Colours Tool/Videos.md
 
 
     #- Baking Manager: 
