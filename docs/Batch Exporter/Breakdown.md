@@ -10,6 +10,8 @@ The path field is a dropdown that remembers the folders you use. Paths are store
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Storing Temp paths from folder dropping</span></figcaption>
 </figure>
 
+
+
 ### How paths get stored
 
 - A folder is added to the top of the dropdown whenever you:
@@ -18,6 +20,17 @@ The path field is a dropdown that remembers the folders you use. Paths are store
     * Type or paste a valid path and press Enter (or click away from the field)
     * Drag and drop one or more folders from Explorer anywhere onto the tool window
     * Use the path in an export / import / material creation
+
+
+### Include Subfolders in the dropdown path
+
+![Batch Exporter Intro 1](images/Batch_Export_include_subfolders_1.png){ .img-medium}
+
+- In the Options menu there's Include subfolders. With it on, the dropdown shows every subfolder under your current Export Path, right below your recent paths and favorites. They're listed as relative paths so it stays readable, and hovering one shows the full path.
+
+![Batch Exporter Intro 1](images/Batch_Export_include_subfolders_2.png){ .img-medium}
+
+- Set the root folder once, then jump into Chairs, Tables or Lamps straight from the dropdown without ever opening a browse window."
 
 ### Pinned favorites (<span style="color:rgb(199, 192, 99);">**★**</span>)
 
@@ -52,8 +65,8 @@ The path field is a dropdown that remembers the folders you use. Paths are store
 
 - All removal shortcuts are on the folder *(Select Folder Path)* button:
 
-    * ++ctrl++ + Click	Delete all recent paths (pinned favorites are kept)
-    * ++ctrl++ + ++shift++ + Click	Remove only the path currently shown in the field
+    * ++ctrl++ + Click	Remove only the path currently shown in the field.
+    * ++ctrl++ + ++shift++ + Click	Delete all recent paths (pinned favorites are kept).
 
 ???+ Tip "Tip - Long Paths"
     * Long paths that don't fit in the field can be read in full by hovering the dropdown entry (tooltip).
@@ -254,6 +267,8 @@ The result in Marmoset.
 ![Batch Exporter Import 1](images/Additional_Export_Paths_1.jpg){ .img-medium}
 
 - The Additional Export Paths section lets you configure, save, and batch-export your assets to multiple directory destinations simultaneously in a single click.
+
+- It is **important** to know, when the additional paths **drawer is closed**, the Export Path in the main text field is the one doing the exporting. Any checked paths inside the drawer are ignored until you open it again.
 
 - <span style="color:rgb(199, 192, 99);">**Multi-Destination Batching**</span>: Check two or more additional paths to export your assets to all specified folders concurrently. If no additional path is checked, the main Export Path serves as the default target.
 

@@ -10,6 +10,8 @@
     * Also holds the last 10 temp paths used (click on the dropdown next to the star button to reveal temp paths).
     * Use the Star to favor selected paths.
     * You can store paths by pasting a folder path in the Export path section, dropping a folder in the UI, or choosing a path using the Select Folder Path button (4). 
+    * When the drawer is closed, the Export Path in the main text field is the one doing the exporting. Any checked paths inside the drawer are ignored until you open it again.
+
 3. <span style="color:lime">Dropdown menu</span> - Choose between different file types to export.
 4. <span style="color:lime">Select Folder Path</span> :material-folder-plus: - Opens up a window for users to navigate to a desired folder and export their files.
 5. <span style="color:lime">Open Folder Path in explorer</span> :material-folder: - Opens the path set in the Export Path textfield.

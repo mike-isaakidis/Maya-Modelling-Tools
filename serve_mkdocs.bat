@@ -9,4 +9,4 @@ REM Open the browser at the root URL
 start "" "http://127.0.0.1:8000/"
 
 REM Start MkDocs with livereload and dirtyreload
-python -m mkdocs serve --dev-addr=127.0.0.1:8000 --dirtyreload --livereload
+python -m mkdocs serve --dev-addr=127.0.0.1:8000 --livereload

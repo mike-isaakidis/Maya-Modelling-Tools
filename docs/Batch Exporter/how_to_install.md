@@ -11,7 +11,7 @@
 
     1.Unzip the [`Batch_Exporter.zip`](#) file.
     
-    2.Copy paste the [`Batch_Exporter.py`](#) in your [`\Documents\Maya\Scripts`](#) folder.
+    2.Copy paste the [`Batch_Exporter`](#) **folder** in your [`\Documents\Maya\Scripts`](#) folder.
     
     3.Open [`Maya`](#). 
 

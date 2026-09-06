@@ -413,14 +413,24 @@ Three ways the values get applied:
     <figcaption><span style="color:rgba(22, 165, 110, 1);">.Automatically load the textures path from previous scenes</span></figcaption>
 </figure>
 
+### 4. Include Subfolders when searching for Textures
 
-### 4. Flip Normal for Arnold
+- This enables the dropdown to show all subfolders for a selected path. 
+
+<figure style="text-align: center;">
+    <img src="../images/BMC_Classic_Subfolders_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Subfolders in Dropdown</span></figcaption>
+</figure>
+
+
+
+### 5. Flip Normal for Arnold
 - Flip Normal G Channel for Arnold.
     * Automatically toggles the Flip Green Channel (aiFlipG) attribute on normal bump nodes generated for Arnold materials.
 
     * Fixes lighting and shading orientation issues when using DirectX-formatted normal maps instead of OpenGL format.
 
-### 5. Use Packed Mask [R+G+B+A]
+### 6. Use Packed Mask [R+G+B+A]
 * Turns on support for "packed" utility maps (where single image files hold Roughness in Red, Metalness in Green, etc.).
 
 * Checking this unlocks the Mask suffix field in the main window so you can set your packed map suffix.
@@ -430,20 +440,28 @@ Three ways the values get applied:
     <figcaption><span style="color:rgba(22, 165, 110, 1);">Enabling/Disabling Mask Support</span></figcaption>
 </figure>
 
-### 6. Disconnect Mask when normal map is swapped
+### 7. Disconnect Mask when normal map is swapped
 - When checked, swapping to see your Nomral in the colour channel, disconnects your Mask input. 
 
     * This is done because having the Mask over the Normal map gets in the way of evaluating your normal map in the viewport. 
 
 
-### 7. Additional Preferences
+### 8. Additional Preferences
 - Additional Preferences [*(more info here)*](#Additional_Preferences).
     * Opens up a dedicated window for deeper customization.
 
     * Set up smart naming rules (like automatically turning T_ texture names into MI_ material names), pick which texture types get refreshed, and map out custom RGBA channels.
 
+### 9. Switch to Pro Version
+- Switches the tool to its Pro Version.
 
-### 8. Shelf /Documentation /Store
+<figure style="text-align: center;">
+    <img src="../images/BMC_Pro_Switch_Pro_Classic_1.gif" class="img-medium" alt="Batch_Material_Creation_1">
+    <figcaption><span style="color:rgba(22, 165, 110, 1);">Switching from Classic to Pro and back</span></figcaption>
+</figure>
+
+
+### 10. Shelf /Documentation /Store
 - Create Shelf Button.
 - Documentation.
     * Opens your browser and takes you straight to the online user guide whenever you need a quick hand.
