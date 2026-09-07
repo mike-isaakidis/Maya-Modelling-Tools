@@ -198,7 +198,7 @@ plugins:
 extra:
   analytics:
       provider: google
-      property: G-XXXXXXXXXX
+      property: G-VX0EKYSKZ1
   generator: false #removed the made with mdocs in the footer of the page
   social:
     - icon: simple/artstation
